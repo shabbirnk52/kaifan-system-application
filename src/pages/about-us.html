@@ -1,0 +1,101 @@
+---
+layout: default
+title: About Us
+---
+
+{{> _page-header}}
+{{#> _card-block CardTitle="About Us Content" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-lg-6">
+        {{>_input-field Label="Section Title (En)" NameId="titleEn" InvalidFeedback="Please enter banner title"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="Section Title (Ar)" NameId="titleAr" InvalidFeedback="Please enter banner title"
+        Required=1
+        RTL=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_summernote-field Label="Content (En)" NameId="aboutUsEn" InvalidFeedback="Please enter about us"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_summernote-field Label="Content (Ar)" RTL=1 NameId="aboutUsAr" InvalidFeedback="Please enter about us"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="About us Point 1 (En)" NameId="aboutUsPoint1En" InvalidFeedback="Please enter banner
+        title"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="About us Point 1 (Ar)" NameId="aboutUsPoint1Ar" InvalidFeedback="Please enter banner
+        title"
+        Required=1
+        RTL=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="About us Point 2 (En)" NameId="aboutUsPoint2En" InvalidFeedback="Please enter banner
+        title"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="About us Point 2 (Ar)" NameId="aboutUsPoint2Ar" InvalidFeedback="Please enter banner
+        title"
+        Required=1
+        RTL=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="About us Point 3 (En)" NameId="aboutUsPoint3En" InvalidFeedback="Please enter banner
+        title"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="About us Point 3 (Ar)" NameId="aboutUsPoint3Ar" InvalidFeedback="Please enter banner
+        title"
+        Required=1
+        RTL=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="About us Point 4 (En)" NameId="aboutUsPoint4En" InvalidFeedback="Please enter banner
+        title"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="About us Point 4 (Ar)" NameId="aboutUsPoint4Ar" InvalidFeedback="Please enter banner
+        title"
+        Required=1
+        RTL=1}}
+    </div>
+</div>
+{{/ _card-block}}
+
+{{#> _card-block CardTitle="About Us Media" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-12">
+        <div class="row g-3">
+            <div class="col-12">
+                <div class="row g-3">
+                    <div class="col-lg-6">
+                        {{>_image-upload Label="Side Image" NameId="sideImage" Size="500x725" PreviewImageTextSize=75
+                        Required=1}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+{{/ _card-block}}
+
+{{>_seo-details-form}}
+
+<div class="row">
+    <div class="col-12">
+        {{>_button-a ButtonText="Back" ButtonClasses="btn-warning" GoBack=1}}
+        {{>_button-a ButtonText="Save" ButtonClasses="btn-success"}}
+    </div>
+</div>
+
+{{>_ios7-switch-js}}
+{{>_summernote-css-js}}

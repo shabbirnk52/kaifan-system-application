@@ -1,0 +1,19 @@
+  <div class="tab-pane fade {{#ifequal Step 1}}show active{{else}}{{/ifequal}}" role="tabpanel" id="step{{Step}}" aria-labelledby="step{{Step}}-tab">
+    {{> @partial-block }}
+
+    {{#> _card-block CardClass="border border-secondary" HeaderClasses="border-secondary body-bg-secondary"
+CardTitle="Acknowledgments" DisableCardHeader=1}}
+<div class="col-12 d-flex flex-column flex-md-row justify-content-md-between">
+  {{#ifequal Step 1}}{{else}}
+  {{>_button-a ButtonClasses="btn btn-primary mb-3 mb-md-0 wizard-previous" ButtonText="Back" URL="javascript:;"}}
+  {{/ifequal}}
+  {{>_button-a ButtonClasses="btn btn-outline-secondary mb-3 mb-md-0" ModalId="SaveLaterWarning" ButtonText="Save and Resume Later" URL="javascript:;"}}
+  {{#ifequal Step Steps}}
+  {{>_button Classes="btn-secondary wizard-submit" ButtonText="Submit" ButtonUrl="javascript:;"}}
+  {{else}}
+  {{>_button Classes="btn-secondary wizard-next" ButtonText="Save and Continue" ButtonUrl="#"}}
+  {{/ifequal}}
+</div>
+{{/ _card-block}}
+
+  </div>

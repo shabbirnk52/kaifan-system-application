@@ -1,0 +1,29 @@
+<!-- ========== Start Simple Select Field Block ========== -->
+{{! Sample Usage:-
+    Syntax:
+    ((#> _select-field-block Label="Simple Select Box" Required=1 NameId="class-for-styling-or-targeting" Disabled=1 HelpText="This can be used for hinting" InvalidFeedback="This can be used to prompt errors"))
+    <option></option>
+    <option></option>
+    <option></option>
+    ((/ _select-field-block))
+Variables:-
+    Label = Text to be displayed as title of the Field
+    NameId = Must adhere to the html ID guidelines. i.e. must not have spaces.
+    HelpText = Can be any text useable as a hint. Can be empty
+    InvalidFeedback = Can be any text useable as a warning. Can be empty
+    Required = 1 (Default 0)
+    Disabled = 1 (Default 0)
+}}
+{{#if Label}}<label for="{{NameId}}" class="form-label" localize-me {{#if Translate}}data-translation="{{translate Label 'Ar'}}"{{/if}}>{{Label}}{{#if Required}}<span
+    class=" text-danger">*</span>{{/if}}</label>{{/if}}
+<select {{#if Multiple}}multiple{{/if}} {{#if IsSelect2}}data-plugin-selectTwo
+  data-plugin-options='{ "placeholder": "{{Placeholder}}", "allowClear": true}' {{/if}}
+  {{#if Attributes}}{{{Attributes}}}{{/if}} {{#if Style}}style={{{Style}}}{{/if}}
+  class="form-select {{Classes}}" name="{{NameId}}"
+  id="{{NameId}}" aria-describedby="{{Label}}" {{#if Disabled}}disabled{{/if}} {{#if Required}}required{{/if}}
+  localize-me>
+  {{> @partial-block }}
+</select>
+{{#if HelpText}}<small class="form-text text-muted" localize-me {{#if Translate}}data-translation="{{translate HelpText 'Ar'}}"{{/if}}>{{{HelpText}}}</small>{{/if}}
+{{#if InvalidFeedback}}<div class="invalid-feedback" localize-me {{#if Translate}}data-translation="{{translate InvalidFeedback 'Ar'}}"{{/if}}>{{InvalidFeedback}}</div>{{/if}}
+<!-- ========== End Simple Select Field Block ========== -->

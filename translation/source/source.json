@@ -1,0 +1,4576 @@
+[
+    {
+        "En": "About",
+        "Ar": "من نحن"
+    },
+    {
+        "En": "About us",
+        "Ar": "من نحن"
+    },
+    {
+        "En": "I agree to the Terms & Conditions",
+        "Ar": "أوافق على جميع الشروط والأحكام"
+    },
+    {
+        "En": "I accept the Cancellation Policy",
+        "Ar": "أوافق على سياسة الإلغاء"
+    },
+    {
+        "En": "I accept the Cancellation Terms",
+        "Ar": "أوافق على الشروط ة الأحكام"
+    },
+    {
+        "En": "Please accept Terms & Conditions",
+        "Ar": "الرجار الموافقه على الشروط و الأحكام"
+    },
+    {
+        "En": "Account",
+        "Ar": "حسابي"
+    },
+    {
+        "En": "You need to have an account to perform this action",
+        "Ar": "تحتاج إلى حساب للقيام بهذا الإجراء"
+    },
+    {
+        "En": "Account Required",
+        "Ar": "الحساب مطلوب"
+    },
+    {
+        "En": "Action",
+        "Ar": "إجراء"
+    },
+    {
+        "En": "Sign In",
+        "Ar": "تسجيل الدخول"
+    },
+    {
+        "En": "Active",
+        "Ar": "نشط"
+    },
+    {
+        "En": "Add Address",
+        "Ar": "عنوان جديد"
+    },
+    {
+        "En": "The property has been added to your favorite list successfully",
+        "Ar": "أضيفت إلى مفضلتي"
+    },
+    {
+        "En": "Add Greeting",
+        "Ar": "أضف بطاقة التهنئة"
+    },
+    {
+        "En": "Add New",
+        "Ar": "اضف جديد"
+    },
+    {
+        "En": "Add New Address",
+        "Ar": "أضف عنوان جديد"
+    },
+    {
+        "En": "Do you want to get notified when we add new product(s).",
+        "Ar": "هل تريد أن يتم إخطارك عند إضافة منتج (منتجات) جديدة."
+    },
+    {
+        "En": "Add Ons",
+        "Ar": "عربي"
+    },
+    {
+        "En": "Address",
+        "Ar": "العنوان"
+    },
+    {
+        "En": "Address Added",
+        "Ar": "تم إضافة العنوان"
+    },
+    {
+        "En": "Your address has been successfully added!!",
+        "Ar": "تم إضافة عنوانك بنجاح !!"
+    },
+    {
+        "En": "Address Arabic",
+        "Ar": "Address Arabic1"
+    },
+    {
+        "En": "You don\\'t have any addresses\\nin your address book!",
+        "Ar": "ليس لديك أي عناوين في القائمة العناوين الخاص بك!"
+    },
+    {
+        "En": "Block %s, Street %s, House Number %s\\n%s",
+        "Ar": "قطعة٪s ، شارع ٪s ، رقم المنزل ٪s \\\\ n٪ s"
+    },
+    {
+        "En": "Address Id not found",
+        "Ar": "العنوان غير موجود"
+    },
+    {
+        "En": "Enter address Name",
+        "Ar": "أدخل إسم صاحب العنوان"
+    },
+    {
+        "En": "Address Name",
+        "Ar": "إسم العنوان"
+    },
+    {
+        "En": "AddressName *",
+        "Ar": "إسم العنوان"
+    },
+    {
+        "En": "Please enter address",
+        "Ar": "الرجاء إدخال العنوان"
+    },
+    {
+        "En": "Address Type",
+        "Ar": "نوع العنوان"
+    },
+    {
+        "En": "Address Updated",
+        "Ar": "تم تحديث العنوان"
+    },
+    {
+        "En": "Your Address has been updated successfully!",
+        "Ar": "تم تحديث عنوانك بنجاح!"
+    },
+    {
+        "En": "Add to basket",
+        "Ar": "إضافة الى السلة"
+    },
+    {
+        "En": "Add to Cart",
+        "Ar": "أضف إلى السلة"
+    },
+    {
+        "En": "Add to Wishlist",
+        "Ar": "أضف إلى قائمة المفضلة"
+    },
+    {
+        "En": "Add Your Message",
+        "Ar": "أضف رسالتك"
+    },
+    {
+        "En": "After Tomorrow",
+        "Ar": "بعد غد"
+    },
+    {
+        "En": "AL ADAN",
+        "Ar": ""
+    },
+    {
+        "En": "AL JABRIYA",
+        "Ar": ""
+    },
+    {
+        "En": "All",
+        "Ar": "جميع"
+    },
+    {
+        "En": "All Products",
+        "Ar": "منتجاتنا"
+    },
+    {
+        "En": "All rights reserved",
+        "Ar": "جميع الحقوق محفوظة"
+    },
+    {
+        "En": "All Types",
+        "Ar": "منتجاتنا"
+    },
+    {
+        "En": "AL RAWDA",
+        "Ar": ""
+    },
+    {
+        "En": "Already Email exists",
+        "Ar": "Already Email exists"
+    },
+    {
+        "En": "Already have account?",
+        "Ar": "هل لديك حساب بالفعل؟"
+    },
+    {
+        "En": "Already have an account?",
+        "Ar": "هل لديك حساب بالفعل؟"
+    },
+    {
+        "En": "Already Mobile Number exists",
+        "Ar": "رقم الهاتف المحمول موجود بالفعل"
+    },
+    {
+        "En": "AL SHAMIYA",
+        "Ar": ""
+    },
+    {
+        "En": "Amount",
+        "Ar": "المبلغ"
+    },
+    {
+        "En": "Amount Paid",
+        "Ar": "المبلغ المدفوع"
+    },
+    {
+        "En": "Amount should be greater than 0.250",
+        "Ar": "الرجاء إدخل مبلغ أكثر من 0.250 د.ك"
+    },
+    {
+        "En": "and",
+        "Ar": "و"
+    },
+    {
+        "En": "&"
+    },
+    {
+        "En": "Building",
+        "Ar": "مبنى"
+    },
+    {
+        "En": "Apartment Number",
+        "Ar": "رقم الشقة"
+    },
+    {
+        "En": "Flat Number *",
+        "Ar": "رقم الشقة*"
+    },
+    {
+        "En": "Api failed to get data",
+        "Ar": "فشل البحث بالمحتوى"
+    },
+    {
+        "En": "Appartment",
+        "Ar": "شقه"
+    },
+    {
+        "En": "Apply",
+        "Ar": "تطبق"
+    },
+    {
+        "En": "Twarrad",
+        "Ar": "\"تورد \""
+    },
+    {
+        "En": "Shalayhna",
+        "Ar": "شاليهنا"
+    },
+    {
+        "En": "Boubyan Fisheries",
+        "Ar": "Boubyan Fisheries"
+    },
+    {
+        "En": "عربى",
+        "Ar": "عربى"
+    },
+    {
+        "En": "Area",
+        "Ar": "المنطقه"
+    },
+    {
+        "En": "Area*",
+        "Ar": "المنطقه*"
+    },
+    {
+        "En": "Enter area",
+        "Ar": "أدخل المنطقه"
+    },
+    {
+        "En": "Name (A - Z)",
+        "Ar": "الاسم (أ - ي)"
+    },
+    {
+        "En": "AuthCode",
+        "Ar": "رمز الدفع"
+    },
+    {
+        "En": "Authorization Code",
+        "Ar": "رمز الدفع"
+    },
+    {
+        "En": "availability",
+        "Ar": "التوفر"
+    },
+    {
+        "En": "Avenue",
+        "Ar": "الجادة"
+    },
+    {
+        "En": "Avenue (Jaadah)",
+        "Ar": "جاده"
+    },
+    {
+        "En": "Avenue (Optional)",
+        "Ar": "الجادة (اختياري)"
+    },
+    {
+        "En": "Avenue (Optional)",
+        "Ar": "الجاده"
+    },
+    {
+        "En": "Enter avenue / jaddah",
+        "Ar": "أدخل الجاده"
+    },
+    {
+        "En": "Back",
+        "Ar": "رجوع"
+    },
+    {
+        "En": "Back to Cart",
+        "Ar": "رجوع إلى عربة التسوق"
+    },
+    {
+        "En": "Back to List",
+        "Ar": "Back to List1"
+    },
+    {
+        "En": "Basket",
+        "Ar": "سلة"
+    },
+    {
+        "En": "Best Seller",
+        "Ar": "الأكثر مبيعاً"
+    },
+    {
+        "En": "Best Sellers",
+        "Ar": "الأكثر مبيعاً"
+    },
+    {
+        "En": "Block",
+        "Ar": "قطعة"
+    },
+    {
+        "En": "Block *",
+        "Ar": "القطعه"
+    },
+    {
+        "En": "Block is required",
+        "Ar": "الرجاء إدخال القطعة"
+    },
+    {
+        "En": "Booking",
+        "Ar": "الحجز"
+    },
+    {
+        "En": "Check Out",
+        "Ar": "تاريخ الخروج"
+    },
+    {
+        "En": "Your booking Completed!",
+        "Ar": "اكتمل حجزك!"
+    },
+    {
+        "En": "Booking Date",
+        "Ar": "تاريخ الحجز"
+    },
+    {
+        "En": "Your booking Declined!",
+        "Ar": "حجزك مرفوض!"
+    },
+    {
+        "En": "Booking Details",
+        "Ar": "تفاصيل الحجز"
+    },
+    {
+        "En": "Booking Information",
+        "Ar": "معلومات الحجز"
+    },
+    {
+        "En": "Booking Referance ID",
+        "Ar": "رقم الحجز"
+    },
+    {
+        "En": "Booking Price",
+        "Ar": "سعر الحجز"
+    },
+    {
+        "En": "Booking Prices",
+        "Ar": "سعر الحجز"
+    },
+    {
+        "En": "Booking Reference",
+        "Ar": "معلومات الحجز"
+    },
+    {
+        "En": "Bookings",
+        "Ar": "حجوزات"
+    },
+    {
+        "En": "This booking is currently active",
+        "Ar": "هذا الحجز نشط حاليا"
+    },
+    {
+        "En": "This booking is completed",
+        "Ar": "اكتمل حجزك!"
+    },
+    {
+        "En": "Booking Terms",
+        "Ar": "شروط الحجز"
+    },
+    {
+        "En": "Packages",
+        "Ar": "الباقة"
+    },
+    {
+        "En": "Book Now",
+        "Ar": "احجز الآن"
+    },
+    {
+        "En": "Boubyan Fisheries Co. All Rights Reserved.",
+        "Ar": "شركة بوبيان للاسماك - جميع الحقوق محفوظة"
+    },
+    {
+        "En": "Branch",
+        "Ar": "فرع"
+    },
+    {
+        "En": "Branches",
+        "Ar": "الفروع"
+    },
+    {
+        "En": "Building",
+        "Ar": "مبنى"
+    },
+    {
+        "En": "Enter Building No.",
+        "Ar": "ادخل رقم المبنى"
+    },
+    {
+        "En": "Building Number",
+        "Ar": "رقم المبنى"
+    },
+    {
+        "En": "Building Number *",
+        "Ar": "رقم المبنى *"
+    },
+    {
+        "En": "Buy",
+        "Ar": "شراء"
+    },
+    {
+        "En": "I agree to the",
+        "Ar": "أوافق على"
+    },
+    {
+        "En": "Call",
+        "Ar": "اتصال"
+    },
+    {
+        "En": "CALL NOW",
+        "Ar": "اتصل الان"
+    },
+    {
+        "En": "Cancel",
+        "Ar": "إلغاء"
+    },
+    {
+        "En": "Cancel Booking",
+        "Ar": "إلغاء الحجز"
+    },
+    {
+        "En": "You are about to cancel a booking. This may incur deduction in the refund amount. Are you sure you want to continue?",
+        "Ar": "أنت على وشك إلغاء الحجز. قد يؤدي هذا إلى خصم مبلغ الاسترداد. هل أنت متأكد أنك تريد الاستمرار؟"
+    },
+    {
+        "En": "Cancellation Charges",
+        "Ar": "رسوم الإلغاء"
+    },
+    {
+        "En": "Cancellation Policy",
+        "Ar": "سياسة الإلغاء"
+    },
+    {
+        "En": "Cancellation Policy",
+        "Ar": "سياسة الإلغاء"
+    },
+    {
+        "En": "Cancelled Payment",
+        "Ar": "تم الغاء عملية دفعتك"
+    },
+    {
+        "En": "Cancel Notification",
+        "Ar": "إلغاء التنبيه"
+    },
+    {
+        "En": "CAPTURED",
+        "Ar": "CAPTURED1"
+    },
+    {
+        "En": "Camera",
+        "Ar": "الكاميرا"
+    },
+    {
+        "En": "Cart",
+        "Ar": "عربة التسوق"
+    },
+    {
+        "En": "Fresh & Grilled items cannot be added to the shopping cart at the same time. If you switch the category, the selected items in the cart will be removed. Tap Yes to confirm",
+        "Ar": "لا يمكن إضافة أصناف طازجة ومشوية إلى عربة التسوق في نفس الوقت. إذا قمت بتبديل الفئة ، فسيتم إزالة الأصناف المختارة في عربة التسوق. للتأكيد اضغط نعم"
+    },
+    {
+        "En": "Cart Id not found",
+        "Ar": "الهويه التعريفيه غير موجوده"
+    },
+    {
+        "En": "Cart Update",
+        "Ar": "العربة تحديث"
+    },
+    {
+        "En": "Categories",
+        "Ar": "أصناف"
+    },
+    {
+        "En": "Celebrities' Reviews",
+        "Ar": "تعليقات المشاهير"
+    },
+    {
+        "En": "Chalet Booking",
+        "Ar": "حجز الشاليه"
+    },
+    {
+        "En": "Chalet Details",
+        "Ar": "تفاصيل الشاليه"
+    },
+    {
+        "En": "Sale",
+        "Ar": "بيع"
+    },
+    {
+        "En": "Rent",
+        "Ar": "تأجير"
+    },
+    {
+        "En": "Buy",
+        "Ar": "شراء"
+    },
+    {
+        "En": "Chalet Name",
+        "Ar": "اسم الشاليه"
+    },
+    {
+        "En": "Change",
+        "Ar": "تحديث"
+    },
+    {
+        "En": "Change Language",
+        "Ar": "تغيير اللغة"
+    },
+    {
+        "En": "Change Number",
+        "Ar": "تغيير الرقم"
+    },
+    {
+        "En": "Change Password",
+        "Ar": "تغيير الرمز المرور"
+    },
+    {
+        "En": "characters left",
+        "Ar": "أحرف المتبقى"
+    },
+    {
+        "En": "200 Characters left",
+        "Ar": "200 أحرف المتبقي"
+    },
+    {
+        "En": "%s characters left",
+        "Ar": "\"%s أحرف المتبقي \""
+    },
+    {
+        "En": "Check In",
+        "Ar": "تاريخ الوصول"
+    },
+    {
+        "En": "Check In / Check Out",
+        "Ar": "تاريخ الوصول – تاريخ المغادرة"
+    },
+    {
+        "En": "\"Check In - Check Out \"",
+        "Ar": "تاريخ الوصول – تاريخ المغادرة"
+    },
+    {
+        "En": "Checkout",
+        "Ar": "تنفيذ الطلب"
+    },
+    {
+        "En": "Check Out",
+        "Ar": "تاريخ المغادرة"
+    },
+    {
+        "En": "Choose Address Type",
+        "Ar": "اختر نوع العنوان"
+    },
+    {
+        "En": "Choose Area",
+        "Ar": "اختر المنطقة"
+    },
+    {
+        "En": "Choose Package",
+        "Ar": "اختر الباقة"
+    },
+    {
+        "En": "Choose contact type",
+        "Ar": "اختر نوع الاتصال"
+    },
+    {
+        "En": "Choose Delivery Date & Time",
+        "Ar": "اختر تاريخ والموعد التوصيل"
+    },
+    {
+        "En": "You must select your preferred delivery date / time to continue",
+        "Ar": "يرجى اختار تاريخ / موعد التوصيل للمتابعة"
+    },
+    {
+        "En": "Choose Day",
+        "Ar": "اختر اليوم"
+    },
+    {
+        "En": "Choose Delivery Date & Time",
+        "Ar": "اختر تاريخ والموعد التوصيل"
+    },
+    {
+        "En": "Choose Delivery Method",
+        "Ar": "اختر نوع التوصيل"
+    },
+    {
+        "En": "Choose Delivery Or Pickup",
+        "Ar": "اختر توصيل أو استلام"
+    },
+    {
+        "En": "To continue you must select delivery or pick up option first",
+        "Ar": "للمتابعة ، يجب عليك تحديد خيار التوصيل أو الاستلام أولاً"
+    },
+    {
+        "En": "Choose delivery time",
+        "Ar": "اختر موعد التوصيل"
+    },
+    {
+        "En": "Choose Location",
+        "Ar": "اختيار الموقع"
+    },
+    {
+        "En": "Choose Pick Up Date & Time",
+        "Ar": "اختر تاريخ والموعد الاستلام"
+    },
+    {
+        "En": "Choose Pick Up Location",
+        "Ar": "اختر توصيل أو استلام"
+    },
+    {
+        "En": "Choose Price Range",
+        "Ar": "السعر المتوقع"
+    },
+    {
+        "En": "Choose Property Type",
+        "Ar": "اختر نوع الشاليه"
+    },
+    {
+        "En": "Choose Time Slot",
+        "Ar": "اختر الموعد"
+    },
+    {
+        "En": "Choose Your Country",
+        "Ar": "اختر بلدك"
+    },
+    {
+        "En": "Choose your delivery date",
+        "Ar": "اختر تاريخ التوصيل"
+    },
+    {
+        "En": "Choose your delivery option",
+        "Ar": "اختر نوع التوصيل"
+    },
+    {
+        "En": "Choose your delivery time",
+        "Ar": "اختر موعد التوصيل"
+    },
+    {
+        "En": "Choose your delivery type",
+        "Ar": "اختر نوع التوصيل"
+    },
+    {
+        "En": "City",
+        "Ar": "المدينة"
+    },
+    {
+        "En": "City is required",
+        "Ar": "الرجاء إدخال المدينة"
+    },
+    {
+        "En": "Civil ID",
+        "Ar": "الهوية المدنية"
+    },
+    {
+        "En": "Sorry! You are not eligable for booking Shalayhna.",
+        "Ar": "Sorry! You are not eligable for booking Shalayhna."
+    },
+    {
+        "En": "Enter CivilID",
+        "Ar": "أدخل الهوية المدنية"
+    },
+    {
+        "En": "We clean flowers from thorns and impurities.",
+        "Ar": "يتم ‏تنظيف الزهور من الشوك والشوائب على حسب الاختيار."
+    },
+    {
+        "En": "Cleaning Services",
+        "Ar": "خدمات التنظيف"
+    },
+    {
+        "En": "Clear",
+        "Ar": "مسح"
+    },
+    {
+        "En": "The selected items in the cart will be removed. Tap Yes to confirm",
+        "Ar": "سيتم إزالة الأصناف المختارة في عربة التسوق. للتأكيد اضغط نعم"
+    },
+    {
+        "En": "Click here to open map",
+        "Ar": "إضغط لفتح الخارطه"
+    },
+    {
+        "En": "Click here to open map",
+        "Ar": "إضغط لفتح الخريطة"
+    },
+    {
+        "En": "Close",
+        "Ar": "أغلق"
+    },
+    {
+        "En": "Closing Time",
+        "Ar": "Closing Time1"
+    },
+    {
+        "En": "Code Expires in",
+        "Ar": "تنتهي صلاحية الرمز في"
+    },
+    {
+        "En": "Coming Soon...",
+        "Ar": "قريباً..."
+    },
+    {
+        "En": "Comments",
+        "Ar": "ملاحظات"
+    },
+    {
+        "En": "Comments & Suggestions",
+        "Ar": "تعليقات واقتراحات"
+    },
+    {
+        "En": "Confirm",
+        "Ar": "تأكيد"
+    },
+    {
+        "En": "Confirmation",
+        "Ar": "تأكيد"
+    },
+    {
+        "En": "Confirm Password",
+        "Ar": "تأكيد كلمة المرور"
+    },
+    {
+        "En": "Confirm password is required",
+        "Ar": "مطلوب تأكيد كلمة المرور"
+    },
+    {
+        "En": "Confirm password should be same as password",
+        "Ar": "تأكيد كلمة المرور يجب أن يكون نفس كلمة المرور"
+    },
+    {
+        "En": "Confirm password should contain 8 letters",
+        "Ar": "تأكيد كلمة المرور يجب أن يتكون من 8 أحرف"
+    },
+    {
+        "En": "Contact",
+        "Ar": "تواصل معنا"
+    },
+    {
+        "En": "Contact information",
+        "Ar": "معلومات للتواصل"
+    },
+    {
+        "En": "Contact Us",
+        "Ar": "تواصل معنا"
+    },
+    {
+        "En": "Thank you.. Our support team will contact you soon",
+        "Ar": "شكرًا لك .. سيتصل بك فريق الدعم قريبًا"
+    },
+    {
+        "En": "Continue",
+        "Ar": "استمر"
+    },
+    {
+        "En": "Continue as Guest",
+        "Ar": "إستمر كضيف"
+    },
+    {
+        "En": "Continue Shopping?",
+        "Ar": "استمر فى التسوق؟"
+    },
+    {
+        "En": "Continue Shopping",
+        "Ar": "إستمر بالتسوق"
+    },
+    {
+        "En": "Copyright",
+        "Ar": "حقوق"
+    },
+    {
+        "En": "Copyrights Reserved",
+        "Ar": "جميع الحقوق محفوظة"
+    },
+    {
+        "En": "Country",
+        "Ar": "البلد"
+    },
+    {
+        "En": "Country & Currency",
+        "Ar": "البلد والعملة"
+    },
+    {
+        "En": "Country Code",
+        "Ar": "الرقم الدولي"
+    },
+    {
+        "En": "Country of Origin",
+        "Ar": "بلد المنشأ"
+    },
+    {
+        "En": "Coupon",
+        "Ar": "قسيمة"
+    },
+    {
+        "En": "Create An Account",
+        "Ar": "\"انشئ حساب \""
+    },
+    {
+        "En": "Create New Password",
+        "Ar": "إنشاء كلمة مرور جديدة"
+    },
+    {
+        "En": "Create your account",
+        "Ar": "تسجيل حساب"
+    },
+    {
+        "En": "Current Password",
+        "Ar": "كلمة المرور الحالية"
+    },
+    {
+        "En": "Customer Details",
+        "Ar": "تفاصيل العميل"
+    },
+    {
+        "En": "Customer Name",
+        "Ar": "اسم مالك العقار"
+    },
+    {
+        "En": "Customer Support",
+        "Ar": "دعم العملاء"
+    },
+    {
+        "En": "Dashboard",
+        "Ar": "لوحة القيادة"
+    },
+    {
+        "En": "Date",
+        "Ar": "التاريخ"
+    },
+    {
+        "En": "Date & Time",
+        "Ar": "تاريخ والموعد"
+    },
+    {
+        "En": "Date of Transaction",
+        "Ar": "تاريخ العملية"
+    },
+    {
+        "En": "Date / Time",
+        "Ar": "التاريخ / الوقت"
+    },
+    {
+        "En": "Day",
+        "Ar": "يوم"
+    },
+    {
+        "En": "Day After",
+        "Ar": "بعد غد"
+    },
+    {
+        "En": "Deactivated",
+        "Ar": "Deactivated1"
+    },
+    {
+        "En": "Limited quantities. See product detail for availability.",
+        "Ar": "كميه محدوده إنظر المحتوى للتأكد من المتوفر."
+    },
+    {
+        "En": "Deal of the Day",
+        "Ar": "عرض اليوم"
+    },
+    {
+        "En": "Declined Payment",
+        "Ar": "تم رفض عملية دفعتك"
+    },
+    {
+        "En": "Default",
+        "Ar": "بالقرب من"
+    },
+    {
+        "En": "Delete",
+        "Ar": "حذف"
+    },
+    {
+        "En": "Delete Address",
+        "Ar": "حذف العنوان"
+    },
+    {
+        "En": "Are you sure you want to delete address?",
+        "Ar": "هل أنت متأكد أنك تريد إزالة المنتج من سلتك؟"
+    },
+    {
+        "En": "Are you sure you want to delete?",
+        "Ar": "تأكيد الإلغاء؟"
+    },
+    {
+        "En": "Delivered To",
+        "Ar": "توصل الى"
+    },
+    {
+        "En": "Delivering to",
+        "Ar": "يوصل إلى"
+    },
+    {
+        "En": "Delivering to",
+        "Ar": "يوصل إلى"
+    },
+    {
+        "En": "Delivery",
+        "Ar": "توصيل"
+    },
+    {
+        "En": "Delivery Address",
+        "Ar": "عنوان التوصيل"
+    },
+    {
+        "En": "Delivery Charge",
+        "Ar": "رسوم التوصيل"
+    },
+    {
+        "En": "Delivery Charges",
+        "Ar": "رسوم التوصيل"
+    },
+    {
+        "En": "Delivery Date",
+        "Ar": "تاريخ التوصيل"
+    },
+    {
+        "En": "Delivery Date & Time",
+        "Ar": "اختر تاريخ والموعد التوصيل"
+    },
+    {
+        "En": "Delivery Day / Time",
+        "Ar": "يوم / وقت التسليم"
+    },
+    {
+        "En": "Between 09:00 AM to 09:00 PM",
+        "Ar": "من الساعة 9:00 صباحاً الى الساعة 9:00 مساءاً"
+    },
+    {
+        "En": "Delivery Details",
+        "Ar": "DELIVERY DETAILS1"
+    },
+    {
+        "En": "Delivery Disabled",
+        "Ar": "التسليم معطل"
+    },
+    {
+        "En": "Delivery Fee",
+        "Ar": "رسوم التوصيل"
+    },
+    {
+        "En": "Delivery Location",
+        "Ar": "منطقة التوصيل"
+    },
+    {
+        "En": "Delivery Method",
+        "Ar": "طريقة التوصيل"
+    },
+    {
+        "En": "We deliver to your doorstep or you can pick up your order from our branches",
+        "Ar": "نقوم بالتوصيل حتى باب منزلك أو يمكنك استلام طلبك من فروعنا"
+    },
+    {
+        "En": "Delivery Prep Time",
+        "Ar": "Delivery Prep Time1"
+    },
+    {
+        "En": "Delivery Prep Time Grilled",
+        "Ar": "Delivery Prep Time Grilled1"
+    },
+    {
+        "En": "Delivery Time",
+        "Ar": "موعد التوصيل"
+    },
+    {
+        "En": "Please, select preferred delivery day and time period",
+        "Ar": "يرجى تحديد يوم والموعد التوصيل المفضلة"
+    },
+    {
+        "En": "Delivering to",
+        "Ar": "يوصل إلى"
+    },
+    {
+        "En": "Delivery Type",
+        "Ar": "نوع التوصيل"
+    },
+    {
+        "En": "Delviery Method",
+        "Ar": "طريقة التوصيل"
+    },
+    {
+        "En": "Name (Z - A)",
+        "Ar": "الاسم (ي - أ)"
+    },
+    {
+        "En": "Description",
+        "Ar": "الوصف"
+    },
+    {
+        "En": "Designed and Developed by",
+        "Ar": "تصميم و تطوير بواسطة"
+    },
+    {
+        "En": "Details",
+        "Ar": "تفاصيل"
+    },
+    {
+        "En": "\"Discounted Amount : \"",
+        "Ar": "\"المبلغ مخفضة : \""
+    },
+    {
+        "En": "Discount",
+        "Ar": "خصم"
+    },
+    {
+        "En": "Discount Applied",
+        "Ar": "تم تقديم الخصم"
+    },
+    {
+        "En": "Discounted Amount",
+        "Ar": "المبلغ مخفضة"
+    },
+    {
+        "En": "Discount",
+        "Ar": "الخصم"
+    },
+    {
+        "En": "Discount: %s",
+        "Ar": "الخصم%s"
+    },
+    {
+        "En": "Done",
+        "Ar": "تم"
+    },
+    {
+        "En": "Don’t have an account yet?",
+        "Ar": "لا تملك حسابا حتى الآن؟"
+    },
+    {
+        "En": "Download",
+        "Ar": "تحميل"
+    },
+    {
+        "En": "Download Our App",
+        "Ar": "حمّل التطبيق"
+    },
+    {
+        "En": "Do you have discount code?",
+        "Ar": "هل لديك كود الخصم؟"
+    },
+    {
+        "En": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Ar": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "En": "We provide easy, covenient, swift and secured online payment.",
+        "Ar": "نحن نقدم الدفع عبر الإنترنت بطريقة سهلة ومريحة وسريعة وآمنة."
+    },
+    {
+        "En": "Edit",
+        "Ar": "Edit1"
+    },
+    {
+        "En": "Edit Details",
+        "Ar": "عدل البيانات"
+    },
+    {
+        "En": "Edit Greeting",
+        "Ar": "عدل بطاقة التهنئة"
+    },
+    {
+        "En": "Edit Mobile No.",
+        "Ar": "تغيير رقم الهاتف"
+    },
+    {
+        "En": "Edit Mobile Number",
+        "Ar": "تغيير رقم الهاتف"
+    },
+    {
+        "En": "Edit Profile",
+        "Ar": "تعديل الملف الشخصي"
+    },
+    {
+        "En": "Edit Profile",
+        "Ar": "تعديل بيانات حسابك"
+    },
+    {
+        "En": "Edit Rating",
+        "Ar": "تحرير التقييمات"
+    },
+    {
+        "En": "Email",
+        "Ar": "البريد الإلكتروني"
+    },
+    {
+        "En": "Login details already exist",
+        "Ar": "تفاصيل تسجيل الدخول موجودة بالفعل"
+    },
+    {
+        "En": "Email ID",
+        "Ar": "البريد الإلكتروني"
+    },
+    {
+        "En": "Email is required",
+        "Ar": "يرجى ادخال البريد الالكتروبي"
+    },
+    {
+        "En": "Please enter valid Email",
+        "Ar": "البريد الإلكتروني غير صحيح"
+    },
+    {
+        "En": "Enter your email",
+        "Ar": "أدخل البريد الإلكتروني"
+    },
+    {
+        "En": "Empty",
+        "Ar": "فارغ"
+    },
+    {
+        "En": "Empty Basket",
+        "Ar": "السلة فارغة"
+    },
+    {
+        "En": "No item",
+        "Ar": "فارغ"
+    },
+    {
+        "En": "Empty Wishlist",
+        "Ar": "قائمة الأمنيات فارغة"
+    },
+    {
+        "En": "English",
+        "Ar": "English"
+    },
+    {
+        "En": "Contact Customer Service",
+        "Ar": "تواصل مع خدمة العملاء"
+    },
+    {
+        "En": "To ensure you receive our emails in your inbox, please add emailText to your allowed contacts.",
+        "Ar": "To ensure you receive our emails in your inbox, please add emailText to your allowed contacts."
+    },
+    {
+        "En": "Enter address Name",
+        "Ar": "أدخل إسم صاحب العنوان"
+    },
+    {
+        "En": "Enter address Type",
+        "Ar": "أدخل نوع العنوان"
+    },
+    {
+        "En": "Enter Amount (0.000 KD)",
+        "Ar": "أدخل المبلغ (0.000 د.ك)"
+    },
+    {
+        "En": "Enter amount (0.000 KD)",
+        "Ar": "أدخل المبلغ (0.000 د.ك)"
+    },
+    {
+        "En": "Enter area",
+        "Ar": "أدخل المنطقه"
+    },
+    {
+        "En": "Enter a valid email",
+        "Ar": "يرجى التأكد من البريد الالكتروبي"
+    },
+    {
+        "En": "Please enter a valid email",
+        "Ar": "يرجى التأكد من البريد الالكتروبي"
+    },
+    {
+        "En": "Enter avenue / jaddah",
+        "Ar": "أدخل الجاده"
+    },
+    {
+        "En": "Enter block",
+        "Ar": "أدخل القطعة"
+    },
+    {
+        "En": "Enter Building No.",
+        "Ar": "ادخل رقم المبنى"
+    },
+    {
+        "En": "Enter closing time",
+        "Ar": "Enter closing time1"
+    },
+    {
+        "En": "Enter Code",
+        "Ar": "قسيمة"
+    },
+    {
+        "En": "Enter Code Here",
+        "Ar": "أدخل الرمز هنا"
+    },
+    {
+        "En": "Enter Current Password",
+        "Ar": "إدخال الرمز سري القديم"
+    },
+    {
+        "En": "Enter delivery charge",
+        "Ar": "Enter delivery charge1"
+    },
+    {
+        "En": "Enter delivery prep time",
+        "Ar": "Enter delivery prep time1"
+    },
+    {
+        "En": "Enter delivery prep time grilled",
+        "Ar": "Enter delivery prep time grilled1"
+    },
+    {
+        "En": "Enter discount code",
+        "Ar": "ادخل رمز الخصم"
+    },
+    {
+        "En": "Enter your email",
+        "Ar": "أدخل البريد الإلكتروني"
+    },
+    {
+        "En": "Enter first name",
+        "Ar": "Enter first name"
+    },
+    {
+        "En": "Enter Flat No.",
+        "Ar": "ادخل رقم الشقة"
+    },
+    {
+        "En": "Enter Floor No.",
+        "Ar": "ادخل الدور"
+    },
+    {
+        "En": "Enter full name",
+        "Ar": "أدخل إسمك الكامل"
+    },
+    {
+        "En": "Enter House / Villa No.",
+        "Ar": "أدخل رقم البيت او الفيلا"
+    },
+    {
+        "En": "Enter keywords to search...",
+        "Ar": "أدخل كلمات أساسية للبحث ..."
+    },
+    {
+        "En": "Enter last name",
+        "Ar": "Enter last name"
+    },
+    {
+        "En": "Enter Mobile Number",
+        "Ar": "أدخل رقم النقال"
+    },
+    {
+        "En": "Enter Mobile Number",
+        "Ar": "أدخل رقم النقال"
+    },
+    {
+        "En": "Enter name",
+        "Ar": "Enter name1"
+    },
+    {
+        "En": "Enter name arabic",
+        "Ar": "Enter name arabic1"
+    },
+    {
+        "En": "Enter New Password",
+        "Ar": "أدخل الرقم السري الجديد"
+    },
+    {
+        "En": "Enter Old Password",
+        "Ar": "أدخل الرقم السري القديم"
+    },
+    {
+        "En": "Enter opening time",
+        "Ar": "Enter opening time1"
+    },
+    {
+        "En": "Enter OTP Code",
+        "Ar": "أدخل الرقم التعريفي OTP"
+    },
+    {
+        "En": "Please enter the OTP sent to your mobile number",
+        "Ar": "قم بإدخال الرمز الذي تم إرساله  لهاتفك النقال والمكون من 4 أرقام"
+    },
+    {
+        "En": "Enter Password",
+        "Ar": "أدخل الرقم السري"
+    },
+    {
+        "En": "Enter Phone",
+        "Ar": "أدخل رقم الهاتف"
+    },
+    {
+        "En": "Enter pickup prep time",
+        "Ar": "Enter pickup prep time1"
+    },
+    {
+        "En": "Enter pickup prep time grilled",
+        "Ar": "Enter pickup prep time grilled1"
+    },
+    {
+        "En": "Enter price",
+        "Ar": "Enter price1"
+    },
+    {
+        "En": "Enter Property Name",
+        "Ar": "أدخل اسم الشاليه"
+    },
+    {
+        "En": "Enter Retype Password",
+        "Ar": "أعد إدخال الرقم السري"
+    },
+    {
+        "En": "Enter sort order",
+        "Ar": "Enter sort order1"
+    },
+    {
+        "En": "Enter street",
+        "Ar": "أدخل الشارع"
+    },
+    {
+        "En": "Entertain",
+        "Ar": "ترفيهي"
+    },
+    {
+        "En": "PleaseEnter Address Title",
+        "Ar": "الرجاء إدخال عنوان"
+    },
+    {
+        "En": "Enter Valid Amount",
+        "Ar": "أدخل المبلغ بشكل صحيح"
+    },
+    {
+        "En": "Enter apartment number",
+        "Ar": "أدخل رقم المبنى بشكل صحيح"
+    },
+    {
+        "En": "Enter Block",
+        "Ar": "أدخل القطعة بشكل صحيح"
+    },
+    {
+        "En": "Enter  Building Number",
+        "Ar": "أدخل رقم الشقة بشكل صحيح"
+    },
+    {
+        "En": "Enter Valid Mobile Number",
+        "Ar": "الرجاء إدخال رقم صالح"
+    },
+    {
+        "En": "Enter Valid Email",
+        "Ar": "البريد الإلكتروني غير صحيح"
+    },
+    {
+        "En": "Email not valid",
+        "Ar": "البريد الإلكتروني غير صحيح"
+    },
+    {
+        "En": "Enter First Name",
+        "Ar": "أدخل الاسم الأول"
+    },
+    {
+        "En": "Enter floor number",
+        "Ar": "أدخل الدور بشكل صحيح"
+    },
+    {
+        "En": "Enter message",
+        "Ar": "أدخل الرسالة"
+    },
+    {
+        "En": "Enter Valid Mobile Number",
+        "Ar": "الرجاء إدخال رقم صالح"
+    },
+    {
+        "En": "Enter valid mobile number",
+        "Ar": "أدخل رقم الهاتف بشكل صحيح"
+    },
+    {
+        "En": "Enter Valid Name",
+        "Ar": "أدخل إسمك الكامل"
+    },
+    {
+        "En": "Enter Valid OTP",
+        "Ar": "أدخل رمز التحقق OTP بشكل صحيح"
+    },
+    {
+        "En": "Enter Valid Password",
+        "Ar": "أدخل الرقم السري"
+    },
+    {
+        "En": "Enter Password with minimum 6 characters",
+        "Ar": "Enter Password with minimum 6 characters"
+    },
+    {
+        "En": "Enter Password with minimum 6 characters",
+        "Ar": "الرقم السري يجب ان يكون أكثر من 6 ارقام"
+    },
+    {
+        "En": "Enter last name",
+        "Ar": "أدخل الاسم الأخير"
+    },
+    {
+        "En": "Enter Street",
+        "Ar": "أدخل قطعة بشكل صحيح"
+    },
+    {
+        "En": "Enter Subject",
+        "Ar": "أدخل الموضوع"
+    },
+    {
+        "En": "Enter ware house",
+        "Ar": "Enter ware house1"
+    },
+    {
+        "En": "Enter ware house id",
+        "Ar": "Enter ware house id1"
+    },
+    {
+        "En": "Enter your Civil ID",
+        "Ar": "أدخل بريدك الإلكتروني"
+    },
+    {
+        "En": "Enter Your Coupon Code",
+        "Ar": "إدخل رقم بطاقتك الشراء"
+    },
+    {
+        "En": "Do you have discount code?",
+        "Ar": "هل لديك رمز الخصم؟"
+    },
+    {
+        "En": "Enter your Email",
+        "Ar": "أدخل عنوان بريدك الالكتروني"
+    },
+    {
+        "En": "Enter your Email Address",
+        "Ar": "أدخل بطاقتك المدنية"
+    },
+    {
+        "En": "Please enter First Name",
+        "Ar": "أدخل الاسم الأول"
+    },
+    {
+        "En": "Enter your mobile number",
+        "Ar": "أدخل رقم الهاتف"
+    },
+    {
+        "En": "Enter your name",
+        "Ar": "أدخل أسمك"
+    },
+    {
+        "En": "Error",
+        "Ar": "خطأ"
+    },
+    {
+        "En": "Error!",
+        "Ar": "خطأ!"
+    },
+    {
+        "En": "Error occured",
+        "Ar": "حدث خطأ في العملية"
+    },
+    {
+        "En": "Error Payment",
+        "Ar": "خطأ في عملية دفعتك"
+    },
+    {
+        "En": "Failed",
+        "Ar": "فشل العمليه"
+    },
+    {
+        "En": "Failed To Create",
+        "Ar": "فشل في انشاء"
+    },
+    {
+        "En": "Failed to create User",
+        "Ar": "فشل في إنشاء حساب المستخدم"
+    },
+    {
+        "En": "Failed to fetch from server",
+        "Ar": "فشل البحث بالمحتوى"
+    },
+    {
+        "En": "FAQ",
+        "Ar": "أسئلة وأجوبة"
+    },
+    {
+        "En": "FAQs",
+        "Ar": "أسئلة وأجوبة"
+    },
+    {
+        "En": "Product added to favourites successfully",
+        "Ar": "تمت إضافة المنتج إلى القائمة مفضلاتك بنجاح"
+    },
+    {
+        "En": "Fax",
+        "Ar": "فاكس"
+    },
+    {
+        "En": "Featured",
+        "Ar": "متميز"
+    },
+    {
+        "En": "Featured Properties",
+        "Ar": "الشاليهات المميزة"
+    },
+    {
+        "En": "Featured Properties",
+        "Ar": "الشاليهات المميزة"
+    },
+    {
+        "En": "Featured Products",
+        "Ar": "منتجات المميزة"
+    },
+    {
+        "En": "Features",
+        "Ar": "مميزة"
+    },
+    {
+        "En": "Feedback",
+        "Ar": "تعليق"
+    },
+    {
+        "En": "Female",
+        "Ar": "Female"
+    },
+    {
+        "En": "Input required fields",
+        "Ar": "Input required fields"
+    },
+    {
+        "En": "The maximum file size exceeded",
+        "Ar": "تخطى الحد الأقصى للملف"
+    },
+    {
+        "En": "Filter",
+        "Ar": "تصفيه"
+    },
+    {
+        "En": "Filter By",
+        "Ar": "اختر الفئة"
+    },
+    {
+        "En": "Filters",
+        "Ar": "تصفيه"
+    },
+    {
+        "En": "Find Store",
+        "Ar": "فروعنا"
+    },
+    {
+        "En": "First Name",
+        "Ar": "الاسم الأول"
+    },
+    {
+        "En": "First Name is required",
+        "Ar": "أدخل الاسم الأول"
+    },
+    {
+        "En": "Enter Flat No.",
+        "Ar": "ادخل رقم الشقة"
+    },
+    {
+        "En": "Flat Number",
+        "Ar": "رقم الشقة"
+    },
+    {
+        "En": "Enter Floor No.",
+        "Ar": "ادخل الدور"
+    },
+    {
+        "En": "Floor Number",
+        "Ar": "رقم الدور"
+    },
+    {
+        "En": "Floor Number",
+        "Ar": "\"الدور \""
+    },
+    {
+        "En": "Floor Number *",
+        "Ar": "رقم الدور*"
+    },
+    {
+        "En": "Follow Us",
+        "Ar": "تابعنا"
+    },
+    {
+        "En": "The order details have been sent to your mobile number %s",
+        "Ar": "تم إرسال تفاصيل الطلب إلى رقم هاتفك %s"
+    },
+    {
+        "En": "For any suggestions and complaints, please Call phoneText or send E-mail to",
+        "Ar": "For any suggestions and complaints, please Call phoneText or send E-mail to"
+    },
+    {
+        "En": "Forgot Password",
+        "Ar": "نسيت كلمة المرور"
+    },
+    {
+        "En": "Forgot password?",
+        "Ar": "نسيت كلمة المرور؟"
+    },
+    {
+        "En": "Free"
+    },
+    {
+        "En": "Fresh",
+        "Ar": "طازجه"
+    },
+    {
+        "En": "From *",
+        "Ar": "من"
+    },
+    {
+        "En": "Frozen",
+        "Ar": "مجمده"
+    },
+    {
+        "En": "Full Name",
+        "Ar": "الإسم بالكامل"
+    },
+    {
+        "En": "Enter full name",
+        "Ar": "أدخل إسمك الكامل"
+    },
+    {
+        "En": "Do you want to get notified when we add new product(s).",
+        "Ar": "هل تريد أن يتم إعلامك عند إضافة منتج (منتجات) جديدة."
+    },
+    {
+        "En": "Go to Login",
+        "Ar": "انتقل إلى تسجيل الدخول"
+    },
+    {
+        "En": "Go To Main Page",
+        "Ar": "اذهب إلى الصفحة الرئيسية"
+    },
+    {
+        "En": "Governorate",
+        "Ar": "المحافظة"
+    },
+    {
+        "En": "Governorate *",
+        "Ar": "المحافظة*"
+    },
+    {
+        "En": "Grand Total",
+        "Ar": "اجمالي المبلغ"
+    },
+    {
+        "En": "Grand Total",
+        "Ar": "المجموع الإجمالي"
+    },
+    {
+        "En": "Greeting Card",
+        "Ar": "بطاقة التهنئة"
+    },
+    {
+        "En": "Greeting Card Details",
+        "Ar": "تفاصيل بطاقة التهنئة"
+    },
+    {
+        "En": "Greeting Card Fee",
+        "Ar": "رسوم بطاقة التهنئة"
+    },
+    {
+        "En": "\"To ...,\\n\\nWe wish you a good day\\n\\nFrom Twarrad \"",
+        "Ar": "إلى ...., \\n\\n نتمنى لك يوم سعيد\\n\\n من تورَد"
+    },
+    {
+        "En": "To ..., &#10;&#10;We wish you a good day &#10;&#10;From Twaaq",
+        "Ar": "إلى ..., &#10;&#10;نتمنى لك يوم سعيد &#10;&#10;من تواق"
+    },
+    {
+        "En": "+ 0.250 KD",
+        "Ar": "+ 0.250 د.ك"
+    },
+    {
+        "En": "Greeting card Fee",
+        "Ar": "رسوم بطاقة التهنئة"
+    },
+    {
+        "En": "Grilled",
+        "Ar": "مشويه"
+    },
+    {
+        "En": "Grilled items are only available in Mubarak Al Kabeer branch",
+        "Ar": "الأصناف المشوية متوفرة في فرع مبارك الكبير فقط\\\";"
+    },
+    {
+        "En": "Fresh & Grilled items cannot be added to the shopping cart at the same time. If you switch the category, the selected items in the cart will be removed. Tap Yes to confirm",
+        "Ar": "لا يمكن إضافة أصناف طازجة ومشوية إلى عربة التسوق في نفس الوقت. إذا قمت بتبديل الفئة ، فسيتم إزالة الأصناف المختارة في عربة التسوق. للتأكيد اضغط نعم"
+    },
+    {
+        "En": "Grilled items are only available in Mubarak Al Kabeer branch",
+        "Ar": "الأصناف المشوية متوفرة في فرع مبارك الكبير فقط"
+    },
+    {
+        "En": "Grilled items are only availale in Mubarak Al Kabeer branch",
+        "Ar": "الأصناف المشوية متوفرة في فرع مبارك الكبير فقط"
+    },
+    {
+        "En": "Gross Total",
+        "Ar": "الإجمالي"
+    },
+    {
+        "En": "Guest Details",
+        "Ar": "تفاصيل الزائر"
+    },
+    {
+        "En": "Head Office",
+        "Ar": "المكتب الرئيسي"
+    },
+    {
+        "En": "<ul class=\"list-unstyled\">\r\r\n <li>Mounira Al Humairi Building</li>\r\r\n <li>Ali Al Salem Street</li>\r\r\n <li>1st Floor, Office 6</li>\r\r\n <li>27467</li>\r\r\n <li>Kuwait</li>\r\r\n <li>Kuwait City</li>\r\r\n </ul>",
+        "Ar": "عنوان المكتب الرئيسي"
+    },
+    {
+        "En": "Home",
+        "Ar": "منزل"
+    },
+    {
+        "En": "Home",
+        "Ar": "الرئيسيه"
+    },
+    {
+        "En": "House / Villa",
+        "Ar": "منزل / فيلا"
+    },
+    {
+        "En": "Enter House / Villa No.",
+        "Ar": "أدخل  رقم البيت او الفيلا"
+    },
+    {
+        "En": "House Number",
+        "Ar": "رقم المنزل"
+    },
+    {
+        "En": "House Number *",
+        "Ar": "رقم المنزل"
+    },
+    {
+        "En": "House number is required",
+        "Ar": "الرجاء إدخال رقم المنزل"
+    },
+    {
+        "En": "House Rules",
+        "Ar": "قواعد المنزل"
+    },
+    {
+        "En": "House Rules",
+        "Ar": "قواعد المنزل"
+    },
+    {
+        "En": "House / Villa No.",
+        "Ar": "بيت / فيلا"
+    },
+    {
+        "En": "Order Type",
+        "Ar": "طريقة إستلام طلبك"
+    },
+    {
+        "En": "How do I get it?",
+        "Ar": "طريقة إستلام طلبك"
+    },
+    {
+        "En": "HRS",
+        "Ar": "بالساعات"
+    },
+    {
+        "En": "I accept the",
+        "Ar": "أوافق على"
+    },
+    {
+        "En": "I agree",
+        "Ar": "أوافق"
+    },
+    {
+        "En": "I agree to the",
+        "Ar": "أوافق على"
+    },
+    {
+        "En": "I agree to the Terms & Conditions",
+        "Ar": "أوافق على الشروط والأحكام"
+    },
+    {
+        "En": "ID number",
+        "Ar": "رقم البطاقة الشخصية"
+    },
+    {
+        "En": "If you didnt receive a code",
+        "Ar": "لم يصلك أي رمز بعد؟"
+    },
+    {
+        "En": "If you have not received OTP code",
+        "Ar": "إذا لم تستلم رمز التحقق OTP"
+    },
+    {
+        "En": "If you did’t receive a code",
+        "Ar": "إذا لم تستلم الرمز التعريفي"
+    },
+    {
+        "En": "If you have not received OTP code",
+        "Ar": "إذا لم تستلم رمز التحقق OTP"
+    },
+    {
+        "En": "Inactive",
+        "Ar": "غير نشط"
+    },
+    {
+        "En": "In Process",
+        "Ar": "جاري العمل"
+    },
+    {
+        "En": "Inquiries & Reservations",
+        "Ar": "الاستفسارات والحجوزات"
+    },
+    {
+        "En": "Instagram Feed",
+        "Ar": "مشاركات انستغرام"
+    },
+    {
+        "En": "In Stock",
+        "Ar": "متوفر بالمخزن"
+    },
+    {
+        "En": "Insurance",
+        "Ar": "التأمين"
+    },
+    {
+        "En": "Enter avenue / jaddah",
+        "Ar": "أدخل الجاده"
+    },
+    {
+        "En": "Invalid BuildingNumber",
+        "Ar": "رقم المبنى غير صحيح"
+    },
+    {
+        "En": "InvalidCustomer",
+        "Ar": "المستخدم غير صالح"
+    },
+    {
+        "En": "Invalid file or file is not in readable",
+        "Ar": "عدم صلاحية الملف او الملف غير مقروء"
+    },
+    {
+        "En": "Invalid File Type",
+        "Ar": "نوع الملف غير صالح"
+    },
+    {
+        "En": "Invalid FlatNumber",
+        "Ar": "رقم الشقة غير صالح"
+    },
+    {
+        "En": "Invalid FloorNumber",
+        "Ar": "رقم الطابق غير صحيح"
+    },
+    {
+        "En": "Enter House / Villa No.",
+        "Ar": "أدخل رقم البيت او الفيلا"
+    },
+    {
+        "En": "Invalid Login",
+        "Ar": "تسجيل الدخول غير صالح"
+    },
+    {
+        "En": "Invalid login details",
+        "Ar": "تفاصيل تسجيل الدخول غير صالحة"
+    },
+    {
+        "En": "Enter Valid Mobile",
+        "Ar": "الرجاء إدخال رقم صالح"
+    },
+    {
+        "En": "Invalid OTP",
+        "Ar": "OTP غير صحيح"
+    },
+    {
+        "En": "Invalid OTP Code",
+        "Ar": "الرمز غير صحيح OTP"
+    },
+    {
+        "En": "Invalid Payment Mode",
+        "Ar": "وضع الدفع غير صالح"
+    },
+    {
+        "En": "Invalid URL",
+        "Ar": "Invalid URL"
+    },
+    {
+        "En": "is Out of Stock",
+        "Ar": "غير متوفرة"
+    },
+    {
+        "En": "Item",
+        "Ar": "الصنف"
+    },
+    {
+        "En": "Items",
+        "Ar": "الأصناف"
+    },
+    {
+        "En": "You can get your items cleaned or uncleaned as per your need",
+        "Ar": "يمكنك استلام منتجاتك منظفة او غير منظفة حسب حاجتك"
+    },
+    {
+        "En": "Fresh & Grilled items cannot be added to the shopping cart at the same time. If you switch the category, the selected items in the cart will be removed. Tap Yes to confirm",
+        "Ar": "لا يمكن إضافة أصناف طازجة ومشوية إلى عربة التسوق في نفس الوقت. إذا قمت بتبديل الفئة ، فسيتم إزالة الأصناف المختارة في عربة التسوق. للتأكيد اضغط نعم"
+    },
+    {
+        "En": "KD",
+        "Ar": "د.ك"
+    },
+    {
+        "En": "KNet",
+        "Ar": "كي-نت"
+    },
+    {
+        "En": "Know Us",
+        "Ar": "تواصل معانا"
+    },
+    {
+        "En": "Kuwait City"
+    },
+    {
+        "En": "KD",
+        "Ar": "د.ك."
+    },
+    {
+        "En": "KWD",
+        "Ar": "د.ك"
+    },
+    {
+        "En": "Landmark",
+        "Ar": "تعليمات إضافية"
+    },
+    {
+        "En": "عربى",
+        "Ar": "English"
+    },
+    {
+        "En": "عربي",
+        "Ar": "English"
+    },
+    {
+        "En": "Language",
+        "Ar": "اللغه"
+    },
+    {
+        "En": "Do you want to change language",
+        "Ar": "هل تريد تغيير اللغة"
+    },
+    {
+        "En": "Last Name",
+        "Ar": "اسم العائلة"
+    },
+    {
+        "En": "Last Name is required",
+        "Ar": "أدخل الاسم الأخير"
+    },
+    {
+        "En": "Limited quantities. See product detail for availability.",
+        "Ar": "كميه محدوده إنظر المحتوى للتأكد من المتوفر"
+    },
+    {
+        "En": "Loading...",
+        "Ar": "تنزيل..."
+    },
+    {
+        "En": "Loading",
+        "Ar": "تنزيل"
+    },
+    {
+        "En": "Loading…\\nPlease wait…",
+        "Ar": "تنزيل…"
+    },
+    {
+        "En": "Load More",
+        "Ar": "شاهد المزيد"
+    },
+    {
+        "En": "Location",
+        "Ar": "الموقع"
+    },
+    {
+        "En": "Locations",
+        "Ar": "مواقع الافرع"
+    },
+    {
+        "En": "Login",
+        "Ar": "دخول"
+    },
+    {
+        "En": "Login created success successfully",
+        "Ar": "تم إنشاء تسجيل الدخول بنجاح"
+    },
+    {
+        "En": "Login / Register",
+        "Ar": "تسجيل الدخول / التسجيل"
+    },
+    {
+        "En": "Login Required",
+        "Ar": "تسجيل الدخول مطلوب"
+    },
+    {
+        "En": "This action requires you to login first.",
+        "Ar": "هذا الإجراء يتطلب منك تسجيل الدخول أولاً."
+    },
+    {
+        "En": "Login to your Account",
+        "Ar": "تسجيل الدخول"
+    },
+    {
+        "En": "Logout",
+        "Ar": "الخروج"
+    },
+    {
+        "En": "Are you sure you want to logout?",
+        "Ar": "هل أنت متأكد أنك تريد تسجيل الخروج؟"
+    },
+    {
+        "En": "Are you sure you want yo logout?",
+        "Ar": "هل أنت متأكد أنك تريد تسجيل الخروج؟"
+    },
+    {
+        "En": "Main Menu",
+        "Ar": "القائمة الرئيسية"
+    },
+    {
+        "En": "Make Payment",
+        "Ar": "ادفع"
+    },
+    {
+        "En": "Male",
+        "Ar": "Male"
+    },
+    {
+        "En": "Manage Address Book",
+        "Ar": "ضبط القائمة العناوين"
+    },
+    {
+        "En": "Map",
+        "Ar": "الخريطة"
+    },
+    {
+        "En": "Map Url",
+        "Ar": "Map Url1"
+    },
+    {
+        "En": "Map Url App",
+        "Ar": "Map Url App1"
+    },
+    {
+        "En": "Map View",
+        "Ar": "عرض الخريطة"
+    },
+    {
+        "En": "Terms & Conditions",
+        "Ar": "الشروط والأحكام"
+    },
+    {
+        "En": "Master Card",
+        "Ar": "بطاقة ماستر"
+    },
+    {
+        "En": "Master / VISA",
+        "Ar": "Master / VISA"
+    },
+    {
+        "En": "Menu",
+        "Ar": "القائمة"
+    },
+    {
+        "En": "Message",
+        "Ar": "رسالة"
+    },
+    {
+        "En": "Please enter description",
+        "Ar": "الرجاء إدخال الوصف"
+    },
+    {
+        "En": "Please enter message",
+        "Ar": "الرجاء إدخال الرسالة"
+    },
+    {
+        "En": "MIN",
+        "Ar": "بالدقائق"
+    },
+    {
+        "En": "Minimum Amount is 0.250 KD",
+        "Ar": "الحد الأدنى للمبلغ 0.250 د.ك."
+    },
+    {
+        "En": "Minimum Order Amount for Delivery is 10 KWD",
+        "Ar": "المبلغ الأدنى للطلب هو 10 دينار كويتي"
+    },
+    {
+        "En": "Password must be not less than 6 character",
+        "Ar": "الرقم السري يجب ان يكون أكثر من 6 ارقام"
+    },
+    {
+        "En": "Mobile",
+        "Ar": "الهاتف النقال"
+    },
+    {
+        "En": "Mobile 1",
+        "Ar": "رقم الهاتف 1"
+    },
+    {
+        "En": "Mobile 2",
+        "Ar": "رقم الهاتف 2"
+    },
+    {
+        "En": "Mobile Number",
+        "Ar": "رقم الهاتف النقال"
+    },
+    {
+        "En": "+965 Mobile Number",
+        "Ar": "+965 رقم الهاتف"
+    },
+    {
+        "En": "Mobile number is required",
+        "Ar": "أدخل رقم الهاتف"
+    },
+    {
+        "En": "Please enter Mobile Number",
+        "Ar": "أدخل رقم النقال"
+    },
+    {
+        "En": "Mobile number should be 8 digits",
+        "Ar": "أدخل رقم الهاتف بشكل صحيح"
+    },
+    {
+        "En": "Your mobile number has been successfully updated!",
+        "Ar": "تم تحديث رقم هاتفك بنجاح!"
+    },
+    {
+        "En": "Mobile Number Update",
+        "Ar": "\"تحديث رقم هاتف \""
+    },
+    {
+        "En": "Mobile Number Updated Successfully",
+        "Ar": "تم تحديث رقم الهاتف بنجاح"
+    },
+    {
+        "En": "Your new mobile number has been successfully updated!",
+        "Ar": "تم تحديث رقم هاتفك بنجاح!"
+    },
+    {
+        "En": "More",
+        "Ar": "المزيد"
+    },
+    {
+        "En": "MUBARAK AL KABEER",
+        "Ar": ""
+    },
+    {
+        "En": "My Account",
+        "Ar": "حسابي"
+    },
+    {
+        "En": "My Account Menu",
+        "Ar": ""
+    },
+    {
+        "En": "My Address",
+        "Ar": "عنواني"
+    },
+    {
+        "En": "My Address Book",
+        "Ar": "عناويني"
+    },
+    {
+        "En": "Address",
+        "Ar": "عنواني"
+    },
+    {
+        "En": "My Bookings",
+        "Ar": "حجوزات"
+    },
+    {
+        "En": "My Favourites",
+        "Ar": "مفضلتي"
+    },
+    {
+        "En": "My Favorites",
+        "Ar": "مفضلتي"
+    },
+    {
+        "En": "My Favorites List",
+        "Ar": "قائمة المفضلتي"
+    },
+    {
+        "En": "My Favorites",
+        "Ar": "مفضلتي"
+    },
+    {
+        "En": "My Orders",
+        "Ar": "طلباتي"
+    },
+    {
+        "En": "My Profile",
+        "Ar": "حسابي"
+    },
+    {
+        "En": "My Ratings",
+        "Ar": "تقييماتي"
+    },
+    {
+        "En": "Name",
+        "Ar": "الاسم"
+    },
+    {
+        "En": "Name (A - Z)",
+        "Ar": "الاسم (أ - ي)"
+    },
+    {
+        "En": "Name (Z - A)",
+        "Ar": "الاسم (ي - أ)"
+    },
+    {
+        "En": "Name AR",
+        "Ar": "Name AR1"
+    },
+    {
+        "En": "Name Arabic",
+        "Ar": "Name Arabic1"
+    },
+    {
+        "En": "Name ( A - Z )",
+        "Ar": "الاسم (أ - ي)"
+    },
+    {
+        "En": "Name ( Z - A )",
+        "Ar": "الاسم (ي - أ)"
+    },
+    {
+        "En": "Name EN",
+        "Ar": "Name EN1"
+    },
+    {
+        "En": "Name is required",
+        "Ar": "أدخل الاسم"
+    },
+    {
+        "En": "Nearby",
+        "Ar": "بالقرب من"
+    },
+    {
+        "En": "Net Total",
+        "Ar": "الإجمالي"
+    },
+    {
+        "En": "New Address",
+        "Ar": "عنوان جديد"
+    },
+    {
+        "En": "New Arrivals",
+        "Ar": "وصلنا حديثا"
+    },
+    {
+        "En": "New Customer",
+        "Ar": "عميل جديد"
+    },
+    {
+        "En": "New Customer?",
+        "Ar": "عميل جديد؟"
+    },
+    {
+        "En": "By creating an account with <span class=\"color-secondary font-weight-bold\">Shalayhna</span>, you\r\r\n will be able to move\r\r\n through the\r\r\n checkout process faster, view and track your bookings in your account\r\r\n and much\r\r\n more.",
+        "Ar": "من خلال إنشاء حساب مع <span class = \"color-Secondary font-weight-bold\" \"> شاليهنا </span> ، ستتمكن من التنقل خلال عملية الدفع بشكل أسرع وعرض وتتبع حجوزاتك في حسابك و أكثر بكثير.\""
+    },
+    {
+        "En": "Your new mobile number cannot be same as your current mobile number",
+        "Ar": "لا يمكن أن يكون رقم هاتفك النقال الجديد هو نفسه رقم هاتفك النقال الحالي"
+    },
+    {
+        "En": "New Password",
+        "Ar": "كلمة المرور الجديد"
+    },
+    {
+        "En": "Enter New Password",
+        "Ar": "أدخل الرقم السري الجديد"
+    },
+    {
+        "En": "Newsletter",
+        "Ar": "نشرة الإخبارية"
+    },
+    {
+        "En": "Next",
+        "Ar": "التالي"
+    },
+    {
+        "En": "No",
+        "Ar": "لا"
+    },
+    {
+        "En": "Don\\'t have an account?",
+        "Ar": "ليس لديك حساب؟"
+    },
+    {
+        "En": "No Bookings Found",
+        "Ar": "لم يتم العثور على حجوزات"
+    },
+    {
+        "En": "No items in Favourite",
+        "Ar": "لا توجد عناصر في المفضلة"
+    },
+    {
+        "En": "No Items",
+        "Ar": "لا يوجد منتجات"
+    },
+    {
+        "En": "No Items Found",
+        "Ar": "لم يتم العثور على محتوى"
+    },
+    {
+        "En": "You have currently no items in your basket",
+        "Ar": "ليس لديك حاليا منتجات في سلتك"
+    },
+    {
+        "En": "You do not have any items in your wishlist",
+        "Ar": "ليس لديك منتجات في قائمة المفضلات"
+    },
+    {
+        "En": "No Network.. \\nPlease try Again",
+        "Ar": "\"لا يوجد شبكة ..\\n الرجاء المحاولة مرة أخرى \""
+    },
+    {
+        "En": "No Notification",
+        "Ar": "لا يوجد تنبيه"
+    },
+    {
+        "En": "No Orders",
+        "Ar": "لا يوجد طلبات"
+    },
+    {
+        "En": "No Payments",
+        "Ar": "لا يوجد دفعات"
+    },
+    {
+        "En": "No Products Available!",
+        "Ar": "لا يوجد منتجات متاحة!"
+    },
+    {
+        "En": "No Results",
+        "Ar": "لم يتم العثور على محتوى"
+    },
+    {
+        "En": "No slots available on this day",
+        "Ar": "لا يوجد موعد متاحة في اليوم المحدد"
+    },
+    {
+        "En": "NOT CAPTURED",
+        "Ar": "NOT CAPTURED1"
+    },
+    {
+        "En": "Notes",
+        "Ar": "ملاحظات"
+    },
+    {
+        "En": "Notes (Optional)",
+        "Ar": "ملاحظات (اختياري)"
+    },
+    {
+        "En": "Notes (optional)",
+        "Ar": "ملاحظات"
+    },
+    {
+        "En": "Notice!",
+        "Ar": "انتبه"
+    },
+    {
+        "En": "Notification",
+        "Ar": "إشعارات"
+    },
+    {
+        "En": "Notifications",
+        "Ar": "التنبيهات"
+    },
+    {
+        "En": "Notify Me",
+        "Ar": "اعلمني"
+    },
+    {
+        "En": "Number already exists",
+        "Ar": "رقم الهاتف النقال موجود بالفعل"
+    },
+    {
+        "En": "%2d"
+    },
+    {
+        "En": "",
+        "Ar": "خصم"
+    },
+    {
+        "En": "OFF",
+        "Ar": "إغلاق"
+    },
+    {
+        "En": "of Twaaq",
+        "Ar": "من تواق"
+    },
+    {
+        "En": "OK",
+        "Ar": "حسنا"
+    },
+    {
+        "En": "Ok",
+        "Ar": "موافق"
+    },
+    {
+        "En": "Old Password",
+        "Ar": "كلمة المرور قديمة"
+    },
+    {
+        "En": "Online Payment",
+        "Ar": "الدفع الالكتروني"
+    },
+    {
+        "En": "Debit & Credit cards accepted",
+        "Ar": "يتم قبول بطاقات الخصم والائتمان"
+    },
+    {
+        "En": "Opening Time",
+        "Ar": "Opening Time1"
+    },
+    {
+        "En": "Optional",
+        "Ar": "اختياري"
+    },
+    {
+        "En": "Or",
+        "Ar": "أو"
+    },
+    {
+        "En": "Order",
+        "Ar": "الطلب"
+    },
+    {
+        "En": "Order Amount",
+        "Ar": "قيمة الطلب"
+    },
+    {
+        "En": "Order Confirmation",
+        "Ar": "تأكيد الطلب"
+    },
+    {
+        "En": "Order Date",
+        "Ar": "تاريخ الطلب"
+    },
+    {
+        "En": "Order Detail",
+        "Ar": "تفاصيل الطلب"
+    },
+    {
+        "En": "Order Details",
+        "Ar": "تفاصيل الطلب"
+    },
+    {
+        "En": "The details of the order have been sent to the Email & Mobile Number provided by you",
+        "Ar": "تفاصيل الطلب الذي قمت به تم إرساله الى البريد الإلكتروني و النقال المتوفر"
+    },
+    {
+        "En": "The order details have been sent to your Mobile Number",
+        "Ar": "تم إرسال تفاصيل الطلب إلى رقم هاتفك"
+    },
+    {
+        "En": "The order details have been sent to your Mobile Number",
+        "Ar": "تم إرسال تفاصيل الطلب إلى رقم هاتفك"
+    },
+    {
+        "En": "Declined Payment",
+        "Ar": "تم رفض عملية دفعتك"
+    },
+    {
+        "En": "Order ID",
+        "Ar": "رقم الطلب"
+    },
+    {
+        "En": "Order Number",
+        "Ar": "رقم الطلب"
+    },
+    {
+        "En": "Order Processing Failed",
+        "Ar": "فشل عملية الطلب"
+    },
+    {
+        "En": "Order Receipt",
+        "Ar": "إيصال الطلب"
+    },
+    {
+        "En": "Orders List",
+        "Ar": "قائمة الطلبات"
+    },
+    {
+        "En": "Order Status",
+        "Ar": "حالة الطلب"
+    },
+    {
+        "En": "Order Successful",
+        "Ar": "تم الطلب بنجاح"
+    },
+    {
+        "En": "Order Successfull!!",
+        "Ar": "م الطلب بنجاح!"
+    },
+    {
+        "En": "Order Summary",
+        "Ar": "تفاصيل الطلب"
+    },
+    {
+        "En": "Order Type",
+        "Ar": "طريقة إستلام طلبك"
+    },
+    {
+        "En": "OTP",
+        "Ar": "رمز تعريفي"
+    },
+    {
+        "En": "Please enter OTP",
+        "Ar": "أدخل الرقم التعريفي OTP"
+    },
+    {
+        "En": "If you did’t receive a code",
+        "Ar": "لم يصلك أي رمز بعد؟"
+    },
+    {
+        "En": "OTP Code",
+        "Ar": "رمز التحقق"
+    },
+    {
+        "En": "We sent OTP code to verify your number",
+        "Ar": "قم بإدخال الرمز الذي تم إرساله لهاتفك النقال والمكون من 4 أرقام"
+    },
+    {
+        "En": "OTP code has been sent to your mobile",
+        "Ar": "تم إرسال رمز التحقق OTP الى رقم الهاتفك"
+    },
+    {
+        "En": "Enter OTP Code",
+        "Ar": "أدخل الرقم التعريفي OTP"
+    },
+    {
+        "En": "The OTP has been sent to",
+        "Ar": "\"تم إرسال رمز التحقق OTP إلى   \""
+    },
+    {
+        "En": "OTP Verification",
+        "Ar": "رمز التحقق OTP"
+    },
+    {
+        "En": "OTP Verified Successfully",
+        "Ar": "تم قبول رمز التحقق OTP بنجاح"
+    },
+    {
+        "En": "Our Apps",
+        "Ar": "تطبيقاتنا"
+    },
+    {
+        "En": "Our Collections",
+        "Ar": "منتجاتنا"
+    },
+    {
+        "En": "Our Locations",
+        "Ar": "فروعنا"
+    },
+    {
+        "En": "Our Products",
+        "Ar": "منتجاتنا"
+    },
+    {
+        "En": "Entertain",
+        "Ar": "ترفيهي"
+    },
+    {
+        "En": "Our Stores",
+        "Ar": "فروعنا"
+    },
+    {
+        "En": "Our Products",
+        "Ar": "منتجاتنا"
+    },
+    {
+        "En": "Out of Stock",
+        "Ar": "غير متوفر بالمخزن"
+    },
+    {
+        "En": "Owner Name is required",
+        "Ar": "اسم المالك مطلوب"
+    },
+    {
+        "En": "Owner\\'s Name",
+        "Ar": "اسم مالك العقار"
+    },
+    {
+        "En": "Package",
+        "Ar": "الباقة"
+    },
+    {
+        "En": "Check In - Check Out",
+        "Ar": "تاريخ الوصول – تاريخ المغادرة"
+    },
+    {
+        "En": "Package - %s",
+        "Ar": "الباقا %s"
+    },
+    {
+        "En": "Parsing failed",
+        "Ar": "Parsing failed"
+    },
+    {
+        "En": "Password",
+        "Ar": "كلمة المرور"
+    },
+    {
+        "En": "Password Mismatch",
+        "Ar": "خطأ في إدخال الرقم السري"
+    },
+    {
+        "En": "Password updation failed",
+        "Ar": "فشل تحديث كلمة المرور"
+    },
+    {
+        "En": "Password is required",
+        "Ar": "كلمة المرور مطلوبة"
+    },
+    {
+        "En": "Password should not contain less 6 character",
+        "Ar": "الرقم السري يجب ان يكون أكثر من 6 ارقام"
+    },
+    {
+        "En": "Password Mismatch",
+        "Ar": "خطأ في إدخال الرقم السري"
+    },
+    {
+        "En": "Enter your password",
+        "Ar": "أدخل الرقم السري"
+    },
+    {
+        "En": "Password should contain 8 letters",
+        "Ar": "كلمة المرور يجب أن تحتوي على 8 أحرف"
+    },
+    {
+        "En": "Password and Confirm Password Should Match",
+        "Ar": "خطأ في إدخال الرقم السري"
+    },
+    {
+        "En": "Password updated successfully",
+        "Ar": "تم تحديث كلمة المرور بنجاح"
+    },
+    {
+        "En": "Payment",
+        "Ar": "الدفع"
+    },
+    {
+        "En": "Payment amount",
+        "Ar": "مبلغ الدفع"
+    },
+    {
+        "En": "Payment Auth Code",
+        "Ar": "رمز الدفع"
+    },
+    {
+        "En": "Payment Authorization Code",
+        "Ar": "رمز تفويض الدفع"
+    },
+    {
+        "En": "Payment Cancelled",
+        "Ar": "تم الغاء عملية دفعتك"
+    },
+    {
+        "En": "Payment Cancelled",
+        "Ar": "تم الغاء عملية الدفع"
+    },
+    {
+        "En": "PAYMENT DECLINED",
+        "Ar": "تم رفض الدفع"
+    },
+    {
+        "En": "Payment Detail",
+        "Ar": "تفاصيل الدفع"
+    },
+    {
+        "En": "Payment Details",
+        "Ar": "تفاصيل الدفع"
+    },
+    {
+        "En": "Payment Error",
+        "Ar": "خطأ في الدفع"
+    },
+    {
+        "En": "Payment Failed",
+        "Ar": "عملية الدفع فشلت"
+    },
+    {
+        "En": "Payment History",
+        "Ar": "سجل الدفع"
+    },
+    {
+        "En": "Payment ID",
+        "Ar": "رقم الدفع"
+    },
+    {
+        "En": "Payment Method",
+        "Ar": "طريقة الدفع"
+    },
+    {
+        "En": "Payment Options",
+        "Ar": "خيارات الدفع"
+    },
+    {
+        "En": "Payment Reference",
+        "Ar": "مرجع الدفع"
+    },
+    {
+        "En": "Payment Result",
+        "Ar": "نتيجة الدفع"
+    },
+    {
+        "En": "Payments Detail",
+        "Ar": "تفاصيل الدفع"
+    },
+    {
+        "En": "Payment Status",
+        "Ar": "حالة الدفع"
+    },
+    {
+        "En": "Payment Successful",
+        "Ar": "تم الدفع بنجاح"
+    },
+    {
+        "En": "Pay Now",
+        "Ar": "ادفع الآن"
+    },
+    {
+        "En": "Address",
+        "Ar": "عنوان"
+    },
+    {
+        "En": "Booking Charges",
+        "Ar": "سعر الحجز"
+    },
+    {
+        "En": "Booking Confirmation",
+        "Ar": "تأكيد الحجز"
+    },
+    {
+        "En": "Booking Expired",
+        "Ar": "Booking Expired"
+    },
+    {
+        "En": "Booking Reference ID",
+        "Ar": "رقم الحجز"
+    },
+    {
+        "En": "Check In",
+        "Ar": "تاريخ الدخول"
+    },
+    {
+        "En": "Check Out",
+        "Ar": "تاريخ الخروج"
+    },
+    {
+        "En": "Contact Number",
+        "Ar": "رقم الاتصال"
+    },
+    {
+        "En": "Customer Details",
+        "Ar": "تفاصيل الزبون"
+    },
+    {
+        "En": "Customer Email Address",
+        "Ar": "البريد الإلكتروني"
+    },
+    {
+        "En": "Customer Mobile",
+        "Ar": "جوالل"
+    },
+    {
+        "En": "Customer Name",
+        "Ar": "اسم"
+    },
+    {
+        "En": "Grand Total",
+        "Ar": "المجموع الإجمالي"
+    },
+    {
+        "En": "KWD",
+        "Ar": "د.ك"
+    },
+    {
+        "En": "Package",
+        "Ar": "الباقة"
+    },
+    {
+        "En": "Payment Details",
+        "Ar": "تفاصيل الدفع"
+    },
+    {
+        "En": "Payment Id",
+        "Ar": "معرف الدفع"
+    },
+    {
+        "En": "Payment Mode",
+        "Ar": "طريقة الدفع"
+    },
+    {
+        "En": "Payment Result",
+        "Ar": "نتيجة الدفع"
+    },
+    {
+        "En": "Reference Code",
+        "Ar": "مرجع الدفع"
+    },
+    {
+        "En": "Special Request",
+        "Ar": "طلب خاص"
+    },
+    {
+        "En": "This print version of your confirmation contains the most important\r\n information about your booking.It can be used to check in when you arrived.\r\n For further details please refer to your confirmation email sent to",
+        "Ar": "تحتوي هذه النسخة المطبوعة من التأكيد الخاص بك على أهمها\r\nمعلومات حول حجزك. يمكن استخدامه لتسجيل الوصول عند وصولك .\r\n لمزيد من التفاصيل ، يرجى الرجوع إلى البريد الإلكتروني للتأكيد المرسل إلى"
+    },
+    {
+        "En": "Phases",
+        "Ar": "عربي"
+    },
+    {
+        "En": "Phone",
+        "Ar": "الهاتف"
+    },
+    {
+        "En": "Enter Mobile",
+        "Ar": "أدخل رقم النقال"
+    },
+    {
+        "En": "Pick Up",
+        "Ar": "استلام"
+    },
+    {
+        "En": "Pick Up Address",
+        "Ar": "اختر العنوان الاستلام"
+    },
+    {
+        "En": "Pickup DATE",
+        "Ar": "تاريخ الاستلام"
+    },
+    {
+        "En": "Pick Up Date & Time",
+        "Ar": "\"تاريخ الاستلام  وقت الاستلام \""
+    },
+    {
+        "En": "From the branch close to you",
+        "Ar": "من أقرب فرع"
+    },
+    {
+        "En": "Pick Up From",
+        "Ar": "الاستلام من"
+    },
+    {
+        "En": "Pick Up Location",
+        "Ar": "موقع الاستلام"
+    },
+    {
+        "En": "Pickup Prep Time",
+        "Ar": "Pickup Prep Time1"
+    },
+    {
+        "En": "Pickup Prep Time Grilled",
+        "Ar": "Pickup Prep Time Grilled1"
+    },
+    {
+        "En": "Pickup Service",
+        "Ar": "خدمة الاستلام"
+    },
+    {
+        "En": "Pickup Store",
+        "Ar": "فرع الإستلام"
+    },
+    {
+        "En": "Pickup Time",
+        "Ar": "Pickup Time1"
+    },
+    {
+        "En": "Please, select preferred pick up day and time period",
+        "Ar": "من فضلك ، اختر اليوم والموعد المفضل للاستلام"
+    },
+    {
+        "En": "Grilled items are only available in Mubarak Al Kabeer branch",
+        "Ar": "الأصناف المشوية متوفرة في فرع مبارك الكبير فقط"
+    },
+    {
+        "En": "PIN Code",
+        "Ar": "رمزال PIN"
+    },
+    {
+        "En": "Proceed to Checkout",
+        "Ar": "تأكيد الطلب"
+    },
+    {
+        "En": "Please accept our cancellation policy",
+        "Ar": "الرجاء قبول سياسة الإلغاء الخاصة بنا"
+    },
+    {
+        "En": "Please accept Terms and Conditions",
+        "Ar": "الرجار الموافقه على الشروط و الأحكام"
+    },
+    {
+        "En": "Please accept Terms and Conditions",
+        "Ar": "الرجار الموافقه على الشروط و الأحكام"
+    },
+    {
+        "En": "Please accept the terms & conditions",
+        "Ar": "الرجار الموافقه على الشروط و الأحكام"
+    },
+    {
+        "En": "Please accept the",
+        "Ar": "أوافق"
+    },
+    {
+        "En": "Please check I agree to the Terms & Conditions",
+        "Ar": "اختر أوافق على الشروط والأحكام"
+    },
+    {
+        "En": "Please check the Terms and Condition",
+        "Ar": "الرجاء الموافقه على الشروط و الأحكام"
+    },
+    {
+        "En": "Please Choose Dates",
+        "Ar": "الرجاء اختيار التواريخ"
+    },
+    {
+        "En": "Please choose option",
+        "Ar": "الرجاء إختيار خاصيه"
+    },
+    {
+        "En": "Please choose payment method",
+        "Ar": "إختار طريقة الدفع"
+    },
+    {
+        "En": "Please enter full name",
+        "Ar": "الرجاء إدخال الاسم الكامل."
+    },
+    {
+        "En": "Please Enter New Password",
+        "Ar": "الرجاء إدخال كلمة المرور الجديد"
+    },
+    {
+        "En": "Please enter OTP Code",
+        "Ar": "أدخل الرقم التعريفي OTP"
+    },
+    {
+        "En": "Please enter OTP code which has been sent to Mobile Number",
+        "Ar": "إدخل رمز التحقق OTP الذي تم إرساله إلى رقم هاتفك"
+    },
+    {
+        "En": "Email not valid",
+        "Ar": "البريد الإلكتروني غير صحيح"
+    },
+    {
+        "En": "Please enter your message",
+        "Ar": "الرجاء إدخال رسالتك"
+    },
+    {
+        "En": "Please enter your 8 digit mobile number",
+        "Ar": "\"الرجاء إدخال رقم الهاتفك المكون من 8 أرقام \""
+    },
+    {
+        "En": "Please Login",
+        "Ar": "عربي"
+    },
+    {
+        "En": "Please provide a valid Apartment Number.",
+        "Ar": "الرجاء إدخال رقم الشقة بشكل صحيح"
+    },
+    {
+        "En": "Please provide a valid Block.",
+        "Ar": "الرجاء إدخال القطعة بشكل صحيح"
+    },
+    {
+        "En": "Please provide a valid Floor Number.",
+        "Ar": "الرجاء إدخال الدور بشكل صحيح"
+    },
+    {
+        "En": "Please provide a valid House Number.",
+        "Ar": "الرجاء إدخال رقم المبنى بشكل صحيح"
+    },
+    {
+        "En": "Please provide a valid Mobile Number.",
+        "Ar": "الرجاء إدخال رقم الهاتف بشكل صحيح"
+    },
+    {
+        "En": "Please provide a valid Street.",
+        "Ar": "الرجاء إدخال الشارع بشكل صحيح"
+    },
+    {
+        "En": "Please Select Area First",
+        "Ar": "الرجاء تحديد المنطقة"
+    },
+    {
+        "En": "Please select area and proceed",
+        "Ar": "اختر المنطقة للمتابعة المزيد"
+    },
+    {
+        "En": "Please select a country code to register",
+        "Ar": "اختر رمز البلد للتسجيل"
+    },
+    {
+        "En": "Please select package first",
+        "Ar": "الرجاء اختيار الباقا أولاً"
+    },
+    {
+        "En": "Please wait while downloading.."
+    },
+    {
+        "En": "Policies",
+        "Ar": "سياسات"
+    },
+    {
+        "En": "Postal Code",
+        "Ar": "رمز بريدي"
+    },
+    {
+        "En": "Powered By",
+        "Ar": "مشغل بواسطة"
+    },
+    {
+        "En": "Previous",
+        "Ar": "سابق"
+    },
+    {
+        "En": "Price",
+        "Ar": "السعر"
+    },
+    {
+        "En": "Price (High &gt; Low)",
+        "Ar": "السعر (من الاعلى إلى الادنى)"
+    },
+    {
+        "En": "Price (Low &gt; High)",
+        "Ar": "السعر (من الادنى إلى الاعلى)"
+    },
+    {
+        "En": "KWD %s",
+        "Ar": "د.ك %s"
+    },
+    {
+        "En": "Price (High to Low)",
+        "Ar": "سعر (من الأعلى إلى الأقل)"
+    },
+    {
+        "En": "Price (Low to High)",
+        "Ar": "سعر (من الأقل إلى الأعلى)"
+    },
+    {
+        "En": "Price Range",
+        "Ar": "نطاق السعر"
+    },
+    {
+        "En": "KWD %s",
+        "Ar": "د.ك %s"
+    },
+    {
+        "En": "Price: %s",
+        "Ar": "السعر: %s"
+    },
+    {
+        "En": "Print",
+        "Ar": "اطبع"
+    },
+    {
+        "En": "Print Booking",
+        "Ar": "طباعة الحجز"
+    },
+    {
+        "En": "Print Receipt",
+        "Ar": "اطبع الايصال"
+    },
+    {
+        "En": "Privacy Policy",
+        "Ar": "سياسة الخصوصية"
+    },
+    {
+        "En": "Proceed",
+        "Ar": "تقدم"
+    },
+    {
+        "En": "Proceed to Booking",
+        "Ar": "انتقل إلى الحجز"
+    },
+    {
+        "En": "Proceed to Checkout",
+        "Ar": "انتقل إلى الدفع"
+    },
+    {
+        "En": "Proceed to Payment",
+        "Ar": "الشروع في دفع"
+    },
+    {
+        "En": "Processing"
+    },
+    {
+        "En": "Product Addition",
+        "Ar": "تم إضافة المنتج إلى عربة التسوق"
+    },
+    {
+        "En": "Product Categories",
+        "Ar": "قائمة المنتجات"
+    },
+    {
+        "En": "Product Details",
+        "Ar": "تفاصيل المنتج"
+    },
+    {
+        "En": "Product List",
+        "Ar": "قائمة المنتجات"
+    },
+    {
+        "En": "Product Name",
+        "Ar": "اسم المنتج"
+    },
+    {
+        "En": "Products",
+        "Ar": "منتجات"
+    },
+    {
+        "En": "Products is not available",
+        "Ar": "المنتجات غير متوفرة"
+    },
+    {
+        "En": "Products",
+        "Ar": "منتجات"
+    },
+    {
+        "En": "Product Type",
+        "Ar": "نوع المنتج"
+    },
+    {
+        "En": "Product Types",
+        "Ar": "Product Types1"
+    },
+    {
+        "En": "Profile",
+        "Ar": "الملف الشخصي"
+    },
+    {
+        "En": "Profile Menu",
+        "Ar": "قائمة حسابي"
+    },
+    {
+        "En": "Your profile has been successfully updated!",
+        "Ar": "تم تحديث ملفك الشخصي بنجاح!"
+    },
+    {
+        "En": "ProfileUpdated",
+        "Ar": "تم تحديث بيانات حسابك بنجاح"
+    },
+    {
+        "En": "Your profile has been succesfully updated!",
+        "Ar": "تم تحديث ملفك الشخصي بنجاح!"
+    },
+    {
+        "En": "Profile Updated Successfully",
+        "Ar": "تم تحديث بيانات حسابك بنجاح"
+    },
+    {
+        "En": "Promotion Code",
+        "Ar": "رمز الخصم"
+    },
+    {
+        "En": "Email",
+        "Ar": "البريد الإلكتروني"
+    },
+    {
+        "En": "Password",
+        "Ar": "كلمة المرور"
+    },
+    {
+        "En": "Properties for Rent",
+        "Ar": "عقارات للإيجار"
+    },
+    {
+        "En": "Properties for Sale",
+        "Ar": "عقارات للبيع"
+    },
+    {
+        "En": "Property Detail",
+        "Ar": "تفاصيل الشاليه"
+    },
+    {
+        "En": "Property Name",
+        "Ar": "اسم الشاليه"
+    },
+    {
+        "En": "Property Type",
+        "Ar": "نوع الشاليه"
+    },
+    {
+        "En": "Purchase History",
+        "Ar": "سجل الشراء"
+    },
+    {
+        "En": "Are you sure you want to delete?",
+        "Ar": "تأكيد الإلغاء؟"
+    },
+    {
+        "En": "Qty",
+        "Ar": "كمية"
+    },
+    {
+        "En": "Quantity",
+        "Ar": "كمية"
+    },
+    {
+        "En": "Quantity: %s",
+        "Ar": "الكمية: %s"
+    },
+    {
+        "En": "Quantity should be greater than zero",
+        "Ar": "الرجاء ادخل الكمية أكثر من الصفر"
+    },
+    {
+        "En": "Quantity: %s",
+        "Ar": "الكمية: %s"
+    },
+    {
+        "En": "Quick Links",
+        "Ar": "الروابط المهمة"
+    },
+    {
+        "En": "Quick Pay",
+        "Ar": "الدفع السريع"
+    },
+    {
+        "En": "Quick Pay Confirmation",
+        "Ar": "تأكيد الدفع السريع"
+    },
+    {
+        "En": "QuickPay Confirmation Message",
+        "Ar": "رسالة تأكيد الدفع السريع"
+    },
+    {
+        "En": "QuickPay Confirmation Title",
+        "Ar": "عنوان تأكيد الدفع السريع"
+    },
+    {
+        "En": "Quick Pay ID",
+        "Ar": "رقم الدفع السريع"
+    },
+    {
+        "En": "Quick Pay Service",
+        "Ar": "خدمة الدفع السريع"
+    },
+    {
+        "En": "With quickpay service you can pay for customizations after order placement",
+        "Ar": "مع خدمة الدفع السريع ، يمكنك الدفع مقابل خدمة او تعديل بعد تقديم الطلب"
+    },
+    {
+        "En": "Random",
+        "Ar": "عشوائي"
+    },
+    {
+        "En": "Rating",
+        "Ar": "التقييمات"
+    },
+    {
+        "En": "Ratings",
+        "Ar": "التقييمات"
+    },
+    {
+        "En": "%s Ratings",
+        "Ar": "%s التقييمات"
+    },
+    {
+        "En": "Recently Viewed",
+        "Ar": "الأبحاث الأخيرة"
+    },
+    {
+        "En": "Recommendations",
+        "Ar": "اقتراحات مفضلة"
+    },
+    {
+        "En": "%s Recommendations",
+        "Ar": "%s اقتراحات مفضلة"
+    },
+    {
+        "En": "You will be redirected to the homepage shortly!",
+        "Ar": "سيتم إعادة توجيهك إلى الصفحة الرئيسية قريبًا!"
+    },
+    {
+        "En": "Reference ID",
+        "Ar": "رقم المرجع"
+    },
+    {
+        "En": "Referenece ID",
+        "Ar": "رقم المرجع"
+    },
+    {
+        "En": "Register",
+        "Ar": "تسجيل"
+    },
+    {
+        "En": "Register Property",
+        "Ar": "ادارة عقار"
+    },
+    {
+        "En": "Remember me",
+        "Ar": "تذكرني"
+    },
+    {
+        "En": "Remove",
+        "Ar": "إزالة"
+    },
+    {
+        "En": "Are you sure you want to remove the product from your basket",
+        "Ar": "هل أنت متأكد أنك تريد إزالة المنتج من سلتك؟"
+    },
+    {
+        "En": "The property has been removed from your favorite list successfully.",
+        "Ar": "إزالتها من مفضلتي"
+    },
+    {
+        "En": "Remove From Your Favorite List",
+        "Ar": "إزالة من قائمة المفضلتك"
+    },
+    {
+        "En": "Are you sure want to remove this Product from favorites?",
+        "Ar": "هل أنت متأكد إزالة هذا المنتج من قائمة المفضلتك؟"
+    },
+    {
+        "En": "Remove From Basket",
+        "Ar": "ازالة من السلة"
+    },
+    {
+        "En": "Remove Greeting",
+        "Ar": "إزالة بطاقة التهنئة"
+    },
+    {
+        "En": "Do you want us not to notify you when we add new product(s).",
+        "Ar": "هل تريد أن يتم إعلامك عند إضافة منتج (منتجات) جديدة."
+    },
+    {
+        "En": "Rent",
+        "Ar": "تأجير"
+    },
+    {
+        "En": "Rent Amount",
+        "Ar": "مبلغ الإيجار"
+    },
+    {
+        "En": "Rent / Sale",
+        "Ar": "تأجير / البيع"
+    },
+    {
+        "En": "Request is not Valid",
+        "Ar": "الطلب غير صالح"
+    },
+    {
+        "En": "Request New Password",
+        "Ar": "طلب كلمة مرور جديدة"
+    },
+    {
+        "En": "Resend",
+        "Ar": "اعادة ارسال"
+    },
+    {
+        "En": "Resend Code",
+        "Ar": "إعادة إرسال رمز التحقق OTP"
+    },
+    {
+        "En": "Resend OTP",
+        "Ar": "إعادة إرسال رمز التحقق OTP"
+    },
+    {
+        "En": "Result",
+        "Ar": "نتيجة"
+    },
+    {
+        "En": "Retry",
+        "Ar": "إعادة"
+    },
+    {
+        "En": "Returns & Refunds",
+        "Ar": "الإستبدال و الإسترجاع"
+    },
+    {
+        "En": "Return to Homepage",
+        "Ar": "العوده الى صفحة الرئيسية"
+    },
+    {
+        "En": "Re Type New Password",
+        "Ar": "أعد إدخال الرقم السري"
+    },
+    {
+        "En": "Retype Password",
+        "Ar": "إعادة كتابة الرقم السري"
+    },
+    {
+        "En": "Review Booking",
+        "Ar": "مراجعة الحجز"
+    },
+    {
+        "En": "Reviews",
+        "Ar": "التعليقات"
+    },
+    {
+        "En": "Review your Booking",
+        "Ar": "مراجعة الحجز الخاص بك"
+    },
+    {
+        "En": "Sale",
+        "Ar": "البيع"
+    },
+    {
+        "En": "Salwa",
+        "Ar": ""
+    },
+    {
+        "En": "Same Day Delivery",
+        "Ar": "التوصيل في نفس اليوم"
+    },
+    {
+        "En": "We offer same day delivery if ordered between 8:00 am to 8:00 pm",
+        "Ar": "نقدم خدمة التوصيل في نفس اليوم إذا تم الطلب بين الساعة 8:00 صباحًا وحتى 8:00 مساءً"
+    },
+    {
+        "En": "Save",
+        "Ar": "حفظ"
+    },
+    {
+        "En": "Save Address",
+        "Ar": "احفظ العنوان"
+    },
+    {
+        "En": "Save Details",
+        "Ar": "احفظ البيانات"
+    },
+    {
+        "En": "Save Mobile Number",
+        "Ar": "احفظ رقم الهاتف"
+    },
+    {
+        "En": "Save Profile",
+        "Ar": "احفظ الملف"
+    },
+    {
+        "En": "Search",
+        "Ar": "بحث"
+    },
+    {
+        "En": "Search By",
+        "Ar": "ابحث عن"
+    },
+    {
+        "En": "Search by Keyword",
+        "Ar": "ابحث حسب الفئة"
+    },
+    {
+        "En": "Search Product",
+        "Ar": "ابحث عن المنتج"
+    },
+    {
+        "En": "Search Result",
+        "Ar": "اظهر النتيجة"
+    },
+    {
+        "En": "Search results for",
+        "Ar": "نتائج البحث عن"
+    },
+    {
+        "En": "SEC",
+        "Ar": "بالثواني"
+    },
+    {
+        "En": "Select",
+        "Ar": "اختر"
+    },
+    {
+        "En": "Select a Country",
+        "Ar": "اختر دولة"
+    },
+    {
+        "En": "Please Select Your Area",
+        "Ar": "يرجى اختار منطقتك"
+    },
+    {
+        "En": "Select area for order delivery",
+        "Ar": "اختر المنطقه للتوصيل"
+    },
+    {
+        "En": "Select area for order delivery",
+        "Ar": "اختر المنطقه للتوصيل"
+    },
+    {
+        "En": "Select Branch",
+        "Ar": "إرسال"
+    },
+    {
+        "En": "Select branch for order pickup",
+        "Ar": "إختر الفرع لإستلام الطلب"
+    },
+    {
+        "En": "Select Country of Origin",
+        "Ar": "اختر بلد المنشأ"
+    },
+    {
+        "En": "You must select preferred delivery date / time to continue",
+        "Ar": "يرجى اختار تاريخ / موعد التوصيل للمتابعة"
+    },
+    {
+        "En": "Select Delivery Address",
+        "Ar": "اختر العنوان للتوصيل"
+    },
+    {
+        "En": "Please Select Your Governorate Area",
+        "Ar": "يرجى اختار المحافظة الخاصة بك"
+    },
+    {
+        "En": "Select Package",
+        "Ar": "حدد الباقا"
+    },
+    {
+        "En": "Select Payment Method",
+        "Ar": "إختار طريقة الدفع"
+    },
+    {
+        "En": "Select payment mode",
+        "Ar": "تخطى الحد الأقصى للملف"
+    },
+    {
+        "En": "Gallery",
+        "Ar": "حافظة الصور"
+    },
+    {
+        "En": "Select Service",
+        "Ar": "اختر الخدمة"
+    },
+    {
+        "En": "Select Service",
+        "Ar": "اختر الخدمة"
+    },
+    {
+        "En": "Select Shopping Area",
+        "Ar": "حدد منطقة التسوق"
+    },
+    {
+        "En": "Select Size",
+        "Ar": "اختر الحجم"
+    },
+    {
+        "En": "Select branch for order pickup",
+        "Ar": "إختر الفرع لإستلام الطلب"
+    },
+    {
+        "En": "Select Type",
+        "Ar": "اختر صنف"
+    },
+    {
+        "En": "Select Unit of Measurement",
+        "Ar": "اختر وحدة القياس"
+    },
+    {
+        "En": "Select Unit of Measurement",
+        "Ar": "اختر وحدة القياس"
+    },
+    {
+        "En": "Select wrapping",
+        "Ar": "حدد التغليف"
+    },
+    {
+        "En": "Send",
+        "Ar": "إرسال"
+    },
+    {
+        "En": "Send As Gift",
+        "Ar": "أرسل كهدية"
+    },
+    {
+        "En": "Send OTP",
+        "Ar": "أرسل رمز التحقق OTP"
+    },
+    {
+        "En": "Send us a Message!",
+        "Ar": "أرسل لنا رسالة!"
+    },
+    {
+        "En": "OTP code has been sent to your mobile number",
+        "Ar": "تم إرسال رمز التحقق OTP الى رقم هاتفك"
+    },
+    {
+        "En": "Service",
+        "Ar": "اختر الخدمة"
+    },
+    {
+        "En": "Service Charges",
+        "Ar": "رسوم الخدمات"
+    },
+    {
+        "En": "We clean flowers from thorns and impurities",
+        "Ar": "يتم ‏تنظيف الزهور من الشوك والشوائب على حسب الاختيار."
+    },
+    {
+        "En": "Services",
+        "Ar": "خدمات"
+    },
+    {
+        "En": "Share",
+        "Ar": "نشر"
+    },
+    {
+        "En": "Shipping Address",
+        "Ar": "عنوان الشحن"
+    },
+    {
+        "En": "Shipping Id not found",
+        "Ar": "لا يوجد هويه تعريفيه للإرسال"
+    },
+    {
+        "En": "Shop Our Products",
+        "Ar": "تسوق منتجاتنا"
+    },
+    {
+        "En": "Shop Now",
+        "Ar": "تسوق الآن"
+    },
+    {
+        "En": "Shopping Cart",
+        "Ar": "عربة التسوق"
+    },
+    {
+        "En": "Show Results",
+        "Ar": "اظهر النتيجة"
+    },
+    {
+        "En": "Sign In",
+        "Ar": "تسجيل الدخول"
+    },
+    {
+        "En": "Sign In / Sign Up",
+        "Ar": "تسجيل الدخول / تسجيل"
+    },
+    {
+        "En": "Sign In / Sign Up",
+        "Ar": "تسجيل الدخول / التسجيل"
+    },
+    {
+        "En": "Sign in to your account",
+        "Ar": "تسجيل الدخول إلى حسابك"
+    },
+    {
+        "En": "Sign Out",
+        "Ar": "الخروج"
+    },
+    {
+        "En": "Sign Up",
+        "Ar": "تسجيل"
+    },
+    {
+        "En": "Size",
+        "Ar": "اختر الحجم"
+    },
+    {
+        "En": "Skip",
+        "Ar": "تخطى"
+    },
+    {
+        "En": "Password should not contain less 6 character",
+        "Ar": "الرقم السري يجب ان يكون أكثر من 6 ارقام"
+    },
+    {
+        "En": "Not Available",
+        "Ar": "غير متوفر"
+    },
+    {
+        "En": "Something went wrong!!!",
+        "Ar": "خطأ في اتمام العمل!!!"
+    },
+    {
+        "En": "Sort by",
+        "Ar": "ترتيب حسب"
+    },
+    {
+        "En": "Sorting",
+        "Ar": "تصنيف"
+    },
+    {
+        "En": "Sorting By",
+        "Ar": "الفرز حسب"
+    },
+    {
+        "En": "Sort Order",
+        "Ar": "Sort Order1"
+    },
+    {
+        "En": "Special Offers",
+        "Ar": "عروض خاصه"
+    },
+    {
+        "En": "Special Request",
+        "Ar": "طلب خاص"
+    },
+    {
+        "En": "Specifications",
+        "Ar": "المواصفات"
+    },
+    {
+        "En": "Specifications",
+        "Ar": "المواصفات"
+    },
+    {
+        "En": "Rating (0 to 5)",
+        "Ar": "التقييمات (0 إلى 5)"
+    },
+    {
+        "En": "Rating (5 to 0)",
+        "Ar": "التقييمات (من 5 إلى 0)"
+    },
+    {
+        "En": "Start Shopping",
+        "Ar": "ابدأ التسوق"
+    },
+    {
+        "En": "State / Province",
+        "Ar": "الولاية / المقاطعة"
+    },
+    {
+        "En": "Status",
+        "Ar": "حالة"
+    },
+    {
+        "En": "Store",
+        "Ar": "فرع"
+    },
+    {
+        "En": "STORE DETAILS",
+        "Ar": "STORE DETAILS1"
+    },
+    {
+        "En": "Store Location",
+        "Ar": "فروعنا"
+    },
+    {
+        "En": "Stores",
+        "Ar": "Stores1"
+    },
+    {
+        "En": "Street",
+        "Ar": "الشارع"
+    },
+    {
+        "En": "Street *",
+        "Ar": "الشارع"
+    },
+    {
+        "En": "Street is required",
+        "Ar": "الرجاء إدخال رقم الشارع"
+    },
+    {
+        "En": "Enter street",
+        "Ar": "أدخل الشارع"
+    },
+    {
+        "En": "Enter street",
+        "Ar": "أدخل الشارع"
+    },
+    {
+        "En": "Subject",
+        "Ar": "موضوع"
+    },
+    {
+        "En": "Please enter subject",
+        "Ar": "الرجاء إدخال الموضوع"
+    },
+    {
+        "En": "Submit",
+        "Ar": "إرسال"
+    },
+    {
+        "En": "Submit Rating",
+        "Ar": "إرسال التقييم"
+    },
+    {
+        "En": "Submit Review",
+        "Ar": "إرسال المراجعة"
+    },
+    {
+        "En": "Subscribe",
+        "Ar": "اشتراك"
+    },
+    {
+        "En": "Sub Total",
+        "Ar": "إجمالي"
+    },
+    {
+        "En": "Sub-Total",
+        "Ar": "المجموع"
+    },
+    {
+        "En": "Success!",
+        "Ar": "النجاح"
+    },
+    {
+        "En": "Successful Payment!",
+        "Ar": "تم عملية الدفع بنجاح"
+    },
+    {
+        "En": "Successful Payment",
+        "Ar": "تم عملية الدفع بنجاح"
+    },
+    {
+        "En": "Summary",
+        "Ar": "ملخص"
+    },
+    {
+        "En": "Tel",
+        "Ar": "هاتف"
+    },
+    {
+        "En": "Terms & Conditions",
+        "Ar": "الشروط و الأحكام"
+    },
+    {
+        "En": "<u><p color=\\'red\\'>Terms and Conditions</p></u>",
+        "Ar": "<u><font color=\\'red\\'>الشروط و الأحكام</font></u>"
+    },
+    {
+        "En": "Terms and Conditions",
+        "Ar": "الشروط والأحكام"
+    },
+    {
+        "En": "Terms &\\nConditions",
+        "Ar": "الشروط و الأحكام"
+    },
+    {
+        "En": "Terms & Conditions",
+        "Ar": "الشروط و الأحكام"
+    },
+    {
+        "En": "Enter block",
+        "Ar": "أدخل القطعة"
+    },
+    {
+        "En": "The code expires in",
+        "Ar": "تنتهي صلاحية الرمز في"
+    },
+    {
+        "En": "The Email field is not a valid e-mail address.",
+        "Ar": "البريد الإلكتروني غير صحيح"
+    },
+    {
+        "En": "Time",
+        "Ar": "الوقت"
+    },
+    {
+        "En": "Timer",
+        "Ar": "عداد الوقت"
+    },
+    {
+        "En": "Select Country",
+        "Ar": "اختر بلد"
+    },
+    {
+        "En": "Cart",
+        "Ar": "العربة"
+    },
+    {
+        "En": "Change Password",
+        "Ar": "تغيير الرمز المرور"
+    },
+    {
+        "En": "Delivery Address",
+        "Ar": "عنوان التوصيل"
+    },
+    {
+        "En": "Edit Profile",
+        "Ar": "تعديل بيانات حسابك"
+    },
+    {
+        "En": "Filter",
+        "Ar": "اختر الفئة"
+    },
+    {
+        "En": "Home",
+        "Ar": "الرئيسيه"
+    },
+    {
+        "En": "More",
+        "Ar": "المزيد"
+    },
+    {
+        "En": "My Account",
+        "Ar": "حسابي"
+    },
+    {
+        "En": "My Orders",
+        "Ar": "طلبي"
+    },
+    {
+        "En": "Add New Address",
+        "Ar": "عنوان جديد"
+    },
+    {
+        "En": "Notifications",
+        "Ar": "الملاحظات - التنبيه"
+    },
+    {
+        "En": "Order Confirmation",
+        "Ar": "تأكيد الطلب"
+    },
+    {
+        "En": "Order Details",
+        "Ar": "تفصيل الطلب"
+    },
+    {
+        "En": "Payment Method",
+        "Ar": "طريقة الدفع"
+    },
+    {
+        "En": "Products",
+        "Ar": "الأصناف"
+    },
+    {
+        "En": "to",
+        "Ar": "to"
+    },
+    {
+        "En": "Today",
+        "Ar": "اليوم"
+    },
+    {
+        "En": "To *",
+        "Ar": "الى"
+    },
+    {
+        "En": "Tomorrow",
+        "Ar": "غدا"
+    },
+    {
+        "En": "Total",
+        "Ar": "مجموع"
+    },
+    {
+        "En": "Total Amount",
+        "Ar": "مبلغ الإجمالي"
+    },
+    {
+        "En": "Total Order Amount",
+        "Ar": "المبلغ الإجمالي للطلب"
+    },
+    {
+        "En": "Total Payment",
+        "Ar": "المبلغ الإجمالي"
+    },
+    {
+        "En": "Total Price",
+        "Ar": "اجمالي المبلغ"
+    },
+    {
+        "En": "Total",
+        "Ar": "المجموع"
+    },
+    {
+        "En": "To XYZ, \\nEnter your message here \\nFrom Twaaq",
+        "Ar": "إلى XYZ ، \\n أدخل رسالتك هنا \\n من تواق"
+    },
+    {
+        "En": "Track ID",
+        "Ar": "رقم المرجع"
+    },
+    {
+        "En": "Transaction Date",
+        "Ar": "تاريخ العملية"
+    },
+    {
+        "En": "Transaction ID",
+        "Ar": "رقم العملية"
+    },
+    {
+        "En": "Transaction Reference",
+        "Ar": "مرجع العملية"
+    },
+    {
+        "En": "Try Again",
+        "Ar": "\" الرجاء المحاولة مرة أخرى\""
+    },
+    {
+        "En": "Twaaq",
+        "Ar": "تواق"
+    },
+    {
+        "En": "Twaaq",
+        "Ar": "تواق"
+    },
+    {
+        "En": "Types",
+        "Ar": "نوع"
+    },
+    {
+        "En": "Types",
+        "Ar": "نوع"
+    },
+    {
+        "En": "We were unable to process your payment. If the problem persists, contact us to complete your order.",
+        "Ar": "لم نتمكن من معالجة دفعتك. إذا استمرت المشكلة ، اتصل بنا لإكمال طلبك."
+    },
+    {
+        "En": "UnAuthorized",
+        "Ar": "غير مصرح"
+    },
+    {
+        "En": "Unit Price",
+        "Ar": "سعر الوحدة"
+    },
+    {
+        "En": "UOM",
+        "Ar": "وحدة القياس"
+    },
+    {
+        "En": "Update",
+        "Ar": "تحديث"
+    },
+    {
+        "En": "Update Address",
+        "Ar": "\"تحديث العنوان \""
+    },
+    {
+        "En": "Update Mobile Number",
+        "Ar": "تحديث رقم الهاتف"
+    },
+    {
+        "En": "Update Password",
+        "Ar": "تطوير كلمة السر"
+    },
+    {
+        "En": "Enter Discount Code",
+        "Ar": "ادخل رمز الخصم"
+    },
+    {
+        "En": "User Already Exists",
+        "Ar": "المستخدم موجود اصلا"
+    },
+    {
+        "En": "Customer Details",
+        "Ar": "تفاصيل العميل"
+    },
+    {
+        "En": "User Name",
+        "Ar": "اسم االمستخدم"
+    },
+    {
+        "En": "Username is required",
+        "Ar": "إسم المستخدم مطلوب"
+    },
+    {
+        "En": "Verification",
+        "Ar": "تحقيق"
+    },
+    {
+        "En": "Verify",
+        "Ar": "تحقق"
+    },
+    {
+        "En": "Verify OTP",
+        "Ar": "تأكد من رمز التحقق OTP"
+    },
+    {
+        "En": "Verify Sign In / Sign Up",
+        "Ar": "تحقق رقم هاتفك"
+    },
+    {
+        "En": "View All",
+        "Ar": "عرض الجميع"
+    },
+    {
+        "En": "View Basket",
+        "Ar": "عرض سلة"
+    },
+    {
+        "En": "View Booking",
+        "Ar": "عرض الحجز"
+    },
+    {
+        "En": "View Cart",
+        "Ar": "عرض عربة التسوق"
+    },
+    {
+        "En": "View Details",
+        "Ar": "عرض التفاصيل"
+    },
+    {
+        "En": "Viewed",
+        "Ar": "مشاهدات"
+    },
+    {
+        "En": "View Order Details",
+        "Ar": "عرض تفاصيل الطلب"
+    },
+    {
+        "En": "Visa Card",
+        "Ar": "بطاقة فيزا"
+    },
+    {
+        "En": "Visa / Master Card",
+        "Ar": "فيزا  /  ماستركارد"
+    },
+    {
+        "En": "Ware House",
+        "Ar": "Ware House1"
+    },
+    {
+        "En": "Ware House Id",
+        "Ar": "Ware House Id1"
+    },
+    {
+        "En": "Welcome",
+        "Ar": "مرحبا بك"
+    },
+    {
+        "En": "Welcome SharedWelcome SharedWelcome SharedWelcome SharedWelcome SharedWelcome Shared",
+        "Ar": "Shared Shared Shared Shared"
+    },
+    {
+        "En": "Welcome to our online store!",
+        "Ar": "مرحبًا بكم في متجرنا الإلكتروني!"
+    },
+    {
+        "En": "Welcome to Twaaq Online Shopping Portal!",
+        "Ar": "مرحبًا بكم في موقع تواق للتسوق!"
+    },
+    {
+        "En": "We sent OTP code to verify your number",
+        "Ar": "تم إرسال رمز OTP للتحقق من رقم هاتفك"
+    },
+    {
+        "En": "What are you looking for?",
+        "Ar": "ابحث"
+    },
+    {
+        "En": "WhatsApp",
+        "Ar": "واتساب"
+    },
+    {
+        "En": "What are you looking for?",
+        "Ar": "عما تبحث؟"
+    },
+    {
+        "En": "You can select from a wide variety of gift wrapping options of your choice",
+        "Ar": "يمكنك الاختيار من بين مجموعة متنوعة من خيارات تغليف الهدايا من اختيارك"
+    },
+    {
+        "En": "Wishlist",
+        "Ar": "قائمة المفضلة"
+    },
+    {
+        "En": "We wrap flowers based on your choice of color.",
+        "Ar": "يتم تغليف الزهور على حسب الاختيار."
+    },
+    {
+        "En": "Wrapping",
+        "Ar": "التغليف"
+    },
+    {
+        "En": "We wrap flowers based on your choice of color",
+        "Ar": "يتم تغليف الزهور على حسب الاختيار."
+    },
+    {
+        "En": "Wrapping Services",
+        "Ar": "التغليف"
+    },
+    {
+        "En": "Write to us",
+        "Ar": "تواصل معنا"
+    },
+    {
+        "En": "Yes",
+        "Ar": "نعم"
+    },
+    {
+        "En": "You don\\'t have write access !",
+        "Ar": "You don\\'t have write access !"
+    },
+    {
+        "En": "You have currently no orders",
+        "Ar": "ليس لديك طلبات حاليا"
+    },
+    {
+        "En": "You have not done any payments yet",
+        "Ar": "ليس لديك دفعات حالياً"
+    },
+    {
+        "En": "You must choose your Area.",
+        "Ar": "اختر منطقتك."
+    },
+    {
+        "En": "You must choose your Governorate.",
+        "Ar": "اختر محافظتك."
+    },
+    {
+        "En": "You must enter address name.",
+        "Ar": "ادخل عنوانك."
+    },
+    {
+        "En": "You must enter amount.",
+        "Ar": "ادخل المبلغ."
+    },
+    {
+        "En": "You must enter contact number.",
+        "Ar": "ادخل رقم الهاتف."
+    },
+    {
+        "En": "You must enter email.",
+        "Ar": "ادخل البريد الإلكتروني."
+    },
+    {
+        "En": "You must enter message.",
+        "Ar": "إدخل الرسالة."
+    },
+    {
+        "En": "You must enter mobile number.",
+        "Ar": "إدخل رقم الهاتف."
+    },
+    {
+        "En": "Jaber Al-Ahmad for Young Researchers Prize 2023 nomination form",
+        "Ar": "طلب التقدم لجائزة جابر الأحمد للباحثين الشباب لعام 2023"
+       },
+       {
+        "En": "TEC Admin",
+        "Ar": "TEC Admin"
+       },
+       {
+        "En": "Loading",
+        "Ar": "Loading"
+       },
+       {
+        "En": "Language",
+        "Ar": "Language"
+       },
+       {
+        "En": "Personal Information",
+        "Ar": "معلومات شخصية"
+       },
+       {
+        "En": "Applicant Name",
+        "Ar": "اسم المتقدم"
+       },
+       {
+        "En": "Civil ID No.",
+        "Ar": "رقم البطاقة المدنية"
+       },
+       {
+        "En": "Gender",
+        "Ar": "جنس"
+       },
+       {
+        "En": "Date of Birth",
+        "Ar": "تاريخ الميلاد"
+       },
+       {
+        "En": "This course is for Kuwaiti Nationals only.",
+        "Ar": "هذه الدورة مخصصة للمواطنين الكويتيين فقط."
+       },
+       {
+        "En": "Nationality",
+        "Ar": "الجنسية"
+       },
+       {
+        "En": "Contact Details",
+        "Ar": "معلومات التواصل"
+       },
+       {
+        "En": "Mobile Number",
+        "Ar": "رقم التواصل (النقال)"
+       },
+       {
+        "En": "Email Address",
+        "Ar": "البريد الالكتروني"
+       },
+       {
+        "En": "Secondary Contact (Work)",
+        "Ar": "رقم التواصل (العمل)"
+       },
+       {
+        "En": "Please enter phone number of your Secondary Contact (Work)",
+        "Ar": "الرجاء إدخال رقم هاتف جهة الاتصال الثانوية (العمل)"
+       },
+       {
+        "En": "Enter phone number",
+        "Ar": "أدخل رقم الهاتف"
+       },
+       {
+        "En": "Background Data",
+        "Ar": "معلومات الخلفية"
+       },
+       {
+        "En": "Fields of the Prize",
+        "Ar": "مجال الجائزة"
+       },
+       {
+        "En": "Natural Sciences and Mathematics",
+        "Ar": "العلوم الطبيعية والرياضيات"
+       },
+       {
+        "En": "Engineering Sciences",
+        "Ar": "العلوم الهندسية"
+       },
+       {
+        "En": "Biological Sciences",
+        "Ar": "العلوم الحيوية"
+       },
+       {
+        "En": "Medical Sciences and Allied Health Sciences",
+        "Ar": "العلوم الطبية والطبية المساعدة"
+       },
+       {
+        "En": "Social Sciences and Humanities",
+        "Ar": "العلوم الاجتماعية والإنسانية"
+       },
+       {
+        "En": "Administration and Economics",
+        "Ar": "العلوم الإدارية والاقتصادية"
+       },
+       {
+        "En": "Please select your Fields of the Prize",
+        "Ar": "يرجى تحديد مجالات الجائزة الخاصة بك"
+       },
+       {
+        "En": "Type of Degree",
+        "Ar": "الرجاء تحديد شهادة التاهيل"
+       },
+       {
+        "En": "PHD",
+        "Ar": "شهادة الدكتوراه"
+       },
+       {
+        "En": "Board Certification",
+        "Ar": "شهادة الزمالة"
+       },
+       {
+        "En": "Both",
+        "Ar": "شهادة الدكتوراه و الزمالة"
+       },
+       {
+        "En": "PHD Attachment",
+        "Ar": "نسخه من شهادة الدكتوراه"
+       },
+       {
+        "En": "Please upload file",
+        "Ar": "يرجى تحميل الملف"
+       },
+       {
+        "En": "Equivalency of the PhD",
+        "Ar": "نسخة شهادة الدكتوراه"
+       },
+       {
+        "En": "From the Ministry of Higher Education (State of Kuwait), or the appointment decision for scholarship from governmental University",
+        "Ar": "اعتماد وزارة التعليم العالي لشهادة الدكتوراه . أو قرار التعيين للمبتعثين من قبل الجامعات الحكومية"
+       },
+       {
+        "En": "Board Certification Attachment",
+        "Ar": "نسخة شهادة الزمالة"
+       },
+       {
+        "En": "Equivalency of the Board Certification",
+        "Ar": "اعتماد وزارة التعليم العالي لشهادة الزمالة. أو قرار تعيين للمبتعثين من قبل الجامعات الحكومية"
+       },
+       {
+        "En": "Date of awarding the PhD degree of equivalence",
+        "Ar": "سنة الحصول على شهادة الدكتوراه"
+       },
+       {
+        "En": "Address",
+        "Ar": "العنوان"
+       },
+       {
+        "En": "Please add an Address",
+        "Ar": "يرجى إضافة عنوان"
+       },
+       {
+        "En": "Copy of Civil ID",
+        "Ar": "نسخة من البطاقة المدنية"
+       },
+       {
+        "En": "Copy of CV",
+        "Ar": "نسخة من السيرة الذاتية"
+       },
+       {
+        "En": "Academic Honors, Grants, and Awards (Prize Name - Grantor - Year)",
+        "Ar": "الجوائز ودرجات الشرف والمنح (مع ذكر المسمى والجهة المانحة والسنة)"
+       },
+       {
+        "En": "Please enter Academic Honors, Grants, and Awards (Prize Name - Grantor - Year)",
+        "Ar": "الرجاء إدخال الأوسمة الأكاديمية والمنح والجوائز (اسم الجائزة - الجهة المانحة - السنة)"
+       },
+       {
+        "En": "Please enter Research Published",
+        "Ar": "الرجاء إدخال الأبحاث المنشورة"
+       },
+       {
+        "En": "Qualifications (Bachelor - Master - PhD)",
+        "Ar": "المؤهلات العلمية (بكالوريوس، ماجستير، دكتوراه)"
+       },
+       {
+        "En": "BA\/BS Degree",
+        "Ar": "شهادة البكالوريوس"
+       },
+       {
+        "En": "BS\/BA Institution",
+        "Ar": "الجامعة"
+       },
+       {
+        "En": "Please enter your BS\/BA Institution",
+        "Ar": "Please enter your BS\/BA Institution"
+       },
+       {
+        "En": "BS\/BA Year",
+        "Ar": "السنة"
+       },
+       {
+        "En": "Please select your BS\/BA Year",
+        "Ar": "Please select your BS\/BA Year"
+       },
+       {
+        "En": "BS\/BA Field",
+        "Ar": "التخصص"
+       },
+       {
+        "En": "Please enter your BS\/BA Field",
+        "Ar": "Please enter your BS\/BA Field"
+       },
+       {
+        "En": "MS\/MA Degree",
+        "Ar": "شهادة الماجستير"
+       },
+       {
+        "En": "MS\/MA Institution",
+        "Ar": "الجامعة"
+       },
+       {
+        "En": "Please enter your MS\/MA Institution",
+        "Ar": "Please enter your MS\/MA Institution"
+       },
+       {
+        "En": "MS\/MA Year",
+        "Ar": "السنة"
+       },
+       {
+        "En": "Please select your MS\/MA Year",
+        "Ar": "Please select your MS\/MA Year"
+       },
+       {
+        "En": "MS\/MA Field",
+        "Ar": "التخصص"
+       },
+       {
+        "En": "Please enter your MS\/MA Field",
+        "Ar": "Please enter your MS\/MA Field"
+       },
+       {
+        "En": "PHD Degree \/ Board Certification",
+        "Ar": "شهادة الدكتوراه \/ الزمالة"
+       },
+       {
+        "En": "PHD Degree \/ Board Certification Institution",
+        "Ar": "الجامعة"
+       },
+       {
+        "En": "Please enter your PHD Degree \/ Board Certification Institution",
+        "Ar": "Please enter your PHD Degree \/ Board Certification Institution"
+       },
+       {
+        "En": "PHD Degree \/ Board Certification Field",
+        "Ar": "التخصص"
+       },
+       {
+        "En": "Please enter your PHD Degree \/ Board Certification Field",
+        "Ar": "Please enter your PHD Degree \/ Board Certification Field"
+       },
+       {
+        "En": "PHD Degree \/ Board Certification Year",
+        "Ar": "السنة"
+       },
+       {
+        "En": "Please select your PHD Degree \/ Board Certification Year",
+        "Ar": "Please select your PHD Degree \/ Board Certification Year"
+       },
+       {
+        "En": "Further Degrees",
+        "Ar": "أضافة المزيد"
+       },
+       {
+        "En": "PHD Degree \/ Board Certification Institution #2",
+        "Ar": "الجامعة #2"
+       },
+       {
+        "En": "PHD Degree \/ Board Certification Year #2",
+        "Ar": "السنة #2"
+       },
+       {
+        "En": "Please select your PHD Degree \/ Board Certification Year #2",
+        "Ar": "Please select your PHD Degree \/ Board Certification Year #2"
+       },
+       {
+        "En": "PHD Degree \/ Board Certification Field",
+        "Ar": "التخصص #2"
+       },
+       {
+        "En": "Please enter your PHD Degree \/ Board Certification Field",
+        "Ar": "Please enter your PHD Degree \/ Board Certification Field"
+       },
+       {
+        "En": "Academic and Administrative Experience Starting with Current Position",
+        "Ar": "الخبرة العلمية والعملية بدءً بالوظيفة الحالية (أكاديمية، إدارية، قطاعات أخرى)"
+       },
+       {
+        "En": "Job Title",
+        "Ar": "الوظيفة"
+       },
+       {
+        "En": "Please enter your Job Title",
+        "Ar": "Please enter your Job Title"
+       },
+       {
+        "En": "Institution \/ Organization Name",
+        "Ar": "مكان العمل"
+       },
+       {
+        "En": "Please enter your Institution \/ Organization Name",
+        "Ar": "Please enter your Institution \/ Organization Name"
+       },
+       {
+        "En": "From Date",
+        "Ar": "من"
+       },
+       {
+        "En": "To Date",
+        "Ar": "إلى"
+       },
+       {
+        "En": "Add",
+        "Ar": "أضف"
+       },
+       {
+        "En": "Remove",
+        "Ar": "Remove"
+       }
+]

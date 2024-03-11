@@ -1,0 +1,52 @@
+<h2 id="DivDateTime" class="text-center mt-0"></h2>
+<script>
+  $(document).ready(function() {
+    setInterval(showDateTime, 1000);
+  });
+    
+  function showDateTime() {
+    var DivDateTime = document.getElementById("DivDateTime");
+  
+    var date = new Date();
+    var dayList = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    var monthNames = [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ];
+    var dayName = dayList[date.getDay()];
+    var monthName = monthNames[date.getMonth()];
+    var today = `${dayName}, ${monthName} ${date.getDate()}, ${date.getFullYear()}`;
+    var session = "AM";
+    
+    var hour = date.getHours();
+    var min = date.getMinutes();
+    var sec = date.getSeconds();
+    if(hour == 0){
+      hour = 12;
+      }
+      
+      if(hour > 12){
+        hour = hour - 12;
+          session = "PM";
+      }
+      
+      hour = (hour < 10) ? "0" + hour : hour;
+      min = (min < 10) ? "0" + min : min;
+      sec = (sec < 10) ? "0" + sec : sec;
+  
+    var time = hour + ":" + min + ":" + sec + " " + session;
+    // DivDateTime.innerText = `Today is  ${today}. Time is ${time}`;
+    DivDateTime.innerText = `${today} : ${time}`;
+  }
+  
+</script>

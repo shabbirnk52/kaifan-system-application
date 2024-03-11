@@ -1,0 +1,15 @@
+<!-- ========== Start Morris Chart  ========== -->
+{{! Sample Usage:-
+  Syntax:
+  ((> _morris-chart identifier="ID Name"))
+Variables:-
+  identifier = Optional Identifier incase multiple datatables are to be initialised on a single page
+
+Other Comments:-
+  Refer to the usage in forms-advanced.html
+  Notice how a scope has been created using the #with helper block
+  Use the json template table.json for all datatables
+  Supports Generic Simple Partials using Lookup
+}}
+<div class="chart chart-md" id="{{identifier}}"></div>
+<!-- ========== End Morris Chart  ========== -->

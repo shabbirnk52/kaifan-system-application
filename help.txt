@@ -1,0 +1,115 @@
+https://github.com/johndavemanuel/bootstrap-gulp-starter-template
+
+
+Reinstall gulp and gulp-cli, to install the last version.
+npm uninstall -g gulp
+npm uninstall -g gulp-cli
+
+npm install -g gulp-cli
+npm install -g gulp
+
+======================================================================================================================================================
+node/16.15.0
+v16.15.0 (with npm 8.5.5)
+
+How to downgrade node version
+
+Nouman Abbasi
+You can use n in Linux/macOS and nvm in Windows to manage node’s version.
+
+Both n and nvm provide an easy interface to downgrade to a specific node version.
+
+
+Install n or nvm
+On Linux and macOS:
+npm install -g n
+
+n is not supported natively on Windows.
+
+On Windows:
+Use nvm, available for download here.
+
+Downgrading Node
+After installing n, enter the following command to downgrade to any version of Node:
+n <version>.
+For example, running n 10.24.0 will install Node version 10.24.0.
+
+For Windows and nvm, the command is:
+nvm install <version>.
+After installation, run nvm use <version> to switch to the downgraded version of Node.
+
+======================================================================================================================================================
+
+Relevant articles / References:-
+https://github.com/foundation/panini/issues/67
+https://stackoverflow.com/questions/11523331/passing-variables-through-handlebars-partial
+Here is the link to the Panini documentation as discussed:-
+https://get.foundation/sites/docs/panini.html
+
+Logic can be implemented using the following utilities for ease of HTML development
+
+•	IF condition
+{{#ifequal foo bar}}
+  <p>foo and bar are equal</p>
+{{else}}
+  <p>foo and bar are not equal</p>  
+{{/ifequal}}
+
+•	IF Page condition
+{{#ifpage 'index'}}
+  <p>This is definitely the Index page.</p>
+{{/ifpage}}
+
+•	Loops
+{{#repeat 5}}
+  <li>Five hundred ninety-nine US dollars</li>
+  {{/repeat}}
+
+======================================================================================================================================================
+
+
+FOR GULP 3 
+
+Compiled all the commands in one place. Hope this helps.
+
+Install Node
+nvm install <node_version>      // Install a specific Node version
+nvm install node                // Install latest Node release (Current)
+nvm install --lts               // Install latest LTS release of NodeJS
+nvm install-latest-npm          // Install latest NPM release only
+List Available Node Releases
+nvm ls-remote
+nvm ls-remote | grep -i "latest"        
+nvm ls-remote | grep -i "<node_version>"
+List Installed Nodes
+nvm list node                   // Lists installed Node versions
+nvm list  (or)  nvm ls          // Lists installed Node versions with additional release info
+Switch To Another Node Version
+nvm use node                      // Switch to the latest available Node version
+nvm use <node_version_or_alias>  // Switch to a specific version
+nvm use --lts                    // Switch to the latest LTS Node version
+Verifying Node Version
+node -v  (or)  node --version
+npm -v   (or)  npm --version
+nvm -v   (or)  nvm --version
+Set Alias
+nvm alias default node                  // Always defaults to the latest available node version on a shell
+nvm alias default <node_version>        // Set default node version on a shell
+nvm alias <alias_name> <node_version>   // Set user-defined alias to Node versions 
+
+nvm unalias <alias_name>                // Deletes the alias named <alias_name>
+Path to Node Executable
+nvm which <installed_node_version>      // path to the executable where a specific Node version is installed
+Uninstall Specific Node Version
+nvm uninstall <node_version>    // Uninstall a specific Node version
+nvm uninstall --lts             // Uninstall the latest LTS release of Node
+nvm uninstall node              // Uninstall latest (Current) release of Node
+Uninstall NVM
+
+To remove, delete, or uninstall nvm, just remove the $NVM_DIR folder (usually ~/.nvm)
+
+
+
+======================================================================================================================================================
+Favicon Generator
+https://realfavicongenerator.net/

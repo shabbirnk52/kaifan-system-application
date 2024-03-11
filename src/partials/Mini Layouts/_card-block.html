@@ -1,0 +1,77 @@
+<!-- ========== Start Card Block ========== -->
+{{! Sample Usage:-
+Syntax:
+((#> _card-block CardTitle="Card Title or Section" ButtonText="Add New Object" ButtonURL="index.html"
+EnableDisplaySwitch=1 DisableCardBody=0))
+<h1>Content goes here!</h1>
+((/ _card-block))
+Variables:-
+CardTitle = Can be text only. can also be passed the "title" Global Variable
+ButtonText = Text displayed on the Card Action Button
+ButtonURL = Added as window.location to the button
+EnableDisplaySwitch = 1 (Default is 0) Used to show ios7 Switcher. Label is Hardcoded as "Display" Checked is true
+ModalId = Must adhere to the html ID guidelines. i.e. must not have spaces. AND BUTTONURL MUST BE NULL i.e. not provided
+DisableCardHeader = 1 (Default is 0)
+DisableCardBody = 1 (Default is 0)
+HeaderClasses = "Classes" (Optional)
+BodyClasses = "Classes" (Optional)
+HeaderTitleClasses = "Classes" (Optional)
+CardClass = "Classes" (Optional)
+}}
+<section class="card {{#unless CardBottomRemoveMargin}}mb-3{{/unless}} {{CardClass}}" {{#if CardTooltipText}}
+    data-bs-toggle="tooltip" data-bs-title="{{CardTooltipText}}" {{/if}}>
+    {{#unless DisableCardHeader}}
+    <header class="card-header d-flex justify-content-between align-items-center p-3 {{HeaderClasses}}">
+        {{#if IsCollapsable}}
+        <div class="card-actions">
+            <a href="#" class="card-action card-action-toggle" data-card-toggle=""></a>
+        </div>
+        {{/if}}
+        <h2 class="card-title {{HeaderTitleClasses}}" {{#if Translate}}data-translation="{{translate CardTitle 'Ar'}}"
+            {{/if}} localize-me {{#if Translate}}data-translation="{{translate CardTitle 'Ar'}}" {{/if}}>{{{CardTitle}}}
+        </h2>
+        <div class="d-flex align-items-center position-static top-0 end-0" localize-me>
+            {{#if IconButton}}
+            <a class="btn btn-warning btn-sm rounded-pill py-2 {{#if EnableDisplaySwitch}}me-3{{else if ButtonText}}me-3{{/if}}"
+                data-bs-toggle="tooltip" title="{{IconButtonText}}" data-bs-original-title="{{IconButtonText}}"
+                aria-label="{{IconButtonText}}"><i class="{{IconButton}}"></i></a>
+            {{/if}}
+            {{#if ButtonText}}
+            <a class="btn {{#if ButtonClasses}}{{ButtonClasses}}{{else}}btn-primary{{/if}} btn-sm {{#if EnableDisplaySwitch}}me-3{{/if}}"
+                {{#if ModalId}}data-bs-toggle="modal" data-bs-target="#{{ModalId}}" {{/if}}
+                href="{{#if ButtonURL}}{{ButtonURL}}{{else}}javascript:;{{/if}}" {{#if ButtonStyle}}
+                {{{ButtonStyle}}}{{/if}}><i class="fas fa-plus me-1"></i> {{{ButtonText}}}</a>
+            {{/if}}
+            {{#if CustomLanguageLabels1}}
+            <div class="d-flex">
+                <div class="me-2">
+                    {{CustomLanguageLabels1}}
+                </div>
+                {{#if DisableSwitchLabel}}
+                {{> _ios7-switch SwitchSize="sm" Checked=1}}
+                {{else}}
+                {{> _ios7-switch Label="Display" SwitchSize="sm" Checked=1}}
+                {{/if}}
+                <div class="ms-2">
+                    {{CustomLanguageLabels2}}
+                </div>
+            </div>
+            {{else}}
+            {{#if EnableDisplaySwitch}}
+            {{#if DisableSwitchLabel}}
+            {{> _ios7-switch SwitchSize="sm" Checked=1}}
+            {{else}}
+            {{> _ios7-switch Label="Display" SwitchSize="sm" Checked=1}}
+            {{/if}}
+            {{/if}}
+            {{/if}}
+        </div>
+    </header>
+    {{/unless}}
+    {{#unless DisableCardBody}}
+    <div class="card-body {{BodyClasses}}">
+        {{> @partial-block }}
+    </div>
+    {{/unless}}
+</section>
+<!-- ========== End Card Block ========== -->

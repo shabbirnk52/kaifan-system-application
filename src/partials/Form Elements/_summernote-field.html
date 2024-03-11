@@ -1,0 +1,18 @@
+<!-- ========== Start Summernote WYSIWYG ========== -->
+{{! Sample Usage:-
+    Syntax: ((> _summernote-field Label="Summernote Field Label" NameId="summernote-field-id" Attribute="data-some-attribute" RTL=1 Disabled=1 HelpText="This can be used for hinting" InvalidFeedback="This can be used to prompt errors"))
+Variables:-
+    Required = 1 (Default 0)
+    Disabled = 1 (Default 0)
+    Label = Text to be displayed as title of the Field
+    NameId = Must adhere to the html ID guidelines. i.e. must not have spaces.
+    HelpText = Can be any text useable as a hint. Can be empty
+    InvalidFeedback = Can be any text useable as a warning. Can be empty
+    Attribue = Can be anything that needs to be added as an attribute to the element
+    RTL = 1 (Default 0) Flips the input field around
+}}
+{{#if Label}}<label for="{{NameId}}" class="form-label" localize-me>{{Label}}{{#if Required}}<span class=" text-danger">*</span>{{/if}}</label>{{/if}}
+<textarea class="summernote {{#if RTL}}dir-rtl{{else}}dir-ltr{{/if}}" {{Attribute}} {{#if RTL}}dir="rtl"{{else}}dir="ltr"{{/if}} {{#if Disabled}}disabled{{/if}} name="{{NameId}}" id="{{NameId}}">{{{Content}}}</textarea>
+{{#if HelpText}}<small class="form-text text-muted" localize-me>{{HelpText}}</small>{{/if}}
+{{#if InvalidFeedback}}<div class="invalid-feedback" localize-me>{{InvalidFeedback}}</div>{{/if}}
+<!-- ========== End Summernote WYSIWYG ========== -->

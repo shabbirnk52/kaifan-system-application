@@ -1,0 +1,28 @@
+<div class="form-check" localize-me>
+    <input class="form-check-input {{Classes}}{{#if ConditionalClasses}} {{ConditionalClasses}}-radio{{/if}}" type="checkbox" name="{{NameId}}" id="{{NameId}}{{@index}}{{index}}" {{#if Checked}}checked{{/if}} {{#if Required}}required{{/if}}>
+    {{#if Label}}
+    <label class="form-check-label" for="{{NameId}}{{@index}}{{index}}"  {{#if Translate}}data-translation="{{translate Label 'Ar'}}"{{/if}}>
+      {{Label}}
+    {{#if Required}}<span class=" text-danger">*</span>{{/if}}
+    </label>
+    {{/if}}
+</div>
+
+{{#if ConditionalClasses}}
+<script>
+    $(document).ready(function(){
+        if($(".{{ConditionalClasses}}-radio:checked").val())
+        {
+            $(".{{NameId}}").hide();
+            $(".{{NameId}}.{{ConditionalClasses}}").show();
+        }
+        $(".{{ConditionalClasses}}-radio").click(function(){
+            if($(".{{ConditionalClasses}}-radio:checked").val())
+            {
+                $(".{{NameId}}").hide();
+                $(".{{NameId}}.{{ConditionalClasses}}").show();
+            }
+        });
+    });
+</script>
+{{/if}}

@@ -1,0 +1,60 @@
+<!-- ========== Start SUMMERNOTE INITIALIZATION + SANITIZATION ========== -->
+<script>
+    // Initialization With limited functionality
+    $(document).ready(function() {
+        $('.summernote').summernote({
+            height: "180",
+            disableDragAndDrop:true,
+            styleTags: ['p','h1','h2','h3','h4','h5','h6'],
+            toolbar: [
+                ['para',['style']],
+                ['style', ['bold', 'italic', 'underline']],
+                {{#if Links}}['insert', ['link']],{{/if}}
+                {{#if Tables}}['table', ['table']],{{/if}}
+                ['para', ['ul','ol']]
+            ]
+        });
+        $('.summernote[disabled]').summernote('disable');
+    });
+
+    // Sanitization being done OnPaste
+    $(".summernote").on("summernote.paste",function(e,ne) {
+        var bufferText = ((ne.originalEvent || ne).clipboardData || window.clipboardData).getData('Text');
+        ne.preventDefault();
+        document.execCommand('insertText', false, bufferText);
+        $(ne.currentTarget).find("*").removeAttributes();
+    });
+    // Sanitization being done OnChange
+    $('.summernote').on('summernote.change', function(we, contents, $editable) {
+        $editable.find("*").removeAttributes();
+    });
+
+    // Helper Function to Remove Attributes
+    jQuery.fn.removeAttributes = function() {
+        return this.each(function() {
+            var attributes = $.map(this.attributes, function(item) {
+            return item.name;
+            });
+            var obj = $(this);
+            $.each(attributes, function(i, item) {
+                obj.removeAttr(item);
+            });
+        });
+    }
+
+    sanitizeSummernoteAndGetContent = (summernoteID) =>{
+        // Sanitizing of All Attributes
+        $("#"+summernoteID+" + .note-editor .note-editable *").removeAttributes();
+        // Returning Clean Code
+        return $("#"+summernoteID).summernote("code");
+    }
+</script>
+<!-- ========== End SUMMERNOTE INITIALIZATION + SANITIZATION ========== -->
+
+<!-- ========== Start SUMMERNOTE CSS + JS ========== -->
+
+<link rel="stylesheet" href="{{root}}assets/vendor/css/summernote-lite.css" />
+<script src="{{root}}assets/vendor/js/summernote-lite.js"></script>
+
+<!-- ========== End SUMMERNOTE CSS + JS ========== -->
+

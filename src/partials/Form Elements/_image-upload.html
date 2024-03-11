@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="{{#if HideImage}}col-12{{else}}col-10{{/if}} mb-3">
+    {{#if Multiple}}
+    {{>_input-field Type="file" NameId=(concat 'upload-image-' NameId) Attribute=(concat InputAttributes ' Multiple')}}
+    {{else}}
+    {{>_input-field Classes="enable-compression" Type="file" NameId=(concat 'upload-image-' NameId) Attribute=InputAttributes}}
+    {{/if}}
+    {{#unless HideImage}}
+    <small class="form-text text-muted" localize-me>{{#if CustomHelpText}}{{CustomHelpText}}{{else}}For consistency
+      purposes, please upload all image at the size {{Size}} px in {{#if Format}}{{Format}}{{else}}.png or .jpg{{/if}}
+      format{{/if}}</small>
+    <div class="invalid-feedback" localize-me>
+      For consistency purposes, please upload image at the size {{Size}} px in {{#if Format}}{{Format}}{{else}}.png or
+      .jpg{{/if}} format
+    </div>
+    {{else}}
+    {{#if CustomHelpText}}<small class="form-text text-muted" localize-me>{{CustomHelpText}}</small>{{/if}}
+    <div class="invalid-feedback" localize-me>
+      Acceptable file formats are .jpg, .png, .gif, .jpeg, .pdf. Maximum upload size is 5MB per file.
+    </div>
+    {{/unless}}
+  </div>
+  {{#unless HideImage}}
+  <div class="col-2 d-flex flex-column align-items-center justify-content-center">
+    <img src="{{#if Image}}{{Image}}{{else}}holder.js/{{Size}}?auto=yes&size={{#if PreviewImageTextSize}}{{PreviewImageTextSize}}{{else}}200{{/if}}{{/if}}"
+      class="img-fluid preview-image preview-image-{{NameId}}" id="preview-image-{{NameId}}">
+    <p class="text-muted text-center mb-1 mt-2" localize-me>Preview</p>
+  </div>
+  {{/unless}}
+</div>
+<!-- ========== End Simple Image Upload Block ========== -->

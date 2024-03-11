@@ -1,0 +1,1085 @@
+{
+  "types-table": {
+    "Head": [
+      {
+        "Title": "No.",
+        "Priority": 0,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Status",
+        "Priority": 1,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Title",
+        "Priority": 2,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Thumbnail Image",
+        "Priority": 3,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Last Updated",
+        "Priority": 5,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Actions",
+        "Priority": 1,
+        "Class": "text-end"
+      }
+    ],
+    "Row": [
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Swimming"
+          },
+          {
+            "Content": "<img src='assets/img/activities/activities-0.png' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity-type.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Health & Fitness"
+          },
+          {
+            "Content": "<img src='assets/img/activities/activities-1.png' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity-type.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Kids Play Area"
+          },
+          {
+            "Content": "<img src='assets/img/activities/activities-2.png' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity-type.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Theme Parks"
+          },
+          {
+            "Content": "<img src='assets/img/activities/activities-3.png' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity-type.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Rent Chalets"
+          },
+          {
+            "Content": "<img src='assets/img/activities/activities-4.png' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity-type.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Beaches"
+          },
+          {
+            "Content": "<img src='assets/img/activities/activities-5.png' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity-type.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Boats & Yachts"
+          },
+          {
+            "Content": "<img src='assets/img/activities/activities-6.png' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity-type.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      }
+    ]
+  },
+  "template-table": {
+    "Head": [
+      {
+        "Title": "No.",
+        "Priority": 0,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Status",
+        "Priority": 1,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Title",
+        "Priority": 2,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Thumbnail Image",
+        "Priority": 3,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Last Updated",
+        "Priority": 5,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Actions",
+        "Priority": 1,
+        "Class": "text-end"
+      }
+    ],
+    "Row": [
+      
+    ]
+  },
+  "swimming-table": {
+    "Head": [
+      {
+        "Title": "No.",
+        "Priority": 0,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Status",
+        "Priority": 1,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Title",
+        "Priority": 2,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Thumbnail Image",
+        "Priority": 3,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Attraction",
+        "Priority": 4,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Last Updated",
+        "Priority": 5,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Actions",
+        "Priority": 1,
+        "Class": "text-end"
+      }
+    ],
+    "Row": [
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Covered swimming pool"
+          },
+          {
+            "Content": "<img src='assets/img/activities/Covered-swimming-pool.jpg' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Al Shaab Sea Club"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Open-air Swimming Pool"
+          },
+          {
+            "Content": "<img src='assets/img/activities/Open-air-swimming-pool.jpg' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Al Shaab Sea Club"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      }
+    ]
+  },
+  "healthFitness-table": {
+    "Head": [
+      {
+        "Title": "No.",
+        "Priority": 0,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Status",
+        "Priority": 1,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Title",
+        "Priority": 2,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Thumbnail Image",
+        "Priority": 3,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Attraction",
+        "Priority": 4,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Last Updated",
+        "Priority": 5,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Actions",
+        "Priority": 1,
+        "Class": "text-end"
+      }
+    ],
+    "Row": [
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Beachfront activities"
+          },
+          {
+            "Content": "<img src='assets/img/activities/Beachfront-activity.jpg' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Al Shaab Sea Club"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Sporting activities"
+          },
+          {
+            "Content": "<img src='assets/img/activities/Sporting.jpg' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Al Shaab Sea Club"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Indoor recreation center"
+          },
+          {
+            "Content": "<img src='assets/img/activities/Indoor-recreation.jpg' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Al Shaab Sea Club"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      }
+    ]
+  },
+  "kidsPlayArea-table": {
+    "Head": [
+      {
+        "Title": "No.",
+        "Priority": 0,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Status",
+        "Priority": 1,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Title",
+        "Priority": 2,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Thumbnail Image",
+        "Priority": 3,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Attraction",
+        "Priority": 4,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Last Updated",
+        "Priority": 5,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Actions",
+        "Priority": 1,
+        "Class": "text-end"
+      }
+    ],
+    "Row": [
+    ]
+  },
+  "themeParks-table": {
+    "Head": [
+      {
+        "Title": "No.",
+        "Priority": 0,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Status",
+        "Priority": 1,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Title",
+        "Priority": 2,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Thumbnail Image",
+        "Priority": 3,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Attraction",
+        "Priority": 4,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Last Updated",
+        "Priority": 5,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Actions",
+        "Priority": 1,
+        "Class": "text-end"
+      }
+    ],
+    "Row": [
+    ]
+  },
+  "rentChalets-table": {
+    "Head": [
+      {
+        "Title": "No.",
+        "Priority": 0,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Status",
+        "Priority": 1,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Title",
+        "Priority": 2,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Thumbnail Image",
+        "Priority": 3,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Attraction",
+        "Priority": 4,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Last Updated",
+        "Priority": 5,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Actions",
+        "Priority": 1,
+        "Class": "text-end"
+      }
+    ],
+    "Row": [
+    ]
+  },
+  "beaches-table": {
+    "Head": [
+      {
+        "Title": "No.",
+        "Priority": 0,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Status",
+        "Priority": 1,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Title",
+        "Priority": 2,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Thumbnail Image",
+        "Priority": 3,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Attraction",
+        "Priority": 4,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Last Updated",
+        "Priority": 5,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Actions",
+        "Priority": 1,
+        "Class": "text-end"
+      }
+    ],
+    "Row": [
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Beachfront activities"
+          },
+          {
+            "Content": "<img src='assets/img/activities/Beachfront-activity.jpg' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Al Shaab Sea Club"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Sporting activities"
+          },
+          {
+            "Content": "<img src='assets/img/activities/Sporting.jpg' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Al Shaab Sea Club"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Indoor recreation center"
+          },
+          {
+            "Content": "<img src='assets/img/activities/Indoor-recreation.jpg' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Al Shaab Sea Club"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      }
+    ]
+  },
+  "boatsAndYachts-table": {
+    "Head": [
+      {
+        "Title": "No.",
+        "Priority": 0,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Status",
+        "Priority": 1,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Title",
+        "Priority": 2,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Thumbnail Image",
+        "Priority": 3,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Attraction",
+        "Priority": 4,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Last Updated",
+        "Priority": 5,
+        "Class": "text-start"
+      },
+      {
+        "Title": "Actions",
+        "Priority": 1,
+        "Class": "text-end"
+      }
+    ],
+    "Row": [
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Beachfront activities"
+          },
+          {
+            "Content": "<img src='assets/img/activities/Beachfront-activity.jpg' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Al Shaab Sea Club"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Sporting activities"
+          },
+          {
+            "Content": "<img src='assets/img/activities/Sporting.jpg' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Al Shaab Sea Club"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "Content": "@index"
+          },
+          {
+            "Partial": "_ios7-switch",
+            "SwitchSize": "sm",
+            "Checked": 1
+          },
+          {
+            "Content": "Indoor recreation center"
+          },
+          {
+            "Content": "<img src='assets/img/activities/Indoor-recreation.jpg' width='75' class='img-fluid'>"
+          },
+          {
+            "Content": "Al Shaab Sea Club"
+          },
+          {
+            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+          }
+        ],
+        "ActionClass": "text-end",
+        "Actions": [
+          {
+            "Title": "Edit",
+            "Url": "edit-activity.html",
+            "Icon": "fas fa-edit",
+            "Classes": "btn-primary",
+            "ModalId": ""
+          },
+          {
+            "Title": "Delete",
+            "Url": "javascript:;",
+            "Icon": "fas fa-trash-can",
+            "Classes": "btn-danger",
+            "ModalId": "confirm-delete"
+          }
+        ]
+      }
+    ]
+  },
+  "ContentEn":{
+    "Content":"<h3>Indoor Swimming Pool Details</h3><p>An indoor swimming pool is available year-round, offering a great aquatic experience for visitors.</p><h4>Operating Information</h4><table><tr><th>Operating Schedule</th><th>Special Days</th></tr><tr><td>Open year-round</td><td>Females only on designated days</td></tr></table><h4>Special Access for Children</h4><p>Children above 5 years of age are welcome to enjoy the indoor swimming pool.</p>"
+  },
+  "ContentAr":{
+    "Content":"<h3>تفاصيل حمام السباحة الداخلي</h3><p>يتوفر حمام سباحة داخلي مفتوح طوال العام، مما يوفر تجربة مائية رائعة للزوار.</p><h4>معلومات التشغيل</h4><table><tr><th>الجدول الزمني للعمل</th><th>الأيام الخاصة</th></tr><tr><td>مفتوح طوال العام</td><td>أيام خاصة للإناث فقط</td></tr></table><h4>وصول خاص للأطفال</h4><p>الأطفال فوق سن 5 سنوات مدعوون للاستمتاع بحمام السباحة الداخلي.</p>"
+  }
+}

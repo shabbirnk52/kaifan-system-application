@@ -1,0 +1,75 @@
+{
+  "MultiUser": true,
+  "MenuItems": [
+    {
+      "UserRoleName": "Admin",
+      "UserRoleClass": "SuperAdmin",
+      "MainUrl": "index.html",
+      "MenuItems": [
+        {
+          "PageTitle": "Dashboard",
+          "PageURL": "index.html",
+          "Icon": "fa-solid fa-table-cells-large"
+        },
+        {
+          "PageTitle": "Web Content",
+          "PageURL": "javascript:;",
+          "Icon": "fa-solid fa-desktop",
+          "Children": [
+            {
+              "PageTitle": "Banner",
+              "PageURL": "banner-management.html"
+            },
+            {
+              "PageTitle": "About Us",
+              "PageURL": "about-us.html"
+            },
+            {
+              "PageTitle": "Contact Us",
+              "PageURL": "contact-us.html"
+            }
+          ]
+        },
+        {
+          "PageTitle": "Careers",
+          "PageURL": "careers.html",
+          "Icon": "fa-solid fa-briefcase",
+          "BubbleText": "5"
+        },
+        {
+          "PageTitle": "Form Submissions",
+          "PageURL": "javascript:;",
+          "Icon": "fa-solid fa-envelope",
+          "BubbleText": "3",
+          "Children": [
+            {
+              "PageTitle": "Contact Us",
+              "PageURL": "contact-us-form-submissions.html",
+              "BubbleText": "1"
+            },
+            {
+              "PageTitle": "Information Request",
+              "PageURL": "information-request-form-submissions.html",
+              "BubbleText": "2"
+            }
+          ]
+        },
+        {
+          "PageTitle": "SEO Settings",
+          "PageURL": "seo-settings.html",
+          "Icon": "fa-solid fa-toolbox"
+        },
+        {
+          "PageTitle": "Coming Soon Page",
+          "PageURL": "coming-soon.html",
+          "Icon": "fa-solid fa-helmet-safety"
+        },
+        {
+          "PageTitle": "No Access Page",
+          "PageURL": "no-access.html",
+          "Icon": "fa-solid fa-xmark"
+        }
+      ]
+    }
+  ]
+}

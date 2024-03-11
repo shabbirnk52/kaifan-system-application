@@ -1,0 +1,25 @@
+{{#> _card-block CardTitle="SEO Details" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-lg-6">
+        {{>_input-field Label="SEO Title (En)" NameId="seoTitleEn" Required=1 MaxLength="60" Value=SEOTitleEn}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="SEO Title (Ar)" NameId="seoTitleAr" RTL=1 Required=1 MaxLength="60" Value=SEOTitleAr}}
+    </div>
+    <div class="col-lg-6">
+        {{>_textarea-field Label="SEO Description (En)" NameId="seoDescEn" Required=1 MaxLength="150" Value=SEODescEn}}
+    </div>
+    <div class="col-lg-6">
+        {{>_textarea-field Label="SEO Description (Ar)" NameId="seoDescAr" RTL=1 Required=1 MaxLength="150" Value=SEODescAr}}
+    </div>
+    <div class="col-lg-6">
+        {{>_textarea-field Label="SEO Keywords (En)" NameId="seoKeyEn" Required=1 MaxLength="150" HelpText="Comma seperated keywords that are related to your content" Value=SEOKeyEn}}
+    </div>
+    <div class="col-lg-6">
+        {{>_textarea-field Label="SEO Keywords (Ar)" NameId="seoKeyAr" RTL=1 Required=1 MaxLength="150" HelpText="Comma seperated keywords that are related to your content" Value=SEOKeyAr}}
+    </div>
+    <div class="col-lg-6">
+        {{>_image-upload Label="SEO Image" NameId="seoImage" Size="1200x630" PreviewImageTextSize=150 Required=1 Image=SEOImage}}
+    </div>
+</div>
+{{/ _card-block}}

@@ -1,0 +1,73 @@
+<!-- To be removed by developers -->
+
+<script>
+    $(document).ready(function(){
+        {{#with navigation}}
+        {{#if MultiUser}}
+                //Experimental Code for Setting User Role; Must not be used for development
+                SetUserRoleSidemenuPermission();
+                DisplayeUserRoleSidemenu();
+                ClearUserRoleSidemenuPermission();
+                RemoveFieldsOfInvalidPermissions();
+                // Experimental Code End
+
+                
+                // Experimental Code. To be removed for Development
+            function SetUserRoleSidemenuPermission(){
+                $('.SetLoginSession').on('click',function(){
+                localStorage.setItem("SelectedUserRole", $(this).attr('data-userrole'));
+                localStorage.setItem("SelectedUserRoleName", $(this).attr('data-userrolename'));
+
+                window.location.href = "index.html";
+                });
+            }
+            function ClearUserRoleSidemenuPermission(){
+                $('.logout-link').on('click',function(){
+                localStorage.removeItem("SelectedUserRole");
+                localStorage.removeItem("SelectedUserRoleName");
+                });
+            }
+            function DisplayeUserRoleSidemenu(){
+                var redirector = true;
+                if(document.location.pathname.match(/[^\/]+$/)[0]!="/signup.html"){
+                    redirector=false;
+                }
+                if(document.location.pathname.match(/[^\/]+$/)==null && redirector)
+                window.location.href = "index.html";
+
+                if(localStorage.getItem("SelectedUserRole") == null && redirector && (document.location.pathname.match(/[^\/]+$/)[0]!="signin.html" || document.location.pathname.match(/[^\/]+$/)==null))
+                {
+                window.location.href = "signin.html";
+                }
+
+                $("#menu .nav-main , #menu hr.separator").each(function(){
+                if(!$(this).hasClass(localStorage.getItem("SelectedUserRole"))){
+                    $(this).remove();
+                }
+                });
+
+                $("#userbox span.role").html(localStorage.getItem("SelectedUserRoleName"));
+                $("#menu").show();
+            }
+            function RemoveFieldsOfInvalidPermissions(){
+                $(".content-body").find(".NotFor" + localStorage.getItem("SelectedUserRole")).remove();
+            }
+            {{else}}
+                $("#menu").show();
+        {{/if}}
+        {{/with}}
+         
+        // if ($('html').attr('dir') == 'rtl'){
+        //     $(".language-switch span").html("English");
+        //     $(".language-switch .icon").html("EN");
+        //     $(".language-switch .icon").removeClass("pb-2");
+        //     $(".language-switch").attr("href","index.html#");
+        // }
+
+        $('.signup-applicant').click(function(){
+            localStorage.setItem("SelectedUserRole", "Applicant");
+                localStorage.setItem("SelectedUserRoleName", "Applicant");
+                window.location.href = "applicant-dashboard.html";
+        });
+    });
+</script>

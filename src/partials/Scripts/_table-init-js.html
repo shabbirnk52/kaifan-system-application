@@ -1,0 +1,103 @@
+<!-- ========== Start TABLE STANDARD INITIALIZATION SCRIPT{{#if identifier}} For datatable-default-{{identifier}}{{/if}} ========== -->
+<script>
+    var table_id{{identifier}};
+    var columns_count = $('.datatable-default-{{identifier}} thead th').length;
+    var columns_array = [];
+    for(var i=0; i<columns_count; i++){
+        columns_array.push(i);
+    }
+    var columns_array_reversed = columns_array.reverse();
+    $('document').ready(function(){
+        if($("html").attr("dir") != "rtl"){
+            table_id{{identifier}} = $('.datatable-default-{{identifier}}').DataTable({
+                responsive:{
+                    details:{
+                        type:'none',
+                        target:".responsive-view-btn"
+                    }
+                },
+                {{#if EnableDisplayOrder}}
+                rowReorder: true,
+                columnDefs:[
+                    {
+                        targets:[0],
+                        className:"reorder"
+                    },
+                    {
+                        targets:"_all",
+                        orderable:false,
+                    }
+                ],
+                {{/if}}
+                {{#if DisableButtons}}
+                dom: '<"row"<"col-6"><"col-6"{{#unless DisableSearch}}f{{/unless}}><"col-lg-12 nan-ResponsiveTable"t><"col-lg-4 mt-lg-3 mt-0 text-lg-start text-center"l><"col-lg-4 mt-lg-3 mt-0 text-center"i><"col-lg-4 text-lg-end text-center"p>>',
+                {{else}}
+                dom: '<"row"<"col-6"B><"col-6"f><"col-lg-12 nan-ResponsiveTable"t><"col-lg-4 mt-lg-3 mt-0 text-lg-start text-center"l><"col-lg-4 mt-lg-3 mt-0 text-center"i><"col-lg-4 text-lg-end text-center"p>>',
+                buttons: [
+                    {
+                        extend:    'excelHtml5',
+                        text:      '<i class="fa-regular fa-file-excel text-light"></i> <span class="text-light">Excel</span>',
+                        titleAttr: 'Excel'
+                    }
+                ]
+                {{/if}}
+            });
+        }
+        else{
+            table_id{{identifier}} = $('.datatable-default-{{identifier}}').DataTable({
+                responsive:{
+                    details:{
+                        type:'column',
+                        target:8
+                    }
+                },
+                {{#if EnableDisplayOrder}}
+                rowReorder: true,
+                columnDefs:[
+                    {
+                        targets:[0],
+                        className:"reorder"
+                    },
+                    {
+                        targets:"_all",
+                        orderable:false,
+                    }
+                ],
+                {{/if}}
+                language: {
+                    url: "assets/json/ar.json",
+                },
+                {{#if DisableButtons}}
+                dom: '<"row"<"col-6"><"col-6"{{#unless DisableSearch}}f{{/unless}}><"col-lg-12 nan-ResponsiveTable"t><"col-lg-4 mt-lg-3 mt-0 text-lg-start text-center"l><"col-lg-4 mt-lg-3 mt-0 text-center"i><"col-lg-4 text-lg-end text-center"p>>',
+                {{else}}
+                dom: '<"row"<"col-6"B><"col-6"f><"col-lg-12 nan-ResponsiveTable"t><"col-lg-4 mt-lg-3 mt-0 text-lg-start text-center"l><"col-lg-4 mt-lg-3 mt-0 text-center"i><"col-lg-4 text-lg-end text-center"p>>',
+                buttons: [
+                    {
+                        extend:    'excelHtml5',
+                        text:      '<i class="fa-regular fa-file-excel text-light"></i> <span class="text-light">Excel</span>',
+                        titleAttr: 'Excel'
+                    }
+                ]
+                {{/if}}
+            });
+        }
+        // table.on( 'row-reorder-changed', function ( e, { insertPlacement, insertPoint  } ) {
+        //     debugger;
+        // } );
+        table_id{{identifier}}.on( 'row-reordered', function ( e, diff, edit ) {
+            console.log(diff,edit);
+            for(var i=0;i<diff.length;i++){
+                $(diff[i].node).addClass("highlight");
+                // setTimeout(addRowAnimation,i*500,diff[i].node);
+                setTimeout(removeRowAnimation,1000,diff[i].node);
+            }
+        });
+    });
+    function addRowAnimation(node){
+        $(node).addClass("highlight");
+    }
+    function removeRowAnimation(node){
+        $(node).removeClass("highlight");
+    }
+</script>
+<!-- ========== End TABLE STANDARD INITIALIZATION SCRIPT ========== -->

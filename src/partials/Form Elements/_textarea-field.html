@@ -1,0 +1,28 @@
+<!-- ========== Start Simple Text Area ========== -->
+{{! Sample Usage:-
+    Syntax: ((> _textarea-field Label="Textarea Field Label" Required=1 NameId="Textarea-field-id" Attribute="data-some-attribute" RTL=1 Placeholder="Some Text can be given here as a demo content" Value="This text can have some real content" Disabled=1 HelpText="This can be used for hinting" InvalidFeedback="This can be used to prompt errors"))
+Variables:-
+    Required = 1 (Default 0)
+    Disabled = 1 (Default 0)
+    Label = Text to be displayed as title of the Field
+    NameId = Must adhere to the html ID guidelines. i.e. must not have spaces.
+    HelpText = Can be any text useable as a hint. Can be empty
+    InvalidFeedback = Can be any text useable as a warning. Can be empty
+    Attribue = Can be anything that needs to be added as an attribute to the element
+    RTL = 1 (Default 0) Flips the input field around
+    Placeholder = Text to be displayed as ghost/placeholder of the Field
+    Value = Text to be added as value of the Field
+}}
+{{#if Label}}<label for="{{NameId}}" class="form-label {{LabelClass}}" localize-me {{#if Translate}}data-translation="{{translate Label 'Ar'}}"{{/if}}>{{Label}}{{#if Required}}<span class=" text-danger">*</span>{{/if}}</label>{{#if TooltipText}}{{>_tooltip Text=TooltipText Color="body"}}{{/if}}{{/if}}
+<textarea {{#if RTL}}dir="rtl"{{else}}dir="ltr"{{/if}} {{#if MaxLength}}maxlength="{{MaxLength}}"{{/if}} class="form-control {{#if MaxLength}}hasMaxLength{{/if}} {{InputClass}}" name="{{NameId}}" id="{{NameId}}" aria-describedby="{{Label}}" {{#if Placeholder}}placeholder="{{Placeholder}}"{{#if Translate}} data-translation-placeholder="{{translate Placeholder 'Ar'}}"{{/if}}{{/if}} rows="3" {{#if Disabled}}disabled{{/if}} {{#if Required}}required{{/if}} localize-me>{{Value}}</textarea>
+{{#if MaxLength}}
+<div class="row hasMaxLengthContainer">
+    <div class="col text-start">{{#if MaxLengthText}}<small class="form-text text-muted" localize-me>{{MaxLengthText}}</small> {{else}}<small class="form-text text-muted" localize-me {{#if Translate}}data-translation="{{translate (concat 'Maximum Characters Allowed ' MaxLength) 'Ar'}}"{{/if}}>Maximum Characters Allowed {{MaxLength}}</small> {{/if}}</div>
+    <div class="col text-end">
+        <span class="current-count">0</span> / <span class="maximum-count"></span>
+    </div>
+</div>
+{{/if}}
+{{#if HelpText}}<small class="form-text text-muted" localize-me {{#if Translate}}data-translation="{{translate HelpText 'Ar'}}"{{/if}}>{{HelpText}}</small>{{/if}}
+{{#if InvalidFeedback}}<div class="invalid-feedback" localize-me {{#if Translate}}data-translation="{{translate InvalidFeedback 'Ar'}}"{{/if}}>{{{InvalidFeedback}}}</div>{{else}}{{#if GenericFeedback}}{{#if Label}}{{#if Required}}<div class="invalid-feedback" localize-me>Please enter a {{Label}}</div>{{/if}}{{#if GlobalValidity}}<div class="invalid-feedback" localize-me>Entered {{Label}} is incorrect</div>{{/if}}{{/if}}{{/if}}{{/if}}
+<!-- ========== End Simple Text Area ========== -->

@@ -1,0 +1,27 @@
+{{#> _modal-block ModalId="upload-media-items-popup" ModalTitle="Upload" StaticBackdrop=1 Size="lg" hasCloseButton=1 hasSimpleButton=1 SimpleButtonText="Add" SimpleButtonClasses="upload-btn" DisableScroll=0 DisableCentered=0}}
+    <div class="row g-3">
+        <div class="col-12">
+            <label class="form-label" localize-me>Media Type</label>
+            {{>_radio-button Label="Image" NameId="MediaType" ConditionalDisplay="MediaTypeImage" Value="Image" Checked=1}}
+            {{>_radio-button NameId="MediaType" Label="Video" ConditionalDisplay="MediaTypeVideo" Value="Video"}}
+        </div>
+        <div class="col-12" data-content-display="MediaTypeImage">
+            <div class="row g-3">
+                <div class="col-12">
+                    {{>_image-upload Label="Media Image" NameId="MediaImage" Size="1920x1080" Required=1}}
+                </div>
+            </div>
+        </div>
+        <div class="col-12" data-content-display="MediaTypeVideo">
+            <div class="row g-3">
+                <div class="col-12">
+                    {{> _image-upload Label="Video" NameId="MediaVideo" Size="1920x1080" Required=1 Placeholder="Thumbnail" CustomHelpText="Upload Video in 1920x1080 resolution. Keep the video less than 20 seconds." HideImage=1 InputAttributes='accept="video/mp4,video/x-m4v,video/*"'}}
+                </div>
+                <div class="col-12">
+                    {{>_image-upload Label="Video Poster Image" NameId="MediaVideoPoster" Size="1920x1080" Required=1}}
+                </div>
+            </div>
+        </div>
+    </div>
+{{/ _modal-block}}
+

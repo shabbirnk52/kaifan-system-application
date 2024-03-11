@@ -1,0 +1,16 @@
+{{! I am a Recursive Partial :) }}
+{{#ifequal Status 0}}
+{{else}}
+<li {{#if Children}}class="nav-parent"{{/if}}>
+    <a class="nav-link" localize-me href="{{#if PageURL}}{{PageURL}}{{else}}#{{/if}}">
+        {{#if Icon}}<i class="{{Icon}}"></i><span>{{PageTitle}}</span>{{else}}<span>{{PageTitle}}</span>{{/if}}{{#if BubbleText}}<span class="badge bg-glowing ms-auto">{{BubbleText}}</span>{{/if}}
+    </a>
+    {{#if Children}}
+    <ul class="nav nav-children">
+        {{#each Children}}
+        {{>_navigation-item}}
+        {{/each}}
+    </ul>
+    {{/if}}
+</li>
+{{/ifequal}}

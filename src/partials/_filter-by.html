@@ -1,0 +1,25 @@
+{{#> _card-block CardClass="border border-secondary" HeaderClasses="border-secondary body-bg-secondary" HeaderTitleClasses="text-primary"  CardTitle="Filter By"}}
+<div class="row">
+  <div class="col-lg mb-lg-0 mb-3">
+    {{#>_select-field-block Label="Application Template" }}
+    <option selected>All</option>
+    <option>Scientific Mission</option>
+    <option>RENAC</option>
+    {{/_select-field-block}}
+  </div>
+
+
+
+  <div class="col-lg mb-lg-0 mb-3">
+    {{#>_select-field-block Label="Status" Classes="no-search"}}
+    <option selected>All</option>
+    <option value="1">Active</option>
+    <option value="2">Inactive</option>
+    {{/_select-field-block}}
+  </div>
+
+  <div class="col-lg-12 mt-3">
+    {{>_button-a ButtonText="Search" ButtonClasses="btn-primary"}}
+  </div>
+</div>
+{{/_card-block}}

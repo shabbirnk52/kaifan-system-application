@@ -1,0 +1,63 @@
+[{
+    "RoleTitle": "Super Admin",
+    "AbilityText": "Has access to following",
+    "Capabilities": [{
+        "Ability": "Application Forms"
+      },
+      {
+        "Ability": "Applicant Management"
+      },
+      {
+        "Ability": "Directorate Management"
+      },
+      {
+        "Ability": "Seasons Management"
+      },
+      {
+        "Ability": "Applications Management"
+      },
+      {
+        "Ability": "Jury Management"
+      },
+      {
+        "Ability": "User Management"
+      }
+    ]
+  },
+  {
+    "RoleTitle": "Reviewer",
+    "AbilityText": "Has access to following",
+    "Capabilities": [{
+        "Ability": "Applicant Management"
+      },
+      {
+        "Ability": "Applications Management"
+      }
+    ]
+  },
+  {
+    "RoleTitle": "Approver",
+    "AbilityText": "Has access to following",
+    "Capabilities": [{
+        "Ability": "Applicant Management"
+      },
+      {
+        "Ability": "Applications Management"
+      }
+    ]
+  },
+  {
+    "RoleTitle": "Supervisor",
+    "AbilityText": "Has access to following",
+    "Capabilities": [{
+        "Ability": "Applicant Management"
+      },
+      {
+        "Ability": "Applications Management"
+      },
+      {
+        "Ability": "Jury Management"
+      }
+    ]
+  }
+]

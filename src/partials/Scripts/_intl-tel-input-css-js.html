@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="{{root}}assets/vendor/css/intlTelInput.min.css" />
+<script src="{{root}}assets/vendor/js/intlTelInput.min.js"></script>
+<script>
+  var iti;
+  $(document).ready(function () {
+    var inputs = document.getElementsByClassName("phone");
+    Array.from(inputs).forEach(input => {
+      iti = window.intlTelInput(input, {
+      // any initialisation options go here
+      initialCountry: "kw",
+      separateDialCode: true
+      // allowDropdown:false,
+      // onlyCountries: ["kw", "sa", "ae", "bh", "om", "qa"]
+    });
+    });
+    
+    $(".country-selector").trigger("change");
+  });
+  $(".country-selector").change(function () {
+    if ($(this).find(":selected").val() != "0")
+      iti.setCountry($(this).find(":selected").val());
+  });
+
+</script>

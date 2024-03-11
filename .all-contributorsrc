@@ -1,0 +1,13 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributorsPerLine": 7,
+  "projectName": "Porto_Admin_Starter_Template_BS_5",
+  "projectOwner": "MPP",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

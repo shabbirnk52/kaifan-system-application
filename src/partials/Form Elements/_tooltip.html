@@ -1,0 +1,10 @@
+<!-- ========== Start Tooltip ========== -->
+{{! Sample Usage:-
+    Syntax: ((> _tooltip Text="Wow this makes UX so easy!" Size=1 Color="primary"))
+Variables:-
+    Text = Text to be displayed
+    Size = 1-5 (Default is 5)
+    Color = danger (Default is inherited by body)
+}}
+<i class="fas fa-question-circle {{#if Size}}fs-{{Size}}{{else}}fs-5{{/if}} {{#if Color}}text-{{Color}}{{/if}}" localize-me data-bs-toggle="tooltip" title="{{Text}}" data-bs-original-title="{{Text}}" aria-label="{{Text}}"></i>
+<!-- ========== End Tooltip ========== -->

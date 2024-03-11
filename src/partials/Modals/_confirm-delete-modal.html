@@ -1,0 +1,8 @@
+{{#> _modal-block ModalId="confirm-delete" HeaderClasses="text-bg-danger" RemoveFooter=1 ModalTitle="Delete Confirmation" StaticBackdrop=1 hasCloseButton=1 hasSimpleButton=1 DisableScroll=0 DisableCentered=0}}
+    <p class="text-center mb-0" localize-me>Are you sure you want to delete?</p>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-light" data-bs-dismiss="modal" localize-me>Cancel</button>
+    <button type="button" class="btn btn-danger" localize-me>{{#if CloseButtonText}}{{CloseButtonText}}{{else}}Delete{{/if}}</button>
+</div>
+{{/ _modal-block}}

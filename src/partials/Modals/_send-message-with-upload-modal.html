@@ -1,0 +1,10 @@
+{{#> _modal-block ModalId="send-message-with-upload-modal" ModalTitle="Submit Report" StaticBackdrop=1 Size="lg" hasCloseButton=1 hasSimpleButton=1 SimpleButtonText="Save" DisableScroll=0 DisableCentered=0}}
+    <div class="row">
+        <div class="col-12 mb-3">
+            {{>_input-field Type="file" Label="Report" Required=1}}
+        </div>
+        <div class="col-12">
+            {{>_textarea-field Label="Message"}}
+        </div>
+    </div>
+{{/ _modal-block}}

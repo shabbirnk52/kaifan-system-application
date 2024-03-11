@@ -1,0 +1,16 @@
+{{! Sample Usage:-
+    Syntax: ((> _media-gallery-uploader Identifier="unique-value")
+    Variables:-
+        Identifier = Must Adhere to the HTML Standards. Must be unique. (Optional)
+}}
+
+<div class="input-images-{{identifier}}"></div>
+
+<script>
+    $(document).ready(function(){
+        $('.input-images-{{identifier}}').imageUploader({
+            extensions:[".pdf",".docx",".doc",".png",".jpg",".jpeg"],
+            mimes:["application/pdf","application/vnd.openxmlformats-officedocument.wordprocessingml.document","application/msword","image/png","image/jpeg"]
+        });
+    });
+</script>

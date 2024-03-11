@@ -1,0 +1,1 @@
+<a href="{{#unless ButtonUrl}}#{{else}}{{ButtonUrl}}{{/unless}}" id="{{ID}}" {{#if ModalId}}data-bs-toggle="modal" data-bs-target="#{{ModalId}}"{{/if}} class="btn btn-primary btn-lg fw-bold rounded-0 {{Classes}}" localize-me {{#if Translate}}data-translation="{{translate ButtonText 'Ar'}}"{{/if}}>{{#if ButtonText}}{{ButtonText}}{{else}}Save{{/if}}</a>

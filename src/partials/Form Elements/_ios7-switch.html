@@ -1,0 +1,25 @@
+<!-- ========== Start ios7 Switch ========== -->
+{{! Sample Usage:-
+Syntax: ((> _ios7-switch Label="Simple Switcher" Checked=1 UniqueClass="class-for-styling-or-targeting" SwitchSize="lg"
+SwitchColor="Secondary"))
+Variables:-
+Label = Text to be displayed as title of the Switch
+UniqueClass = Must adhere to the html ID guidelines. i.e. must not have spaces. Can be used for targeting or unique
+styling
+Checked = 1 (Default is 0) Optional
+SwitchSize = lg or sm (Default is "" and makes the size as Normal or Medium)
+SwitchColor = warning or success. (Default is primary)
+ConditionalClasses = USEFUL FOR ADDING FUNCTIONALITY TO SWITCH. DEFAULT IS TOGGLE. Single identifier Class. Must adhere
+to the html ID guidelines. i.e. must not have spaces. Can be used for targeting or unique styling
+//// ALSO LOOK UP "initiOS7SwitchEvents" FUNCTION IN main.js
+}}
+<div
+    class="switch {{#if SwitchSize}}switch-{{SwitchSize}}{{/if}} switch-{{#if SwitchColor}}{{SwitchColor}}{{else}}primary{{/if}} my-0 {{UniqueClass}}">
+    {{#if Label}}<label class="form-label" for="enable" localize-me>{{Label}}</label>{{/if}}
+    <input type="checkbox" {{#if NameId}}name="{{simplify NameId}}" id="{{NameId}}" {{else}}{{#if
+        Label}}name="{{simplify Label}}" id="{{simplify Label}}" {{else}}name="switch-{{random 3}}"
+        id="switch-{{random 3}}" {{/if}}{{/if}} data-plugin-ios-switch{{#if ConditionalDisplay}}
+        data-switch-display="{{ConditionalDisplay}}" {{/if}}{{#if ConditionalDisplay}}
+        data-switch-disable="{{ConditionalDisable}}" {{/if}} {{#if Checked}}checked="checked" {{/if}} />
+</div>
+<!-- ========== End ios7 Switch ========== -->

@@ -1,0 +1,7 @@
+<div class="form-check{{#if Inline}} form-check-inline{{/if}}" localize-me>
+    <input class="form-check-input" data-radio-conditional-display="{{ConditionalDisplay}}" type="radio" name="{{NameId}}" {{#if Value}}id="{{NameId}}-{{Value}}"{{else}}id="{{NameId}}{{@index}}{{index}}"{{/if}} {{#if Value}}value="{{Value}}"{{/if}} {{#if Checked}}checked{{/if}}>
+    <label class="form-check-label" {{#if Value}}for="{{NameId}}-{{Value}}"{{else}}for="{{NameId}}{{@index}}{{index}}"{{/if}} {{#if Translate}}data-translation="{{translate Label 'Ar'}}"{{/if}}>
+      {{Label}}
+    </label>
+    {{#if Required}}<span class=" text-danger">*</span>{{/if}}
+</div>

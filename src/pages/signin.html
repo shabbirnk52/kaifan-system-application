@@ -1,0 +1,63 @@
+---
+layout: sign-in-out
+title: Sign In
+---
+
+<section class="body-sign" style="max-width: 600px;">
+
+    <div class="center-sign">
+        
+        
+        
+        <div class="panel card-sign">
+            <div class="card-title-sign d-flex mt-3">
+                <a href="/" class="logo d-flex align-items-center col-8 col-lg-6">
+                    <img src="assets/img/logo.svg" height="50" class="img-fluid mb-3" alt="Brand Logo" />
+                </a>
+                <h2 class="ms-auto title text-uppercase font-weight-bold m-0" localize-me><i class="bx bx-user-circle me-1 text-6 position-relative top-5"></i> {{title}}</h2>
+            </div>
+            <div class="card-body">
+                <form action="index.html" method="post">
+                    <div class="row g-3">
+                        <div class="col-12">
+                            {{> _input-field Label="Email Address" NameId="signin-email" Type="email" InvalidText="Please enter a valid email address" Placeholder="Email Address"}}
+                        </div>
+                        <div class="col-12">
+                            {{> _input-field Label="Password" NameId="signin-password" Type="password" InvalidText="Please enter a valid password" Placeholder="Password"}}
+                        </div>
+                    </div>
+                    <div class="row align-items-center mt-3">
+                        <div class="col-sm-8">
+                            {{>_checkbox-button Label="Remember Me"}}
+                        </div>
+                        <div class="col-sm-4 text-start text-sm-end">
+                            {{>_button-a URL="index.html" ButtonClasses="btn-secondary mt-3 mt-sm-0" ButtonText="Sign In"}}
+                        </div>
+                    </div>
+                    {{#with navigation}}
+                            {{#if MultiUser}}
+                                <hr>
+                                <div class="row mt-2">
+                                    <p class="fw-bold text-danger text-center mb-0">-- For Demo Purposes Only --</p>
+                                </div>
+                                <div class="row justify-content-center">
+                                    {{#each MenuItems}}
+                                    {{#unless Inactive}}
+                                    <div class="col-12">
+                                        {{> _button-a URL=MainUrl ButtonText=(concat 'Login As ' UserRoleName) ButtonClasses="btn-secondary w-100 mt-2 SetLoginSession" Attributes=(concat 'data-userrole="' UserRoleClass '" data-userrolename="' UserRoleName '" data-userroleurl="' MainUrl '"') }}
+                                    </div>
+                                    {{/unless}}
+                                    {{/each}}
+                                </div>
+                            {{/if}}
+                        {{/with}}
+                </form>
+            </div>
+        </div>
+
+        <p class="text-center text-muted mt-3 mb-3" localize-me>  © All rights reserved - TEC <span class="generate-date"></span></p>
+    </div>
+</section>
+
+
+

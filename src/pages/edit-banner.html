@@ -1,0 +1,124 @@
+---
+layout: default
+title: Edit Banner
+---
+
+{{> _page-header}}
+{{#> _card-block CardTitle="Banner Details" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-lg-6">
+        {{>_input-field Label="Title (En)" NameId="titleEn" InvalidFeedback="Please enter banner title" Required=1
+        Value="Creative & Innovative Digital Solution"}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="Title (Ar)" NameId="titleAr" InvalidFeedback="Please enter banner title" Required=1
+        Value="الحلول الرقمية الإبداعية والمبتكرة"
+        RTL=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="Subtitle (En)" NameId="subtitleEn" InvalidFeedback="Please enter banner subtitle"
+        Value="CREATIVE & INNOVATIVE"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="Subtitle (Ar)" NameId="subtitleAr" InvalidFeedback="Please enter banner subtitle"
+        Value="إبداعية ومبتكرة"
+        Required=1
+        RTL=1}}
+    </div>
+</div>
+{{/ _card-block}}
+
+{{#> _card-block CardTitle="Banner Redirection" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-12 col-lg-3 col-xl-2">
+        {{>_ios7-switch Label="Enable Primary Button" Checked=1}}
+    </div>
+    <div class="col-12 col-lg-9 col-xl-10">
+        <div class="row g-3">
+            <div class="col-lg-6">
+                {{>_input-field Label="Button Text (En)" NameId="primaryButtonTextEn" InvalidFeedback="Please enter
+                button text"
+                Value="Get a Quote"
+                Required=1}}
+            </div>
+            <div class="col-lg-6">
+                {{>_input-field Label="Button Text (Ar)" NameId="primaryButtonTextAr" InvalidFeedback="Please enter
+                button
+                text"
+                Value="احصل على عرض أسعار"
+                Required=1 RTL=1}}
+            </div>
+            <div class="col-lg-6">
+                {{>_input-field Label="URL" Type="url" Required=1
+                Value="https://designs.mpp.com.kw/newmpp/html/quote.html/"}}
+            </div>
+            <div class="col-lg-6">
+                {{>_ios7-switch Label="Open in New tab"}}
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-3 col-xl-2">
+        {{>_ios7-switch Label="Enable Secondary Button" Checked=1}}
+    </div>
+    <div class="col-12 col-lg-9 col-xl-10">
+        <div class="row g-3">
+            <div class="col-lg-6">
+                {{>_input-field Label="Button Text (En)" NameId="secondaryButtonTextEn" InvalidFeedback="Please enter
+                button text"
+                Value="Contact Us"
+                Required=1}}
+            </div>
+            <div class="col-lg-6">
+                {{>_input-field Label="Button Text (Ar)" NameId="secondaryButtonTextAr" InvalidFeedback="Please enter
+                button text"
+                Value="اتصل بنا"
+                Required=1 RTL=1}}
+            </div>
+            <div class="col-lg-6">
+                {{>_input-field Label="URL" Type="url" Value="https://designs.mpp.com.kw/newmpp/html/contact.html/"
+                Required=1}}
+            </div>
+            <div class="col-lg-6">
+                {{>_ios7-switch Label="Open in New tab"}}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{/ _card-block}}
+
+{{#> _card-block CardTitle="Banner Media" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-12">
+        <div class="row g-3">
+            <div class="col-lg-6">
+                {{>_image-upload Label="Banner Image" NameId="BannerImage" Size="1920x1080" Required=1
+                Image="assets/img/banners/banner.jpg"}}
+            </div>
+        </div>
+    </div>
+</div>
+{{/ _card-block}}
+
+<div class="row">
+    <div class="col-12">
+        {{>_button-a ButtonText="Back" ButtonClasses="btn-warning" GoBack=1}}
+        {{>_button-a ButtonText="Save" ButtonClasses="btn-success"}}
+    </div>
+</div>
+
+<!-- Start: Page Specific Scripts -->
+<script>
+    $(function () {
+        $("#preview-image-BannerThumbnailIcon").css("background-color", $("#thumbnailColor").val());
+        $("#preview-image-BannerThumbnailIcon").css("padding", "1rem");
+    });
+    $("#thumbnailColor").on("change", function () {
+        $("#preview-image-BannerThumbnailIcon").css("background-color", $(this).val());
+    });
+</script>
+<!-- End: Page Specific Scripts -->
+{{>_ios7-switch-js}}
+{{>_summernote-css-js}}
+{{>_select2-css-js}}

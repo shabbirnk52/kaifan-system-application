@@ -1,0 +1,29 @@
+<div class="col-12 col-lg mb-3 mb-md-0 d-flex">
+    {{#if RemoveMargin}}
+    {{#>_card-block DisableCardHeader=1 CardBottomRemoveMargin=1 CardClass="w-100"}}
+    <div class="d-flex flex-column align-items-center">
+        {{#if Content}}
+        <div class="mb-2 card-header-icon {{#ifequal BodyClasses 'shadow-none'}}{{else}}{{#if BodyClasses}}bg-white{{/if}}{{/ifequal}}">
+            {{{Content}}}
+        </div>
+        {{/if}}
+        <h5 class="mt-0 text-center {{#ifequal BodyClasses 'shadow-none'}}{{else}}{{#if BodyClasses}}{{#unless CustomClasses}}text-white{{else}}{{CustomClasses}}{{/unless}}{{/if}}{{/ifequal}}" localize-me>{{Title}}</h5>
+        {{#if MakeDiv}}<div{{else}}<h4{{/if}} class="mt-0 text-center {{CustomClasses}} {{#ifequal BodyClasses 'shadow-none'}}text-primary{{else}}{{#if BodyClasses}}{{#unless CustomClasses}}text-white w-100{{else}}{{CustomClasses}}{{/unless}}{{else}}text-primary{{/if}}{{/ifequal}}" localize-me>{{{Subtitle}}}{{#if MakeDiv}}</div>{{else}}</h4>{{/if}}
+        {{#if CardURL}}<a href="{{CardURL}}" class="stretched-link"></a>{{/if}}
+    </div>
+    {{/_card-block}}
+    {{else}}
+    {{#>_card-block DisableCardHeader=1 CardClass="w-100"}}
+    <div class="d-flex flex-column align-items-center">
+        {{#if Content}}
+        <div class="mb-2 card-header-icon {{#ifequal BodyClasses 'shadow-none'}}{{else}}{{#if BodyClasses}}bg-white{{/if}}{{/ifequal}}">
+            {{{Content}}}
+        </div>
+        {{/if}}
+        <h5 class="mt-0 text-center {{#ifequal BodyClasses 'shadow-none'}}{{else}}{{#if BodyClasses}}{{#unless CustomClasses}}text-white{{else}}{{CustomClasses}}{{/unless}}{{/if}}{{/ifequal}}" localize-me>{{Title}}</h5>
+        {{#if MakeDiv}}<div{{else}}<h4{{/if}} class="mt-0 text-center {{CustomClasses}} {{#ifequal BodyClasses 'shadow-none'}}text-primary{{else}}{{#if BodyClasses}}{{#unless CustomClasses}}text-white w-100{{else}}{{CustomClasses}}{{/unless}}{{else}}text-primary{{/if}}{{/ifequal}}" localize-me>{{{Subtitle}}}{{#if MakeDiv}}</div>{{else}}</h4>{{/if}}
+        {{#if CardURL}}<a href="{{CardURL}}" class="stretched-link"></a>{{/if}}
+    </div>
+    {{/_card-block}}
+    {{/if}}
+</div>

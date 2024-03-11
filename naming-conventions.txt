@@ -1,0 +1,35 @@
+<!-- References -->
+https://developers.google.com/search/docs/advanced/guidelines/url-structure
+https://www.ecreativeim.com/blog/index.php/2011/03/30/seo-basics-hyphen-or-underscore-for-seo-urls/
+
+<!-- ========== Start File Names ========== -->
+
+<!-- Layouts -->
+<!-- Seperation by hyphens '-' -->
+default.html
+sign-in-out.html
+print-page.html
+
+<!-- Pages -->
+<!-- Use dash-case with hyphens '-' as seperators -->
+index.html
+signin.html
+data-table.html
+forms-advanced.html
+
+<!-- Partials -->
+<!-- Use dash-case with prefix as underscore '_' -->
+_accordion.html
+_filter-by.html
+_footer.html
+_header.html
+
+<!-- ========== End File Names ========== -->
+
+
+
+<!-- ========== Start Commit Syntax ========== -->
+Dev – Changes or Addons (Development)
+Imp – Improve the report option in the preview (Improvement in Code)
+Fix – fix the issue in the duplicate report create (Bug fixes etc.)
+<!-- ========== End Commit Syntax ========== -->

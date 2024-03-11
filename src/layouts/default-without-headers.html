@@ -1,0 +1,56 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+<!DOCTYPE html>
+<!-- build:dir -->
+<html lang="en" dir="ltr">
+<!-- endbuild -->
+
+
+<head>
+
+  <!-- Basic -->
+  <meta charset="UTF-8">
+
+  <title localize-me>{{title}} || TEC Admin</title>
+  <meta name="keywords" content="HTML5 Admin Template" />
+  <meta name="description" content="TEC Admin">
+  <meta name="author" content="Media Phone Plus">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{root}}assets/img/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{root}}assets/img/fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{root}}assets/img/fav/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  
+  
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- Web Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap" rel="stylesheet"> 
+  <!-- Theme CSS -->
+  <!-- build:css -->
+  <link rel="stylesheet" href="{{root}}assets/css/theme.css" />
+  <!-- endbuild -->
+
+  <!-- Head Libs -->
+  <script src="{{root}}assets/vendor/js/jquery.js"></script>
+  <script src="{{root}}assets/vendor/js/modernizr.js"></script>
+
+</head>
+
+<body>
+  <section class="body min-vh-100 d-flex flex-column justify-content-center align-items-center">
+    <section role="main" class="content-body h-100 w-100 d-flex align-items-center justify-content-center">
+      <!-- start: page -->
+      {{> body}}
+      <!-- end: page -->
+    </section>
+  </section>
+  {{> _vendor-js}}
+  {{> _theme-base-js}}
+  {{!> _experimental-scripts ClientName="tec-cms"}}
+
+  {{> _footer}}
+</body>
+</html>

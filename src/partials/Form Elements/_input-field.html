@@ -1,0 +1,58 @@
+<!-- ========== Start Simple Input Field ========== -->
+{{! Sample Usage:-
+    Syntax: ((> _input-field Label="Input Field Label" Required=1 NameId="input-field-id" Attribute="data-some-attribute" RTL=1 DisableAutocomplete=1 Placeholder="Some Text can be given here as a demo content" Value="This text can have some real content" Disabled=1 HelpText="This can be used for hinting" InvalidFeedback="This can be used to prompt errors"))
+Variables:-
+    Required = 1 (Default 0)
+    DisableAutocomplete = 1 (Default 0) Disables the Browser suggestions
+    Disabled = 1 (Default 0)
+    Label = Text to be displayed as title of the Field
+    NameId = Must adhere to the html ID guidelines. i.e. must not have spaces.
+    HelpText = Can be any text useable as a hint. Can be empty
+    InvalidFeedback = Can be any text useable as a warning. Can be empty
+    Attribue = Can be anything that needs to be added as an attribute to the element
+    RTL = 1 (Default 0) Flips the input field around
+    Placeholder = Text to be displayed as ghost/placeholder of the Field
+    Value = Text to be added as value of the Field
+}}
+
+{{#if Label}}<label for="{{NameId}}" class="form-label" {{#if Translate}}data-translation="{{translate Label 'Ar'}}"{{/if}} localize-me>{{Label}}{{#if Required}}<span class="text-danger">*</span>{{/if}}</label>{{#if CustomRightLabel}}{{{CustomRightLabel}}}{{/if}}{{/if}}
+{{#ifequal Type 'tel'}}
+<div class="input-group telephone-field has-validation">
+  <span class="input-group-text" id="{{Label}}">+965</span>
+  <input type="{{#if Type}}{{Type}}{{else}}text{{/if}}" localize-me {{#ifequal Type 'number'}}min="0" step="1" {{/ifequal}}{{{Attribute}}} {{#if RTL}}dir="rtl"{{else}}dir="ltr"{{/if}} {{#if DisableAutocomplete}}autocomplete="off"{{/if}} class="form-control {{Classes}}" name="{{NameId}}" id="{{NameId}}" aria-describedby="{{Label}}" placeholder="{{Placeholder}}" {{#if Value}}value="{{Value}}"{{/if}} {{#if Disabled}}disabled{{/if}} {{#if Required}}required{{/if}}>
+  <div class="invalid-feedback" localize-me>Please enter a valid phone number</div>
+  <div class="invalid-feedback" localize-me>Please enter an 8 digit phone number</div>
+</div>
+{{else}}
+{{#ifequal Type 'password'}}
+<div class="input-group has-validation password-field">
+  <input type="{{#if Type}}{{Type}}{{else}}text{{/if}}" localize-me {{#ifequal Type 'number'}}min="0" step="1" {{/ifequal}}{{{Attribute}}} {{#if RTL}}dir="rtl"{{else}}dir="ltr"{{/if}} {{#if DisableAutocomplete}}autocomplete="off"{{/if}} class="form-control {{Classes}}" {{#if NameId}}name="{{simplify NameId}}" id="{{NameId}}"{{else}}{{#if Label}}name="{{simplify Label}}" id="{{simplify Label}}"{{/if}}{{/if}} aria-describedby="{{Label}}" {{#if Placeholder}}placeholder="{{Placeholder}}"{{#if Translate}} data-translation-placeholder="{{translate Placeholder 'Ar'}}"{{/if}}{{/if}} {{#if Value}}value="{{Value}}"{{/if}} {{#if Disabled}}disabled{{/if}} {{#if Required}}required{{/if}}>
+  <span class="input-group-text password-peeker bg-light">
+    <i class="fa-regular fa-eye"></i>
+  </span>
+  <div class="invalid-feedback" localize-me {{#if Translate}}data-translation="{{translate InvalidFeedback 'Ar'}}"{{/if}}>{{{InvalidFeedback}}}</div>
+</div>
+{{else}}
+{{#ifequal Type 'file'}}
+<div class="input-group" localize-me>
+  <input class="form-control" type="file" {{#if NameId}}name="{{simplify NameId}}" id="{{NameId}}"{{else}}{{#if Label}}name="{{simplify Label}}" id="{{simplify Label}}"{{/if}}{{/if}}>
+  <span class="input-group-text"><a href="javascript:;" class="text-decoration-none text-body small" target="_blank" {{#if Translate}}data-translation="{{translate 'View File' 'Ar'}}"{{/if}}>View File</a></span>
+</div>
+{{else}}
+<input type="{{#if Type}}{{Type}}{{else}}text{{/if}}"{{#if MaxLength}} maxlength="{{MaxLength}}"{{/if}} localize-me {{#ifequal Type 'number'}}min="0" step="1" {{/ifequal}}{{{Attribute}}} {{#ifequal Attribute 'data-plugin-timepicker'}}readonly{{/ifequal}} {{#if RTL}}dir="rtl"{{else}}dir="ltr"{{/if}} {{#if DisableAutocomplete}}autocomplete="off"{{/if}} class="form-control{{#ifequal Type 'color'}} form-control-color{{/ifequal}} {{Classes}}" {{#if NameId}}name="{{simplify NameId}}" id="{{NameId}}"{{else}}{{#if Label}}name="{{simplify Label}}" id="{{simplify Label}}"{{/if}}{{/if}} aria-describedby="{{Label}}" {{#if Placeholder}}placeholder="{{Placeholder}}"{{#if Translate}} data-translation-placeholder="{{translate Placeholder 'Ar'}}"{{/if}}{{/if}} {{#if Value}}value="{{Value}}"{{/if}} {{#if Disabled}}disabled{{/if}} {{#if Required}}required{{/if}}>
+{{#if MaxLength}}
+<div class="row hasMaxLengthContainer">
+    <div class="col text-start">{{#if MaxLengthText}}<small class="form-text text-muted" localize-me>{{MaxLengthText}}</small> {{else}}<small class="form-text text-muted" localize-me {{#if Translate}}data-translation="{{translate (concat 'Maximum Characters Allowed ' MaxLength) 'Ar'}}"{{/if}}>Maximum Characters Allowed {{MaxLength}}</small> {{/if}}</div>
+    <div class="col text-end">
+        <span class="current-count">0</span> / <span class="maximum-count"></span>
+    </div>
+</div>
+{{/if}}
+{{#if HelpText}}<small class="form-text text-muted" localize-me>{{{HelpText}}}</small>{{/if}}
+{{#if InvalidFeedback}}<div class="invalid-feedback" localize-me>{{{InvalidFeedback}}}</div>{{else}}{{#if GenericFeedback}}{{#if Label}}{{#if Required}}<div class="invalid-feedback" localize-me>Please enter a {{Label}}</div>{{/if}}{{#if GlobalValidity}}<div class="invalid-feedback" localize-me>Entered {{Label}} is incorrect</div>{{/if}}{{/if}}{{/if}}{{/if}}
+{{#if ValidFeedback}}<div class="valid-feedback" localize-me>{{ValidFeedback}}</div>{{/if}}
+{{/ifequal}}
+{{/ifequal}}
+{{/ifequal}}
+
+<!-- ========== End Simple Input Field ========== -->

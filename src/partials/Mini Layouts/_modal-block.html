@@ -1,0 +1,47 @@
+<!-- Start: Vertically centered scrollable modal -->
+{{! Sample Usage:-
+    Syntax:
+    ((#> _modal-block ModalId="DummyTestModal" ModalTitle="Dummy Test Modal!" StaticBackdrop=1 Size="lg" hasSimpleButton=1 SimpleButtonText="Confirm Action" hasCloseButton=1 CloseButtonText="Cancel Action" DisableScroll=0 DisableCentered=0))
+        <h1>My Content inside the Modal!</h1>
+    ((/ _modal-block))
+Variables:-
+    ModalTitle = Text to be displayed as title of the Modal
+    ModalId = Must adhere to the html ID guidelines. i.e. must not have spaces.
+
+    hasSimpleButton = 1 (Default is 0)
+    hasCloseButton = 1 (Default is 0) Has the close functionality
+    SecondaryModalId = Must adhere to the html ID guidelines. i.e. must not have spaces.
+    SecondaryModalButtonText = Button Text. Optional Field. (Default is Next)
+    SimpleButtonText = Button Text. Optional Field. (Default is Confirm)
+    CloseButtonText = Button Text. Optional Field. (Default is Close)
+    StaticBackdrop = 1 (Default is 0) Requires a Click on Close buttons
+    Size = sm, lg, or xl AND the responsive classes such as fullscreen, fullscreen-md-down etc (Default is none)
+    RemoveHeader = 1 (Default is 0)
+    RemoveFooter = 1 (Default is 0)
+    DisableScroll = 1 (Default is 0)
+    DisableCentered = 1 (Default is 0)
+}}
+<div class="modal fade{{#if ModalClasses}} {{ModalClasses}}{{/if}}" id="{{ModalId}}" {{#if StaticBackdrop}}data-bs-backdrop="static"{{/if}} data-bs-keyboard="false" tabindex="-1" aria-labelledby="{{ModalId}}Label" aria-hidden="true">
+    <div class="modal-dialog {{#if Size}}modal-{{Size}}{{/if}} {{#if DisableScroll}}{{else}}modal-dialog-scrollable{{/if}} {{#if DisableCentered}}{{else}}modal-dialog-centered{{/if}}">
+      <div class="modal-content">
+        {{#if RemoveHeader}}{{else}}
+        <div class="modal-header {{HeaderClasses}}">
+          {{#if ModalTitle}}<h5 class="modal-title m-0" id="{{ModalId}}Label" localize-me {{#if Translate}}data-translation="{{translate ModalTitle 'Ar'}}"{{/if}}>{{ModalTitle}}</h5>{{/if}}
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        {{/if}}
+        <div class="modal-body">
+            {{> @partial-block }}
+        </div>
+        {{#if RemoveFooter}}{{else}}
+        <div class="modal-footer">
+            {{#if hasCloseButton}}<button type="button" class="btn btn-danger" data-bs-dismiss="modal" localize-me {{#if Translate}}data-translation="{{translate CloseButtonText 'Ar'}}"{{/if}}>{{#if CloseButtonText}}{{CloseButtonText}}{{else}}Close{{/if}}</button>{{/if}}
+            {{#if hasSimpleButton}}{{#if SimpleButtonType}}<{{SimpleButtonType}}{{else}}<button type="button" {{/if}} class="btn btn-success {{SimpleButtonClasses}}" localize-me {{#if Translate}}data-translation="{{translate SimpleButtonText 'Ar'}}"{{/if}} {{{SimpleButtonAttr}}}>{{#if SimpleButtonText}}{{{SimpleButtonText}}}{{else}}Confirm{{/if}}{{#if SimpleButtonType}}</{{SimpleButtonType}}>{{else}}</button>{{/if}}{{/if}}
+            {{#if SecondaryModalId}}<button type="button" class="btn btn-info" data-bs-target="#{{SecondaryModalId}}" data-bs-toggle="modal" data-bs-dismiss="modal" localize-me {{#if Translate}}data-translation="{{translate SecondaryModalButtonText 'Ar'}}"{{/if}}>{{#if SecondaryModalButtonText}}{{SecondaryModalButtonText}}{{else}}Next{{/if}}</button>{{/if}}
+            {{#if hasSecondaryButton}}<button type="button" class="btn btn-warning {{SecondaryButtonClasses}}" localize-me {{{SecondaryButtonAttr}}} {{#if Translate}}data-translation="{{translate SecondaryButtonText 'Ar'}}"{{/if}}>{{#if SecondaryButtonText}}{{{SecondaryButtonText}}}{{else}}Confirm{{/if}}</button>{{/if}}
+        </div>
+        {{/if}}
+        {{#if RemoveFooter}}{{else}}</div>{{/if}} {{!-- Not sure why I have to do this --}}
+    </div>
+  </div>
+<!-- End: Vertically centered scrollable modal -->

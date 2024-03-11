@@ -1,0 +1,280 @@
+/* Menu */
+ul.nav-main {
+	margin-right: 5px;
+
+	a {
+		text-decoration: none;
+	}
+
+	// PRIMARY MENU ITEM
+	// -----------------------------------------------------------------------------
+
+	& > li {
+
+		& > a {
+			padding: $menu-item-padding;
+
+			// PRIMARY HOVER
+			// -----------------------------------------------------------------------------
+			&:hover,
+			&:focus {
+				background-color: $sidemenu-hover-bg;
+				color: $sidemenu-hover-color;
+			}
+		}
+
+		// PRIMARY ITEM: ACTIVE
+		// -----------------------------------------------------------------------------
+		&.nav-active {
+			> a {
+				box-shadow: 2px 0 0 $color-secondary inset;
+				background: $color-secondary;
+				color: white; 
+				&:hover {
+					color: white;
+				}
+			}
+
+			& > i {
+				color: $color-primary;
+			}
+			// .badge{
+			// 	background-color: $color-secondary-inverse !important;
+			// 	color: $color-secondary !important;
+			// }
+		}
+
+		// PRIMARY ITEM: EXPANDED
+		// -----------------------------------------------------------------------------
+		&.nav-expanded {
+			& > a {
+				// background: #21262d;
+				background: darken($sidemenu-bg, 10);
+				color: $sidemenu-color;
+			}
+		}
+	}
+
+	// PRIMARY AND CHILDREN ITEMS
+	// -----------------------------------------------------------------------------
+	li {
+		width: 100%;
+		a {
+			// display: block;
+			display: flex;
+			align-items: center;
+			// color: $color-primary-inverse;
+			color: $color-primary-inverse;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			font-size: 0.8rem;
+
+			.badge{
+				font-size: 0.8rem;
+			}
+
+			.not-included {
+				font-style: normal;
+				color: darken($color-primary-inverse, 35%);
+				display: inline-block;
+				padding: 0 0 0 6px;
+			}
+		}
+
+		span {
+			vertical-align: middle;
+		}
+
+		i {
+			font-size: 1.15rem;
+			width: 1.1em;
+			margin-right: 0.5em;
+			text-align: center;
+			vertical-align: middle;
+		}
+
+		// SUB MENU - HAS CHILDREN
+		// -----------------------------------------------------------------------------
+		&.nav-parent {
+			position: relative;
+
+			& > a {
+				cursor: pointer;
+
+				&:after {
+					font-family: 'Font Awesome 5 Free';
+   					font-weight: 900;
+					content: '\f107';
+					color: $color-primary-inverse !important;
+					position: absolute;
+					right: 0;
+					top: 0;
+					padding: $menu-item-arrow-padding;
+				}
+			}
+			& > a:hover {
+				cursor: pointer;
+
+				&:after {
+					font-family: 'Font Awesome 5 Free';
+   					font-weight: 900;
+					content: '\f107';
+					color: $color-primary;
+					position: absolute;
+					right: 0;
+					top: 0;
+					// padding: $menu-item-arrow-padding;
+				}
+			}
+
+			// SUB MENU - HAS CHILDREN - EXPANDED
+			// -----------------------------------------------------------------------------
+			&.nav-expanded {
+
+				& > a:after {
+					content: '\f106';
+					color: $color-primary;
+				}
+
+				& > ul.nav-children {
+					display: block;
+				}
+			}
+			.badge{
+				margin-right: 1rem;
+			}
+			.nav-children{
+				.badge{
+					margin-right: 0;
+				}
+			}
+		}
+
+		// SUB MENU - CHILDREN
+		// -----------------------------------------------------------------------------
+		.nav-children {
+			background: darken($sidemenu-bg, 20);
+			box-shadow: 0px -3px 3px -3px rgba(0, 0, 0, 0.7) inset;
+			display: none;
+			// padding: 10px 0;
+
+			li {
+				a {
+					padding: $menu-children-padding;
+					overflow: hidden;
+
+					&:hover, &:focus {
+						background: darken($sidemenu-bg, 2%);
+						color: $sidemenu-color;
+					}
+
+					&:after {
+						padding: $menu-item-children-arrow-padding;
+					}
+				}
+
+				//  SUB MENU - CHILDREN: ACTIVE
+				// -----------------------------------------------------------------------------
+				&.nav-active {
+					> a {
+						color: white;
+						background-color: $color-secondary;
+					}
+				}
+			}
+
+			// LEVEL 1
+			.nav-children {
+				box-shadow: none;
+				padding: 0;
+
+				li {
+					a {
+						padding: $menu-children-level1-padding;
+					}
+				}
+
+				// LEVEL 2
+				.nav-children {
+					li {
+						a {
+							padding: $menu-children-level2-padding;
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+}
+
+// SIDEBAR LIGHT
+// -----------------------------------------------------------------------------
+/* Sidebar Light - Menu */
+html.sidebar-light:not(.dark) {
+	ul.nav-main {
+
+		margin-top: 3px;
+
+		li {
+			a {
+				color: #777;
+			}
+		}
+
+		// PRIMARY MENU ITEM
+		// -----------------------------------------------------------------------------
+		& > li {
+
+			& > a {
+
+				// PRIMARY HOVER
+				// -----------------------------------------------------------------------------
+				&:hover,
+				&:focus {
+					background-color: #fafafa;
+				}
+			}
+
+			// PRIMARY ITEM: EXPANDED
+			// -----------------------------------------------------------------------------
+			&.nav-expanded {
+				& > a {
+					background: #fafafa;
+				}
+			}
+		}
+
+		// PRIMARY AND CHILDREN ITEMS
+		// -----------------------------------------------------------------------------
+		li {
+
+			// SUB MENU - CHILDREN
+			// -----------------------------------------------------------------------------
+			.nav-children {
+				background: #F6F6F6;
+				box-shadow: 0 -3px 3px -3px rgba(0, 0, 0, 0.1) inset;
+
+				li {
+					a {
+						&:hover, &:focus {
+							background: #F1F1F1;
+						}
+					}
+				}
+
+			}
+
+		}
+
+	}
+}
+
+.sidebar-left-collapsed{
+	.sidebar-toggle{
+		i{
+			transform: rotateZ(180deg);
+		}
+	}
+}

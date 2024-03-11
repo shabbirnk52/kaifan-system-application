@@ -1,0 +1,27 @@
+<div class="row g-3 {{ConditionalClasses}}">
+    <div class="col-12">
+        <label class="form-label" localize-me>Banner Type</label>
+        {{>_radio-button Label="Image" NameId="BannerType" ConditionalDisplay="BannerTypeImage" Value="Image"
+        Checked=1}}
+        {{>_radio-button NameId="BannerType" Label="Video" ConditionalDisplay="BannerTypeVideo" Value="Video"}}
+    </div>
+    <div class="col-12" data-content-display="BannerTypeImage">
+        <div class="row g-3">
+            <div class="col-lg-6">
+                {{>_image-upload Label="Banner Image" NameId="BannerImage" Size="1920x1080" Required=1 Image=BannerImage}}
+            </div>
+        </div>
+    </div>
+    <div class="col-12" data-content-display="BannerTypeVideo">
+        <div class="row g-3">
+            <div class="col-lg-6">
+                {{> _image-upload Label="Video" NameId="BannerVideo" Size="1920x1080" Required=1 Placeholder="Thumbnail"
+                CustomHelpText="Upload Video in 1920x1080 resolution. Keep the video less than 20 seconds." HideImage=1
+                InputAttributes='accept="video/mp4,video/x-m4v,video/*"'}}
+            </div>
+            <div class="col-lg-6">
+                {{>_image-upload Label="Video Poster Image" NameId="BannerVideoPoster" Size="1920x1080" Required=1}}
+            </div>
+        </div>
+    </div>
+</div>

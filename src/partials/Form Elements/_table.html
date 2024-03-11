@@ -1,0 +1,130 @@
+<!-- ========== Start Table Block ========== -->
+{{! Sample Usage:-
+    Syntax:
+    ((> _table-block identifier=1))
+Variables:-
+    identifier = Optional Identifier incase multiple datatables are to be initialised on a single page
+
+Other Comments:-
+    Refer to the usage in forms-advanced.html
+    Notice how a scope has been created using the #with helper block
+    Use the json template table.json for all datatables
+}}
+<table class="table align-middle mobile-optimised datatable-default-{{identifier}}" id="datatable-default-{{@index}}">
+    {{#if Head}}
+        <thead>
+            <tr>
+                {{#each Head}}
+                {{#ifequal Status 0}}
+                {{else}}
+                <th data-priority="{{Priority}}" class="{{Class}}" {{#if HeadingAttribute}}{{{HeadingAttribute}}}{{/if}} localize-me>{{Title}}{{#if Partial}}{{> (lookup . 'Partial') }}{{/if}}</th>
+                {{/ifequal}}
+                {{/each}}
+            </tr>
+        </thead>
+    {{/if}}
+    <tbody class="">
+        {{#each Row}}
+        {{#ifequal Status 0}}
+        {{else}}
+        <tr class="{{RowClass}}">
+            {{#each Data}}
+            {{#ifequal Status 0}}
+            {{else}}
+            <td data-th="{{#with (lookup ../../Head @index)}}{{Title}}{{/with}}" {{#if Search}}data-search="{{Search}}"{{/if}} {{#if Order}}data-order="{{Order}}"{{/if}} {{#if Status}}data-isstatus{{/if}} {{#if CustomAttributes}}{{{CustomAttributes}}}{{/if}}>{{#if Partial}}{{{Content}}}{{> (lookup . 'Partial') }}{{else}}{{#ifequal Content '@index'}}{{add @../index 1}}{{else}}{{{Content}}}{{/ifequal}}{{/if}}{{#if AdditionalContent}}{{{AdditionalContent}}}{{/if}}</td>
+            {{/ifequal}}
+            {{/each}}
+            {{#if Actions}}
+                {{#if Actions.[0].Empty}}
+                <td></td>
+                {{else}}
+                {{#ifequal Actions.length 1}}
+                <td data-th="Actions" class="{{#if ActionClass}}{{ActionClass}}{{else}}{{#if ../ShowActionText}}text-start{{else}}text-center{{/if}}{{/if}}">
+                    {{#each Actions}}
+                    {{#if ModalId}} <span data-bs-toggle="modal" data-bs-target="#{{ModalId}}"> {{/if}}<a href="{{Url}}" class="mb-1 mt-1 me-1 btn btn-sm {{Classes}}"
+                        aria-label="{{Title}}" ><i class="{{Icon}}"></i><span class="ms-2">{{Title}}</span></a>{{#if ModalId}} </span>
+                    {{/if}}
+                    {{/each}}
+                </td>
+                {{else}}
+                <td data-th="Actions" class="{{#if ActionClass}}{{ActionClass}}{{else}}{{#if ../ShowActionText}}text-start{{else}}text-center{{/if}}{{/if}}">
+                    <div class="d-flex flex-nowrap justify-content-end">
+                        <a href="javascript:;" class="btn btn-info w-auto responsive-view-btn me-2">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown actions-dropdown-toggle-btn">
+                            <a class="btn btn-secondary actions-dropdown dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                {{#each Actions}}
+                                <li>
+                                    {{#if ModalId}} <span data-bs-toggle="modal" data-bs-target="#{{ModalId}}"> {{/if}}<a href="{{Url}}" class="mb-1 mt-1 me-1 btn btn-sm dropdown-item {{Classes}}"
+                                        {{{Attributes}}} {{!-- data-bs-toggle="tooltip" data-bs-placement="bottom" title="{{Title}}" data-bs-original-title="{{Title}}" --}}
+                                        aria-label="{{Title}}" ><i class="{{Icon}}"></i><span class="ms-2">{{Title}}</span></a>{{#if ModalId}} </span>
+                                        {{/if}}
+                                    </li>
+                                    {{/each}}
+                            </ul>
+                            {{#if BubbleText}}<span class="badge bg-glowing position-absolute translate-middle start-10 top-0">{{BubbleText}}</span>{{/if}}
+                        </div>
+                    </div>
+                </td>
+                {{/ifequal}}
+                {{/if}}
+                {{else}}
+            {{/if}}
+        </tr>
+        {{/ifequal}}
+        {{/each}}
+    </tbody>
+    {{#if Foot}}
+        {{#with Foot.[0]}}
+            <tfoot class="{{FootClasses}}">
+                {{#if Head}}
+                <tr>
+                    {{#each Head}}
+                    {{#ifequal Status 0}}
+                    {{else}}
+                    <th data-priority="{{Priority}}" class="{{Class}}" {{#if Colspan}}colspan="{{Colspan}}"{{/if}}>{{Title}}{{#if Partial}}{{> (lookup . 'Partial') }}{{/if}}</th>
+                    {{/ifequal}}
+                    {{/each}}
+                </tr>
+                {{/if}}
+                {{#each Row}}
+                {{#ifequal Status 0}}
+                {{else}}
+                <tr class="{{RowClass}}">
+                    {{#each Data}}
+                    {{#ifequal Status 0}}
+                    {{else}}
+                    <td data-th="{{#with (lookup ../../Head @index)}}{{Title}}{{/with}}" >{{#if Partial}}{{> (lookup . 'Partial') }}{{else}}{{{Content}}}{{/if}}</td>
+                    {{/ifequal}}
+                    {{/each}}
+                    {{#if Actions}}
+                    <td data-th="Actions" class="{{#if ActionClass}}{{ActionClass}}{{else}}{{#if ../ShowActionText}}text-start{{else}}text-center{{/if}}{{/if}}">
+                        <div class="dropdown actions-dropdown-toggle-btn">
+                            <a class="btn btn-secondary actions-dropdown dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                {{#each Actions}}
+                                <li>
+                                {{#if ModalId}} <span data-bs-toggle="modal" data-bs-target="#{{ModalId}}"> {{/if}}<a href="{{Url}}" class="mb-1 mt-1 me-1 btn btn-sm dropdown-item {{Classes}}"
+                                    {{!-- data-bs-toggle="tooltip" data-bs-placement="bottom" title="{{Title}}" data-bs-original-title="{{Title}}" --}}
+                                    aria-label="{{Title}}" ><i class="{{Icon}}"></i><span class="ms-2">{{Title}}</span></a>{{#if ModalId}} </span>
+                                {{/if}}
+                                </li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                    </td>
+                    {{/if}}
+                </tr>
+                {{/ifequal}}
+                {{/each}}
+            </tfoot>
+        {{/with}}
+    {{/if}}
+</table>
+<!-- ========== End Table Block ========== -->

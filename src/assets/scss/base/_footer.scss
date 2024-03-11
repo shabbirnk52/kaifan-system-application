@@ -1,0 +1,26 @@
+.footer {
+	background: $color-primary;
+	border: {
+		// bottom: 1px solid $color-primary-inverse;
+		top: 3px solid #EDEDED;
+	}
+	z-index: 1000;
+    // height: 60px;
+    // left: 225px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+	
+}
+// LAYOUT MOBILE
+// -----------------------------------------------------------------------------
+
+@media only screen and (max-width: 767px) {
+    .footer {
+      
+        left: 0;
+       
+        
+    }
+}
