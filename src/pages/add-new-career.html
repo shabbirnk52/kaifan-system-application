@@ -1,0 +1,78 @@
+---
+layout: default
+title: Add New Vacancy
+---
+
+{{> _page-header}}
+{{#> _card-block CardTitle="Vacancy Details" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-lg-6">
+        {{>_input-field Label="Vacancy Title (En)" NameId="vacancyTitleEn" InvalidFeedback="Please enter vacancy title"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="Vacancy Title (Ar)" RTL=1 NameId="vacancyTitleAr" InvalidFeedback="Please enter vacancy
+        title" Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_textarea-field Label="Short Description (En)" NameId="vacancyShortDescriptionEn" InvalidFeedback="Please
+        enter vacancy short description" Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_textarea-field Label="Short Description (Ar)" RTL=1 NameId="vacancyShortDescriptionAr"
+        InvalidFeedback="Please
+        enter vacancy short description" Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_summernote-field Label="Description (En)" NameId="vacancyDescEn" InvalidFeedback="Please enter description"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_summernote-field Label="Description (Ar)" RTL=1 NameId="vacancyDescAr" InvalidFeedback="Please enter
+        description" Required=1}}
+    </div>
+</div>
+{{/ _card-block}}
+
+
+{{>_seo-details-form}}
+
+<div class="row">
+    <div class="col-12">
+        {{>_button-a ButtonText="Back" ButtonClasses="btn-warning" GoBack=1}}
+        {{>_button-a ButtonText="Save" ButtonClasses="btn-success"}}
+    </div>
+</div>
+
+<script>
+    $(function () {
+        showAttractionTypeFields($("#AttractionType").val());
+    });
+    $("#AttractionType").on("change", function () {
+        showAttractionTypeFields($(this).val())
+    });
+    function showAttractionTypeFields(option) {
+        $(".AttractionType-Conditionals").hide();
+        switch (option) {
+            case "1":
+                $(".AttractionType-Listing").show();
+
+                break;
+            case "2":
+                $(".AttractionType-Detailed").show();
+
+                break;
+            case "3":
+                $(".AttractionType-URL").show();
+
+                break;
+            default:
+                break;
+        }
+    }
+</script>
+
+{{>_table-init-js DisableButtons=1 DisableSearch=1 EnableDisplayOrder=1}}
+{{>_ios7-switch-js}}
+{{>_summernote-css-js}}
+{{>_select2-css-js}}

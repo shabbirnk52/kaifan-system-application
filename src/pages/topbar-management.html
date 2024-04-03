@@ -1,0 +1,70 @@
+---
+layout: default
+title: Top Bar
+---
+
+{{> _page-header}}
+{{#> _card-block CardTitle="Top Bar Content" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-lg-4">
+        {{>_input-field Label="Address (En)" NameId="addressEn" InvalidFeedback="Please enter an address"
+        Required=1}}
+    </div>
+    <div class="col-lg-4">
+        {{>_input-field Label="Address (Ar)" NameId="addressAr" InvalidFeedback="Please enter an address"
+        Required=1
+        RTL=1}}
+    </div>
+    <div class="col-lg-4">
+        {{>_input-field Label="Location URL" NameId="locationUrl" InvalidFeedback="Please enter a location URL"
+        Required=1}}
+    </div>
+    <div class="col-lg-4">
+        {{>_input-field Label="Telephone Number (Display)" NameId="telephoneNumberDisplay" InvalidFeedback="Please enter
+        a telephone
+        number"
+        Required=1}}
+    </div>
+    <div class="col-lg-4">
+        {{>_input-field Label="Telephone Number (To Call)" NameId="telephoneNumberToCall" InvalidFeedback="Please enter
+        a
+        telephone
+        number"
+        Required=1}}
+    </div>
+    <div class="col-lg-4">
+        {{>_input-field Label="Email" NameId="email" InvalidFeedback="Please enter an address"
+        Required=1}}
+    </div>
+</div>
+{{/ _card-block}}
+
+{{#> _card-block CardTitle="Social Media Accounts" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-lg-4">
+        {{>_input-field Label="Twitter" NameId="twitterURL"}}
+    </div>
+    <div class="col-lg-4">
+        {{>_input-field Label="Facebook" NameId="facebookURL"}}
+    </div>
+    <div class="col-lg-4">
+        {{>_input-field Label="LinkedIn" NameId="linkedinURL"}}
+    </div>
+    <div class="col-lg-4">
+        {{>_input-field Label="Instagram" NameId="instagramURL"}}
+    </div>
+    <div class="col-lg-4">
+        {{>_input-field Label="Youtube" NameId="youtubeURL"}}
+    </div>
+</div>
+{{/ _card-block}}
+
+<div class="row">
+    <div class="col-12">
+        {{>_button-a ButtonText="Back" ButtonClasses="btn-warning" GoBack=1}}
+        {{>_button-a ButtonText="Save" ButtonClasses="btn-success"}}
+    </div>
+</div>
+
+{{>_ios7-switch-js}}
+{{>_summernote-css-js}}

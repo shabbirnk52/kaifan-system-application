@@ -212,7 +212,7 @@ function SwitchRTL() {
 
 function initializeSelect2() {
   if ($('body').css('direction') == 'rtl') {
-    $(document).find('select:not(.no-search):not(.select2-hidden-accessible)').each(function () {
+    $(document).find('select:not(.no-search):not(.select2-hidden-accessible):not(.iconsSelect)').each(function () {
       if ($(this).closest(".modal").length) {
         var modalID = "#" + $(this).closest(".modal").attr("id");
         $(this).select2({
@@ -228,7 +228,7 @@ function initializeSelect2() {
         });
       }
     });
-    $(document).find('select.no-search:not(.select2-hidden-accessible)').each(function () {
+    $(document).find('select.no-search:not(.select2-hidden-accessible):not(.iconsSelect)').each(function () {
       if ($(this).closest(".modal").length) {
         var modalID = "#" + $(this).closest(".modal").attr("id");
         $(this).select2({
@@ -247,7 +247,7 @@ function initializeSelect2() {
       }
     });
   } else {
-    $(document).find('select:not(.no-search):not(.select2-hidden-accessible)').each(function () {
+    $(document).find('select:not(.no-search):not(.select2-hidden-accessible):not(.iconsSelect)').each(function () {
       if ($(this).closest(".modal").length) {
         var modalID = "#" + $(this).closest(".modal").attr("id");
         $(this).select2({
@@ -261,7 +261,7 @@ function initializeSelect2() {
         });
       }
     });
-    $(document).find('select.no-search').each(function () {
+    $(document).find('select.no-search:not(.iconsSelect)').each(function () {
       if ($(this).closest(".modal").length) {
         var modalID = "#" + $(this).closest(".modal").attr("id");
         $(this).select2({
@@ -278,8 +278,18 @@ function initializeSelect2() {
       }
     });
   }
+  $(".iconsSelect").select2({
+    theme: "bootstrap",
+    templateSelection: formatText,
+    templateResult: formatText
+  });
 }
-
+function formatText(state) {
+  if ($(state.element).data('icon') != null)
+    return $('<span><i class="pe-2 ' + $(state.element).data('icon') + '"></i> ' + state.text + '</span>');
+  else
+    return $('<span>' + state.text + '</span>');
+};
 $(function () {
   if ($("#btnPrint").length > 0) {
     $("#btnPrint").click(function (e) {

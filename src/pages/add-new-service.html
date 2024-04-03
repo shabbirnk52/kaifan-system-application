@@ -1,0 +1,92 @@
+---
+layout: default
+title: Add New Service
+---
+
+{{> _page-header}}
+{{#> _card-block CardTitle="Service Details" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-lg-6">
+        {{>_input-field Label="Title (En)" NameId="titleEn" InvalidFeedback="Please enter service title" Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="Title (Ar)" NameId="titleAr" InvalidFeedback="Please enter service title" Required=1
+        RTL=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_textarea-field Label="Short Description (En)" Required=1 InvalidFeedback="Please enter service short
+        description"}}
+    </div>
+    <div class="col-lg-6">
+        {{>_textarea-field Label="Short Description (Ar)" RTL=1 Required=1 InvalidFeedback="Please enter service short
+        description"}}
+    </div>
+    <div class="col-lg-6">
+        {{>_summernote-field Label="Description (En)" Required=1 InvalidFeedback="Please enter service
+        description"}}
+    </div>
+    <div class="col-lg-6">
+        {{>_summernote-field Label="Description (Ar)" RTL=1 Required=1 InvalidFeedback="Please enter service
+        description"}}
+    </div>
+</div>
+{{/ _card-block}}
+
+{{#> _card-block CardTitle="Service Media" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-12">
+        <div class="row g-3">
+            <div class="col-lg-6">
+                {{>_icon-selector Label="Service Icon" Required=1}}
+            </div>
+            <div class="col-lg-6">
+                {{>_image-upload Label="Service Image" NameId="serviceImage" Size="1920x1080" Required=1}}
+            </div>
+        </div>
+    </div>
+</div>
+{{/ _card-block}}
+
+{{#> _card-block CardTitle="Service Process" DisableCardBody=0 EnableDisplaySwitch=1 DisableSwitchLabel=1}}
+<div class="row g-3">
+    <div class="col-12">
+        <div class="row g-3">
+            <div class="col-lg-3">
+                {{>_icon-selector Label="Service Icon" Required=1}}
+            </div>
+            <div class="col-lg-9">
+                <div class="row g-3">
+                    <div class="col-lg-6">
+                        {{>_input-field Label="Process step name (En)" Required=1}}
+                    </div>
+                    <div class="col-lg-6">
+                        {{>_input-field Label="Process step name (Ar)" RTL=1 Required=1}}
+                    </div>
+                    <div class="col-lg-6">
+                        {{>_textarea-field Label="Process description (En)" Required=1}}
+                    </div>
+                    <div class="col-lg-6">
+                        {{>_textarea-field Label="Process description (Ar)" RTL=1 Required=1}}
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="col-12 text-center">
+        {{>_button-a ButtonText="Add Process Step" ButtonClasses="btn btn-primary"}}
+    </div>
+</div>
+{{/ _card-block}}
+
+<div class="row">
+    <div class="col-12">
+        {{>_button-a ButtonText="Back" ButtonClasses="btn-warning" GoBack=1}}
+        {{>_button-a ButtonText="Save" ButtonClasses="btn-success"}}
+    </div>
+</div>
+
+{{>_ios7-switch-js}}
+{{>_summernote-css-js}}
+{{>_select2-css-js}}

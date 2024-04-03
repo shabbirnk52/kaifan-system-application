@@ -1,0 +1,19 @@
+---
+layout: default
+title: Portfolio Categories
+---
+
+{{> _page-header}}
+
+{{#> _card-block CardTitle=title ButtonText="Add" ButtonURL="add-new-category.html" DisableCardBody=0}}
+{{#with categories.table}}
+{{>_table}}
+{{/with}}
+{{/ _card-block}}
+
+<!-- Start: Modals -->
+{{>_confirm-delete-modal}}
+<!-- End: Modals -->
+
+{{>_table-init-js RemoveButtons=1 EnableDisplayOrder=1}}
+{{>_ios7-switch-js}}

@@ -1,0 +1,12 @@
+{{#>_select-field-block FormatTemplate="formatText" Classes="iconsSelect" InvalidFeedback="Please select an icon"}}
+<option>
+    Please select an icon...
+</option>
+{{#each Icons.Icons}}
+<optgroup label="{{Type}}">
+    {{#each Content}}
+    <option data-icon="{{class}}">{{name}}</option>
+    {{/each}}
+</optgroup>
+{{/each}}
+{{/_select-field-block}}

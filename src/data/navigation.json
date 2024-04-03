@@ -17,8 +17,16 @@
           "Icon": "fa-solid fa-desktop",
           "Children": [
             {
+              "PageTitle": "Top Bar",
+              "PageURL": "topbar-management.html"
+            },
+            {
               "PageTitle": "Banner",
               "PageURL": "banner-management.html"
+            },
+            {
+              "PageTitle": "Facts Counter",
+              "PageURL": "facts-management.html"
             },
             {
               "PageTitle": "About Us",
@@ -27,6 +35,26 @@
             {
               "PageTitle": "Contact Us",
               "PageURL": "contact-us.html"
+            }
+          ]
+        },
+        {
+          "PageTitle": "Services",
+          "PageURL": "services.html",
+          "Icon": "fa-solid fa-cubes"
+        },
+        {
+          "PageTitle": "Portfolio",
+          "PageURL": "javascript:;",
+          "Icon": "far fa-images",
+          "Children": [
+            {
+              "PageTitle": "Categories",
+              "PageURL": "portfolio-categories.html"
+            },
+            {
+              "PageTitle": "Projects",
+              "PageURL": "portfolio.html"
             }
           ]
         },

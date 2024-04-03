@@ -1,0 +1,32 @@
+---
+layout: default
+title: Add New Category
+---
+
+{{> _page-header}}
+{{#> _card-block CardTitle="Category Details" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-lg-4">
+        {{>_input-field Label="Category Title (En)" NameId="categoryTitleEn" InvalidFeedback="Please enter category
+        title" Required=1}}
+    </div>
+    <div class="col-lg-4">
+        {{>_input-field Label="Category Title (Ar)" NameId="categoryTitleAr" InvalidFeedback="Please enter category
+        title" Required=1 RTL=1}}
+    </div>
+    <div class="col-lg-4">
+        {{>_icon-selector Label="Category Icon" Required=1}}
+    </div>
+</div>
+{{/ _card-block}}
+
+<div class="row">
+    <div class="col-12">
+        {{>_button-a ButtonText="Back" ButtonClasses="btn-warning" GoBack=1}}
+        {{>_button-a ButtonText="Save" ButtonClasses="btn-success"}}
+    </div>
+</div>
+
+{{>_ios7-switch-js}}
+{{>_summernote-css-js}}
+{{>_select2-css-js}}

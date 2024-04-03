@@ -1,0 +1,74 @@
+---
+layout: default
+title: Add New Portfolio
+---
+
+{{> _page-header}}
+{{#> _card-block CardTitle="Portfolio Details" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-lg-6">
+        {{>_input-field Label="Project Title (En)" NameId="projectTitleEn" InvalidFeedback="Please enter project title"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="Project Title (Ar)" NameId="projectTitleAr" InvalidFeedback="Please enter project title"
+        Required=1
+        RTL=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="Client Name (En)" NameId="clientNameEn" InvalidFeedback="Please enter client name"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="Client Name (Ar)" NameId="clientNameAr" InvalidFeedback="Please enter client name"
+        Required=1
+        RTL=1}}
+    </div>
+    <div class="col-lg-4">
+        {{>_input-field Label="Project URL" NameId="projectURL" InvalidFeedback="Please enter project URL"}}
+    </div>
+    <div class="col-lg-4">
+        {{#>_select-field-block Label="Project Type" NameId="projectType" InvalidFeedback="Please select project type"}}
+        <option>Please select...</option>
+        <option>App</option>
+        <option>Website</option>
+        {{/_select-field-block}}
+    </div>
+    <div class="col-lg-4">
+        {{#>_select-field-block Label="Project Category" Multiple=1 NameId="projectCategory" InvalidFeedback="Please
+        select project
+        category"}}
+        <option>App</option>
+        <option>Website</option>
+        <option>Ecommerce</option>
+        <option>Booking</option>
+        {{/_select-field-block}}
+    </div>
+</div>
+{{/ _card-block}}
+
+{{#> _card-block CardTitle="Project Media" DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-12">
+        <div class="row g-3">
+            <div class="col-lg-6">
+                {{>_image-upload Label="Project Image" NameId="projectImage" Size="1366x2200" Required=1}}
+            </div>
+            <div class="col-lg-6">
+                {{>_image-upload Label="Background Image" NameId="backgroundImage" Size="2200x1366" Required=1}}
+            </div>
+        </div>
+    </div>
+</div>
+{{/ _card-block}}
+
+<div class="row">
+    <div class="col-12">
+        {{>_button-a ButtonText="Back" ButtonClasses="btn-warning" GoBack=1}}
+        {{>_button-a ButtonText="Save" ButtonClasses="btn-success"}}
+    </div>
+</div>
+
+{{>_ios7-switch-js}}
+{{>_summernote-css-js}}
+{{>_select2-css-js}}

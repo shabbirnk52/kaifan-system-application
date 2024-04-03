@@ -1,4 +1,7 @@
 /* Summernote */
+/*rtl:begin:ignore*/
+@import 'vendor/summernote/summernote-lite';
+/*rtl:end:ignore*/
 @font-face {
     font-family: "summernote";
     font-style: normal;
@@ -13,7 +16,7 @@
 		color: $body-color !important;
 	}
 
-	border-radius: 4px;
+	border-radius: 0;
 	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 
 	&.active {
@@ -88,7 +91,9 @@
 	}
 }
 
-
+.note-btn{
+	border-radius: $btn-border-radius;
+}
 // DARK
 // -----------------------------------------------------------------------------
 html.dark {

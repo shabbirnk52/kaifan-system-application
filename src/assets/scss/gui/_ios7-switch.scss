@@ -60,14 +60,14 @@
   width: 75px;
   position: relative;
   background-color: #E5E5E5;
-  border-radius: 100px;
+  border-radius: $ios-switch-rounding;
   backface-visibility: hidden;
 }
 
 .ios-switch .background-fill {
   width: 100%;
   height: 100%;
-  border-radius: 100px;
+  border-radius: $ios-switch-rounding;
   position: absolute;
   left: 0;
   top: 0;
@@ -83,7 +83,7 @@
 }
 
 .ios-switch .state-background {
-  border-radius: 100px;
+  border-radius: $ios-switch-rounding;
   z-index: 2;
   background-image: linear-gradient(#ffffff, #FDFDFD);
   border: 2px solid #E5E5E5;
@@ -99,7 +99,7 @@
   top: 2px;
   left: 2px;
   position: absolute;
-  border-radius: 20px;
+  border-radius: $ios-handle-rounding;
   box-shadow: 0 0 3px 1px hsla(0, 0%, 0%, .075), 0 3px 5px hsla(0, 0%, 0%, .15), 1px 2px 2px hsla(0, 0%, 0%, .05);
   z-index: 3;
   transition: transform .3s 0.25s cubic-bezier(0.455, 0.030, 0.215, 1.330);

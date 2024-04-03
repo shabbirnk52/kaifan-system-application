@@ -1,0 +1,28 @@
+---
+layout: default
+title: Applicants - Account Manager
+---
+
+{{> _page-header}}
+
+{{#> _card-block CardTitle=title DisableCardBody=0}}
+<div class="row">
+  <div class="col-12">
+    {{#with careers.applicants-table}}
+        {{>_table}}
+    {{/with}}
+  </div>
+</div>
+{{/ _card-block}}
+
+<div class="row">
+  <div class="col-12">
+      {{>_button-a ButtonText="Back" ButtonClasses="btn-warning" GoBack=1}}
+  </div>
+</div>
+
+<!-- Start: Modals -->
+{{>_confirm-delete-modal}}
+<!-- End: Modals -->
+
+{{>_table-init-js}}
