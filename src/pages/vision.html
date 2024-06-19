@@ -1,0 +1,27 @@
+---
+layout: default
+title: Vision
+---
+
+{{> _page-header}}
+{{#> _card-block CardTitle=title DisableCardBody=0}}
+<div class="row g-3">
+    <div class="col-lg-6">
+        {{>_summernote-field Label="Content (En)" NameId="visionEn" InvalidFeedback="Please enter Content"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_summernote-field Label="Content (Ar)" RTL=1 NameId="visionAr" InvalidFeedback="Please enter Content"
+        Required=1}}
+    </div>
+</div>
+{{/ _card-block}}
+
+<div class="row">
+    <div class="col-12">
+        {{>_button-a ButtonText="Back" ButtonClasses="btn-warning" GoBack=1}}
+        {{>_button-a ButtonText="Save" ButtonClasses="btn-success"}}
+    </div>
+</div>
+
+{{>_summernote-css-js}}

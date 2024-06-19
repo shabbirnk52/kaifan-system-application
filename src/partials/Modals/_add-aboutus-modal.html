@@ -1,0 +1,16 @@
+{{#> _modal-block ModalId="add-aboutus" ModalTitle="Add new About Us Point" StaticBackdrop=1 Size="lg" hasCloseButton=1
+hasSimpleButton=1 SimpleButtonText="Save" DisableScroll=0 DisableCentered=0}}
+<div class="row g-3">
+    <div class="col-lg-6">
+        {{>_input-field Label="About us Point 1 (En)" NameId="aboutUsPoint1En" InvalidFeedback="Please enter banner
+        title"
+        Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="About us Point 1 (Ar)" NameId="aboutUsPoint1Ar" InvalidFeedback="Please enter banner
+        title"
+        Required=1
+        RTL=1}}
+    </div>
+</div>
+{{/ _modal-block}}

@@ -33,6 +33,18 @@
               "PageURL": "about-us.html"
             },
             {
+              "PageTitle": "Quote Request",
+              "PageURL": "quote-request.html"
+            },
+            {
+              "PageTitle": "Mission",
+              "PageURL": "mission.html"
+            },
+            {
+              "PageTitle": "Vision",
+              "PageURL": "vision.html"
+            },
+            {
               "PageTitle": "Contact Us",
               "PageURL": "contact-us.html"
             }

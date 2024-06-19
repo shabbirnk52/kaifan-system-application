@@ -47,35 +47,14 @@ title: Add New Service
 </div>
 {{/ _card-block}}
 
-{{#> _card-block CardTitle="Service Process" DisableCardBody=0 EnableDisplaySwitch=1 DisableSwitchLabel=1}}
+{{#> _card-block CardTitle="Service Process" DisableCardBody=0 EnableDisplaySwitch=1 DisableSwitchLabel=1
+ButtonText="Add new Service Process"
+ModalId="add-serviceprocess"}}
 <div class="row g-3">
     <div class="col-12">
-        <div class="row g-3">
-            <div class="col-lg-3">
-                {{>_icon-selector Label="Service Icon" Required=1}}
-            </div>
-            <div class="col-lg-9">
-                <div class="row g-3">
-                    <div class="col-lg-6">
-                        {{>_input-field Label="Process step name (En)" Required=1}}
-                    </div>
-                    <div class="col-lg-6">
-                        {{>_input-field Label="Process step name (Ar)" RTL=1 Required=1}}
-                    </div>
-                    <div class="col-lg-6">
-                        {{>_textarea-field Label="Process description (En)" Required=1}}
-                    </div>
-                    <div class="col-lg-6">
-                        {{>_textarea-field Label="Process description (Ar)" RTL=1 Required=1}}
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-    <div class="col-12 text-center">
-        {{>_button-a ButtonText="Add Process Step" ButtonClasses="btn btn-primary"}}
+        {{#with serviceprocess-empty.table}}
+        {{>_table}}
+        {{/with}}
     </div>
 </div>
 {{/ _card-block}}
@@ -86,6 +65,10 @@ title: Add New Service
         {{>_button-a ButtonText="Save" ButtonClasses="btn-success"}}
     </div>
 </div>
+
+{{>_add-serviceprocess-modal}}
+{{>_edit-serviceprocess-modal}}
+{{>_confirm-delete-modal}}
 
 {{>_ios7-switch-js}}
 {{>_summernote-css-js}}

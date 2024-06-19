@@ -1,0 +1,21 @@
+{{#> _modal-block ModalId="edit-serviceprocess" ModalTitle="Edit Service Process Step" StaticBackdrop=1 Size="lg"
+hasCloseButton=1
+hasSimpleButton=1 SimpleButtonText="Save" DisableScroll=0 DisableCentered=0}}
+<div class="row g-3">
+    <div class="col-lg-12">
+        {{>_icon-selector Label="Service Icon" Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="Process step name (En)" Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_input-field Label="Process step name (Ar)" RTL=1 Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_textarea-field Label="Process description (En)" Required=1}}
+    </div>
+    <div class="col-lg-6">
+        {{>_textarea-field Label="Process description (Ar)" RTL=1 Required=1}}
+    </div>
+</div>
+{{/ _modal-block}}
