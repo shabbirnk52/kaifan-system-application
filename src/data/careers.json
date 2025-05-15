@@ -12,17 +12,17 @@
         "Class": "text-start"
       },
       {
-        "Title": "Job Title",
+        "Title": "Request",
         "Priority": 2,
         "Class": "text-start"
       },
       {
-        "Title": "Applicants",
+        "Title": "Request Details",
         "Priority": 3,
         "Class": "text-start"
       },
       {
-        "Title": "Last Updated",
+        "Title": "Request Updated By",
         "Priority": 5,
         "Class": "text-start"
       },
@@ -44,13 +44,13 @@
             "Checked": 1
           },
           {
-            "Content": "Account Manager"
+            "Content": "Name of Employee"
           },
           {
-            "Content": "25"
+            "Content": "My Printer is not working"
           },
           {
-            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+            "Content": "Rupini <br> <strong>08/05/2025 11:56 AM</strong>"
           }
         ],
         "ActionClass": "text-end",
@@ -93,10 +93,10 @@
             "Content": "HR Officer"
           },
           {
-            "Content": "8"
+            "Content": "Application there are print issue"
           },
           {
-            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+            "Content": "Riyadh <br> <strong>08/05/2025 11:56 AM</strong>"
           }
         ],
         "ActionClass": "text-end",
@@ -139,10 +139,10 @@
             "Content": "IT Specialist"
           },
           {
-            "Content": "10"
+            "Content": "Network very slow"
           },
           {
-            "Content": "Mohammad Ahmad <br> <strong>08/10/2023 11:56 AM</strong>"
+            "Content": "Rupini <br> <strong>08/05/2025 11:56 AM</strong>"
           }
         ],
         "ActionClass": "text-end",

@@ -31,21 +31,16 @@ title: Sign In
                         <div class="col-sm-8">
                             {{>_checkbox-button Label="Remember Me"}}
                         </div>
-                        <div class="col-sm-4 text-start text-sm-end">
-                            {{>_button-a URL="index.html" ButtonClasses="btn-secondary mt-3 mt-sm-0" ButtonText="Sign In"}}
-                        </div>
+                        
                     </div>
                     {{#with navigation}}
                             {{#if MultiUser}}
-                                <hr>
-                                <div class="row mt-2">
-                                    <p class="fw-bold text-danger text-center mb-0">-- For Demo Purposes Only --</p>
-                                </div>
+                                                           
                                 <div class="row justify-content-center">
                                     {{#each MenuItems}}
                                     {{#unless Inactive}}
                                     <div class="col-12">
-                                        {{> _button-a URL=MainUrl ButtonText=(concat 'Login As ' UserRoleName) ButtonClasses="btn-secondary w-100 mt-2 SetLoginSession" Attributes=(concat 'data-userrole="' UserRoleClass '" data-userrolename="' UserRoleName '" data-userroleurl="' MainUrl '"') }}
+                                        {{> _button-a URL=MainUrl ButtonText=(concat 'Login') ButtonClasses="btn-primary w-100 mt-2 SetLoginSession" Attributes=(concat 'data-userrole="' UserRoleClass '" data-userrolename="' UserRoleName '" data-userroleurl="' MainUrl '"') }}
                                     </div>
                                     {{/unless}}
                                     {{/each}}
@@ -56,7 +51,7 @@ title: Sign In
             </div>
         </div>
 
-        <p class="text-center text-muted mt-3 mb-3" localize-me>  © All rights reserved - TEC <span class="generate-date"></span></p>
+        <p class="text-center text-muted mt-3 mb-3" localize-me>  © All rights reserved - Kaifan Co. Op. <span class="generate-date"></span></p>
     </div>
 </section>
 

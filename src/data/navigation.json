@@ -12,104 +12,35 @@
           "Icon": "fa-solid fa-table-cells-large"
         },
         {
-          "PageTitle": "Web Content",
+          "PageTitle": "HR",
           "PageURL": "javascript:;",
           "Icon": "fa-solid fa-desktop",
           "Children": [
+            
             {
-              "PageTitle": "Top Bar",
-              "PageURL": "topbar-management.html"
-            },
-            {
-              "PageTitle": "Banner",
-              "PageURL": "banner-management.html"
-            },
-            {
-              "PageTitle": "Facts Counter",
-              "PageURL": "facts-management.html"
-            },
-            {
-              "PageTitle": "About Us",
-              "PageURL": "about-us.html"
-            },
-            {
-              "PageTitle": "Quote Request",
+              "PageTitle": "Leave Request",
               "PageURL": "quote-request.html"
             },
             {
-              "PageTitle": "Mission",
-              "PageURL": "mission.html"
+              "PageTitle": "Attendance Record",
+              "PageURL": "javascript:;"
             },
             {
-              "PageTitle": "Vision",
-              "PageURL": "vision.html"
-            },
-            {
-              "PageTitle": "Contact Us",
-              "PageURL": "contact-us.html"
+              "PageTitle": "Employee Record",
+              "PageURL": "javascript:;"
             }
+            
           ]
         },
+        
         {
-          "PageTitle": "Services",
-          "PageURL": "services.html",
-          "Icon": "fa-solid fa-cubes"
-        },
-        {
-          "PageTitle": "Portfolio",
-          "PageURL": "javascript:;",
-          "Icon": "far fa-images",
-          "Children": [
-            {
-              "PageTitle": "Categories",
-              "PageURL": "portfolio-categories.html"
-            },
-            {
-              "PageTitle": "Projects",
-              "PageURL": "portfolio.html"
-            }
-          ]
-        },
-        {
-          "PageTitle": "Careers",
+          "PageTitle": "IT Help Desk",
           "PageURL": "careers.html",
           "Icon": "fa-solid fa-briefcase",
           "BubbleText": "5"
-        },
-        {
-          "PageTitle": "Form Submissions",
-          "PageURL": "javascript:;",
-          "Icon": "fa-solid fa-envelope",
-          "BubbleText": "3",
-          "Children": [
-            {
-              "PageTitle": "Contact Us",
-              "PageURL": "contact-us-form-submissions.html",
-              "BubbleText": "1"
-            },
-            {
-              "PageTitle": "Information Request",
-              "PageURL": "information-request-form-submissions.html",
-              "BubbleText": "2"
-            }
-          ]
-        },
-        {
-          "PageTitle": "SEO Settings",
-          "PageURL": "seo-settings.html",
-          "Icon": "fa-solid fa-toolbox"
-        },
-        {
-          "PageTitle": "Coming Soon Page",
-          "PageURL": "coming-soon.html",
-          "Icon": "fa-solid fa-helmet-safety"
-        },
-        {
-          "PageTitle": "No Access Page",
-          "PageURL": "no-access.html",
-          "Icon": "fa-solid fa-xmark"
         }
-      ]
+        
+              ]
     }
   ]
 }

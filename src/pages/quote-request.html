@@ -1,32 +1,26 @@
 ---
 layout: default
-title: Quote Request
+title: Leave Request
 ---
 
 {{> _page-header}}
-{{#> _card-block CardTitle="Quote Request Content" DisableCardBody=0}}
+{{#> _card-block CardTitle="Enter Leave Request Details" DisableCardBody=0}}
 <div class="row g-3">
-    <div class="col-lg-6">
-        {{>_input-field Label="Section Title (En)" NameId="titleEn" InvalidFeedback="Please enter banner title"
-        Required=1}}
-    </div>
-    <div class="col-lg-6">
-        {{>_input-field Label="Section Title (Ar)" NameId="titleAr" InvalidFeedback="Please enter banner title"
+    
+    <div class="col-lg-12">
+        {{>_input-field Label="Title" NameId="titleAr" InvalidFeedback="Please enter title"
         Required=1
         RTL=1}}
     </div>
-    <div class="col-lg-6">
-        {{>_summernote-field Label="Content (En)" NameId="aboutUsEn" InvalidFeedback="Please enter about us"
-        Required=1}}
-    </div>
-    <div class="col-lg-6">
-        {{>_summernote-field Label="Content (Ar)" RTL=1 NameId="aboutUsAr" InvalidFeedback="Please enter about us"
+    
+    <div class="col-lg-12">
+        {{>_summernote-field Label="Content" RTL=1 NameId="aboutUsAr" InvalidFeedback="Please enter Content"
         Required=1}}
     </div>
 </div>
 {{/ _card-block}}
 
-{{#> _card-block CardTitle="About Us Points" DisableCardBody=0 ButtonText="Add new About Us Point"
+{{#> _card-block CardTitle="Details" DisableCardBody=0 ButtonText="Add Date"
 ModalId="add-aboutus"}}
 <div class="row g-3">
     <div class="col-12">
@@ -37,30 +31,13 @@ ModalId="add-aboutus"}}
 </div>
 {{/_card-block}}
 
-{{#> _card-block CardTitle="About Us Media" DisableCardBody=0}}
-<div class="row g-3">
-    <div class="col-12">
-        <div class="row g-3">
-            <div class="col-12">
-                <div class="row g-3">
-                    <div class="col-lg-6">
-                        {{>_image-upload Label="Side Image" NameId="sideImage" Size="500x725" PreviewImageTextSize=75
-                        Required=1}}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-</div>
-{{/ _card-block}}
 
-{{>_seo-details-form}}
 
 <div class="row">
     <div class="col-12">
         {{>_button-a ButtonText="Back" ButtonClasses="btn-warning" GoBack=1}}
-        {{>_button-a ButtonText="Save" ButtonClasses="btn-success"}}
+        {{>_button-a ButtonText="Submit & Save" ButtonClasses="btn-success"}}
     </div>
 </div>
 

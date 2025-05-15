@@ -1,46 +1,37 @@
 ---
 layout: default
-title: Add New Vacancy
+title: Add New Request
 ---
 
 {{> _page-header}}
-{{#> _card-block CardTitle="Vacancy Details" DisableCardBody=0}}
+{{#> _card-block CardTitle="Enter Details" DisableCardBody=0}}
 <div class="row g-3">
-    <div class="col-lg-6">
-        {{>_input-field Label="Vacancy Title (En)" NameId="vacancyTitleEn" InvalidFeedback="Please enter vacancy title"
-        Required=1}}
+    
+    <div class="col-12">
+        {{>_input-field Label="Title" RTL=1 NameId="vacancyTitleAr" InvalidFeedback="Please enter 
+        title" MaxLength="60" Required=1}}
     </div>
-    <div class="col-lg-6">
-        {{>_input-field Label="Vacancy Title (Ar)" RTL=1 NameId="vacancyTitleAr" InvalidFeedback="Please enter vacancy
-        title" Required=1}}
-    </div>
-    <div class="col-lg-6">
-        {{>_textarea-field Label="Short Description (En)" NameId="vacancyShortDescriptionEn" InvalidFeedback="Please
-        enter vacancy short description" Required=1}}
-    </div>
-    <div class="col-lg-6">
-        {{>_textarea-field Label="Short Description (Ar)" RTL=1 NameId="vacancyShortDescriptionAr"
+    
+    <div class="col-12">
+        {{>_textarea-field Label="Short Description" RTL=1 NameId="vacancyShortDescriptionAr" MaxLength="150"
         InvalidFeedback="Please
-        enter vacancy short description" Required=1}}
+        enter  short description" Required=1}}
     </div>
-    <div class="col-lg-6">
-        {{>_summernote-field Label="Description (En)" NameId="vacancyDescEn" InvalidFeedback="Please enter description"
-        Required=1}}
-    </div>
-    <div class="col-lg-6">
-        {{>_summernote-field Label="Description (Ar)" RTL=1 NameId="vacancyDescAr" InvalidFeedback="Please enter
-        description" Required=1}}
+    
+    <div class="col-12">
+        {{>_summernote-field Label="Description" RTL=1 NameId="vacancyDescAr" InvalidFeedback="Please enter
+        description" MaxLength="250" Required=1}}
     </div>
 </div>
 {{/ _card-block}}
 
 
-{{>_seo-details-form}}
+
 
 <div class="row">
     <div class="col-12">
         {{>_button-a ButtonText="Back" ButtonClasses="btn-warning" GoBack=1}}
-        {{>_button-a ButtonText="Save" ButtonClasses="btn-success"}}
+        {{>_button-a ButtonText="Submit & Save" ButtonClasses="btn-success"}}
     </div>
 </div>
 
